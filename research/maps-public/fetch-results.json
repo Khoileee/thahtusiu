@@ -1,0 +1,47 @@
+[
+  {
+    "query": "Hang Cuon AEON Mall Ha Dong",
+    "url": "https://www.google.com/maps/search/?api=1&query=Hang%20Cuon%20AEON%20Mall%20Ha%20Dong",
+    "characters": 227719,
+    "title": " Google Maps ",
+    "markers": {
+      "APP_INITIALIZATION_STATE": 118715,
+      "aggregateRating": -1,
+      "reviewCount": -1,
+      "ratingValue": -1,
+      "Consent": -1,
+      "consent.google": -1,
+      "unusual traffic": -1
+    }
+  },
+  {
+    "query": "Lets Sushi 53 TSQ Nguyen Van Loc Ha Dong",
+    "url": "https://www.google.com/maps/search/?api=1&query=Lets%20Sushi%2053%20TSQ%20Nguyen%20Van%20Loc%20Ha%20Dong",
+    "characters": 229889,
+    "title": " Google Maps ",
+    "markers": {
+      "APP_INITIALIZATION_STATE": 118691,
+      "aggregateRating": -1,
+      "reviewCount": -1,
+      "ratingValue": -1,
+      "Consent": -1,
+      "consent.google": -1,
+      "unusual traffic": -1
+    }
+  },
+  {
+    "query": "Banh Trang Phu Cuong Ho Guom Plaza Ha Dong",
+    "url": "https://www.google.com/maps/search/?api=1&query=Banh%20Trang%20Phu%20Cuong%20Ho%20Guom%20Plaza%20Ha%20Dong",
+    "characters": 226388,
+    "title": " Google Maps ",
+    "markers": {
+      "APP_INITIALIZATION_STATE": 118691,
+      "aggregateRating": -1,
+      "reviewCount": -1,
+      "ratingValue": -1,
+      "Consent": -1,
+      "consent.google": -1,
+      "unusual traffic": -1
+    }
+  }
+]

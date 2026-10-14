@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#244b7c">
+  <meta name="description" content="Một chút matcha, một bộ phim và một buổi tối dành cho chúng mình. Cùng chọn một buổi hẹn ở Hà Đông nhé.">
+  <title>Hẹn cậu một chiều thứ Bảy ✦</title>
+  <link rel="icon" href="assets/star.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;450;500;550;600;650;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#planner">Đến phần chọn buổi hẹn</a>
+  <section class="sky-section" id="top">
+    <div class="stars" aria-hidden="true"><i>✦</i><i>✧</i><i>✦</i><i>✧</i><i>✦</i><i>✧</i><i>✦</i><i>✧</i></div>
+    <header class="site-header wrap"><a class="wordmark" href="#top"><span>✦</span> một lời mời nhỏ</a><a href="#planner" class="header-link">Buổi hẹn của mình <span>↗</span></a></header>
+    <div class="hero wrap">
+      <div class="hero-copy"><div class="eyebrow hero-eyebrow"><span class="little-line"></span> HÀ ĐÔNG · THỨ BẢY, 17.10.2026</div>
+        <h1>Hẹn cậu<br>một chiều <em>thứ Bảy.</em></h1>
+        <p>Một chút matcha, một bộ phim,<br>và một buổi tối dành cho chúng mình.</p>
+        <a class="button cream" href="#planner">Cùng chọn buổi hẹn nhé <span>↗</span></a>
+        <div class="hero-footnote"><span>✧</span> Cứ chọn điều cậu thấy thích. Mình không vội.</div>
+      </div>
+      <figure class="hero-art"><img src="assets/hero.webp" alt="Minh họa phong thư, hai tách matcha và vé xem phim giữa những đám mây xanh" width="1536" height="1024" fetchpriority="high"><figcaption>Một chiếc hẹn, dành riêng cho cậu.</figcaption><span class="art-spark" aria-hidden="true">✧</span></figure>
+    </div>
+    <div class="hero-bottom wrap"><span>01 ly matcha</span><span class="dot">·</span><span>01 bộ phim nhỏ</span><span class="dot">·</span><span>nhiều chuyện để kể</span><span class="scroll-note">mình bắt đầu nhé ↓</span></div>
+  </section>
+  <main class="wrap planner-wrap" id="planner">
+    <div class="section-intro"><div><p class="eyebrow">MỘT CHIỀU THẢNH THƠI</p><h2>Buổi hẹn theo ý cậu.</h2></div><p>Vài lựa chọn nhỏ thôi.<br>Cậu có thể quay lại đổi bất cứ lúc nào.</p></div>
+    <nav class="steps" aria-label="Các bước chọn buổi hẹn" id="steps"></nav>
+    <div class="planner-layout"><section class="choice-panel" aria-label="Lựa chọn buổi hẹn"><div id="step-content"></div><div id="step-navigation" class="step-navigation"></div></section>
+      <aside class="ticket" aria-label="Lịch hẹn đang chọn"><div class="ticket-top"><span class="eyebrow">DÀNH CHO CHÚNG MÌNH</span><span aria-hidden="true">✦</span></div><h3>Một chiếc hẹn.</h3><div class="ticket-date" id="ticket-date"></div><div class="perforation"></div><div id="live-plan"></div><div class="ticket-bottom"><span>HÀ ĐÔNG, HÀ NỘI</span><span>♡</span></div><p class="ticket-note">Giờ hẹn có thể đổi.<br>Chỉ cần cả hai đều thấy thoải mái.</p></aside>
+    </div>
+    <section class="closing-note"><img src="assets/tickets.webp" width="160" height="160" alt="" loading="lazy"><div><p class="eyebrow">ĐIỀU MÌNH MONG NHẤT</p><h2>Là được gặp cậu.</h2><p>Quán nào cũng được, phim nào cũng được.<br>Nếu cậu có một ý tưởng khác, mình muốn nghe.</p></div><span class="note-star" aria-hidden="true">✧</span></section>
+  </main>
+  <footer class="wrap footer"><a class="wordmark" href="#top"><span>✦</span> hẹn cậu nhé.</a><button class="text-button" data-action="sources">Ảnh & thông tin địa điểm</button><span>made for a lovely saturday</span></footer>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Đóng chi tiết" data-action="close">×</button><div id="dialog-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">Thiệp cần JavaScript để chọn lịch hẹn. Bật JavaScript rồi tải lại trang nhé.</div></noscript>
+  <script type="module" src="app.mjs"></script>
+</body></html>

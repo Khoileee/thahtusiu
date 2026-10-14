@@ -1,0 +1,515 @@
+<title>Im so sorryyyy...</title>
+<meta name="description" content="Một lá thư nhỏ gửi chị Đoàn Thanh Tú">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Patrick+Hand&display=swap&subset=vietnamese">
+<style>
+/* Layout: one centered stage; envelope -> letter sheet -> thank-you overlay. Single deliberate pastel world. */
+:root {
+  --bg: #fbe9ec;
+  --bg-2: #f6d6de;
+  --paper: #fffaf3;
+  --line: #f0d9cf;
+  --ink: #4a2c33;
+  --ink-soft: #8a6670;
+  --rose: #e2768f;
+  --rose-deep: #c5546f;
+  --wool: #fff6ea;
+  --horn: #d6a77a;
+  --shadow: 74 44 51;
+  --f-script: "Dancing Script", "Segoe Script", "Brush Script MT", cursive;
+  --f-hand: "Patrick Hand", "Comic Sans MS", "Segoe Print", cursive;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% 20%, #fff4f6 0, transparent 40%),
+    radial-gradient(circle at 85% 80%, #fde2e8 0, transparent 45%),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--f-hand);
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+.stage {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding-block: 32px;
+  padding-inline: 16px;
+  position: relative;
+}
+
+/* floating hearts in background */
+.floaters { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 0; }
+.floaters span {
+  position: absolute; bottom: -40px; color: var(--rose); opacity: .35;
+  animation: rise linear infinite;
+  will-change: transform;
+}
+@keyframes rise {
+  to { transform: translateY(-115vh) rotate(25deg); }
+}
+
+/* ---------- Envelope ---------- */
+.envelope-wrap {
+  position: relative; z-index: 1;
+  display: grid; justify-items: center; gap: 22px;
+  text-align: center;
+}
+.envelope-wrap h1 {
+  font-family: var(--f-script); font-weight: 700;
+  font-size: clamp(1.9rem, 6vw, 2.6rem); margin: 0; color: var(--rose-deep);
+  text-wrap: balance;
+}
+.envelope-wrap p { margin: 0; color: var(--ink-soft); font-size: 1.2rem; }
+.envelope {
+  position: relative; width: min(320px, 82vw); aspect-ratio: 3 / 2; max-width: 100%;
+  cursor: pointer; border: 0; padding: 0; background: none;
+  animation: wobble 2.6s ease-in-out infinite;
+  will-change: transform;
+}
+.envelope:focus-visible { outline: 3px dashed var(--rose); outline-offset: 10px; border-radius: 12px; }
+@keyframes wobble {
+  0%, 100% { transform: rotate(-2deg) translateY(0); }
+  50% { transform: rotate(2deg) translateY(-6px); }
+}
+.env-body {
+  position: absolute; inset: 0; border-radius: 10px;
+  background: linear-gradient(160deg, #f9c9d4, #f2afc0);
+  overflow: hidden;
+  box-shadow: 0 18px 30px -10px rgb(var(--shadow) / .25);
+}
+.env-body::before, .env-body::after {
+  content: ""; position: absolute; bottom: 0; width: 60%; height: 100%;
+  background: #f5bccb;
+}
+.env-body::before { left: 0; clip-path: polygon(0 0, 0 100%, 100% 100%); background: #f7c3d0; }
+.env-body::after { right: 0; clip-path: polygon(100% 0, 100% 100%, 0 100%); background: #f4b6c6; }
+.env-flap {
+  position: absolute; left: 0; right: 0; top: 0; height: 62%;
+  background: #eea2b6; clip-path: polygon(0 0, 100% 0, 50% 100%);
+  transform-origin: top; transition: transform .6s ease;
+  border-radius: 10px 10px 0 0; z-index: 2;
+}
+.seal {
+  position: absolute; left: 50%; top: 52%; translate: -50% -50%; z-index: 3;
+  width: 58px; height: 58px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #e98da2, var(--rose-deep));
+  display: grid; place-items: center; color: #fff4f6;
+  box-shadow: 0 4px 0 #a9435b, inset 0 0 0 4px rgb(255 255 255 / .18);
+  transition: opacity .3s;
+}
+.seal svg { width: 28px; height: 28px; }
+.envelope.open { animation: none; }
+.envelope.open .env-flap { transform: rotateX(180deg); }
+.envelope.open .seal { opacity: 0; }
+.hint { font-size: 1rem; color: var(--ink-soft); animation: blink 1.6s ease-in-out infinite; }
+@keyframes blink { 50% { opacity: .35; } }
+
+/* ---------- Letter ---------- */
+.letter {
+  position: relative; z-index: 1;
+  width: min(560px, 100%);
+  background:
+    repeating-linear-gradient(to bottom, transparent 0 37px, var(--line) 37px 38px) 0 118px / 100% calc(100% - 118px) no-repeat,
+    var(--paper);
+  border-radius: 6px 6px 18px 6px;
+  padding: 26px clamp(20px, 6vw, 46px) 30px;
+  box-shadow: 0 1px 0 #fff inset, 0 24px 50px -16px rgb(var(--shadow) / .35);
+  transform-origin: 50% 100%;
+  animation: unfold .8s cubic-bezier(.2,.9,.3,1.2) both;
+}
+.letter::before { /* margin line */
+  content: ""; position: absolute; top: 0; bottom: 0; left: clamp(12px, 3.6vw, 30px);
+  width: 2px; background: rgb(226 118 143 / .35);
+}
+.letter::after { /* washi tape */
+  content: ""; position: absolute; top: -14px; left: 50%; translate: -50% 0; rotate: -3deg;
+  width: 120px; height: 28px;
+  background: repeating-linear-gradient(45deg, rgb(226 118 143 / .55) 0 8px, rgb(255 255 255 / .55) 8px 16px);
+  border-radius: 2px;
+}
+@keyframes unfold {
+  from { opacity: 0; transform: translateY(40px) scale(.9) rotateX(25deg); }
+  to { opacity: 1; transform: none; }
+}
+.sheep {
+  display: block; width: 132px; height: 132px; margin: 0 auto 4px;
+  animation: sob 2.2s ease-in-out infinite;
+  will-change: transform;
+}
+@keyframes sob {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  25% { transform: translateY(2px) rotate(-3deg); }
+  75% { transform: translateY(2px) rotate(3deg); }
+}
+.dear {
+  font-family: var(--f-script); font-weight: 700; color: var(--rose-deep);
+  font-size: clamp(1.7rem, 5.6vw, 2.2rem); margin: 6px 0 6px; line-height: 1.2;
+}
+.body {
+  font-size: clamp(1.25rem, 4.4vw, 1.45rem); line-height: 38px; margin: 0;
+  min-height: calc(38px * 5); white-space: pre-wrap; overflow-wrap: anywhere;
+}
+.caret { display: inline-block; width: 2px; height: 1.1em; background: var(--rose); vertical-align: -3px; animation: blink .8s steps(1) infinite; }
+.sign {
+  font-family: var(--f-script); font-size: 1.6rem; color: var(--ink-soft);
+  text-align: right; margin: 10px 0 0; opacity: 0; transition: opacity .6s;
+}
+.sign.show { opacity: 1; }
+
+.actions {
+  display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; align-items: center;
+  margin-top: 22px; min-height: 64px;
+  opacity: 0; transform: translateY(10px); transition: opacity .5s, transform .5s;
+}
+.actions.show { opacity: 1; transform: none; }
+.btn {
+  font-family: var(--f-hand); font-size: 1.35rem; line-height: 1;
+  border: 2px solid var(--ink); border-radius: 999px;
+  padding: 12px 26px; cursor: pointer; color: var(--ink);
+  box-shadow: 0 4px 0 var(--ink);
+  transition: transform .15s, box-shadow .15s;
+  touch-action: manipulation; user-select: none; -webkit-user-select: none;
+}
+.btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); }
+.btn:focus-visible { outline: 3px dashed var(--rose); outline-offset: 4px; }
+.btn-yes { background: var(--rose); color: #fff; border-color: var(--rose-deep); box-shadow: 0 4px 0 var(--rose-deep); }
+.btn-yes:hover { transform: translateY(-2px) rotate(-2deg); }
+.btn-no { background: var(--wool); }
+.btn-no.runaway {
+  position: absolute; z-index: 5; margin: 0;
+  transition: left .28s cubic-bezier(.3,1.6,.5,1), top .28s cubic-bezier(.3,1.6,.5,1), transform .2s;
+}
+.plea {
+  position: fixed; z-index: 49; pointer-events: none;
+  font-family: var(--f-script); font-weight: 700; font-size: 1.5rem; color: var(--rose-deep);
+  background: var(--paper); padding: 6px 14px; border-radius: 14px;
+  box-shadow: 0 8px 20px -8px rgb(var(--shadow) / .4);
+  animation: pop 1.6s ease forwards; text-align: center; width: max-content; max-width: min(320px, calc(100vw - 32px)); line-height: 1.25;
+}
+@keyframes pop {
+  0% { opacity: 0; transform: translate(-50%, 0) scale(.6); }
+  15% { opacity: 1; transform: translate(-50%, -10px) scale(1); }
+  80% { opacity: 1; }
+  100% { opacity: 0; transform: translate(-50%, -40px) scale(1); }
+}
+
+/* ---------- Thank you overlay ---------- */
+.thanks {
+  position: fixed; inset: 0; z-index: 60;
+  display: grid; place-items: center; text-align: center;
+  padding-inline: 16px;
+  background: rgb(251 233 236 / .97);
+}
+.thanks-inner { display: grid; justify-items: center; gap: 8px; }
+.thanks img {
+  width: min(280px, 70vw); height: auto;
+  animation: bounceIn .9s cubic-bezier(.2,1.6,.4,1) both, bob 2.4s ease-in-out .9s infinite;
+}
+@keyframes bounceIn { from { transform: scale(0) rotate(-20deg); } to { transform: scale(1) rotate(0); } }
+@keyframes bob { 50% { transform: translateY(-10px) rotate(2deg); } }
+.thanks h2 {
+  font-family: var(--f-script); font-weight: 700; color: var(--rose-deep); margin: 0;
+  font-size: clamp(2.2rem, 9vw, 3.4rem);
+  animation: fadeUp .7s .5s both;
+}
+.thanks p { margin: 0; color: var(--ink-soft); font-size: 1.2rem; animation: fadeUp .7s .9s both; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+#confetti { position: fixed; inset: 0; pointer-events: none; z-index: 61; width: 100%; height: 100%; }
+
+/* music toggle */
+.music {
+  position: fixed; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); z-index: 70;
+  width: 46px; height: 46px; border-radius: 50%; border: 2px solid var(--ink);
+  background: var(--paper); color: var(--ink); cursor: pointer;
+  display: grid; place-items: center; box-shadow: 0 3px 0 var(--ink);
+}
+.music svg { width: 22px; height: 22px; }
+.music.playing svg { animation: spin 3s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+</style>
+
+<div class="floaters" aria-hidden="true" id="floaters"></div>
+
+<main class="stage">
+  <section class="envelope-wrap" id="intro">
+    <h1>Chị gì xinh xinh ơi, có thư nè</h1>
+    <button class="envelope" id="envelope" aria-label="Mở thư">
+      <div class="env-body"></div>
+      <div class="env-flap"></div>
+      <div class="seal">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C1 8.6 3 5 6.6 5c2.1 0 3.6 1.2 4.4 2.5C11.8 6.2 13.3 5 15.4 5 19 5 21 8.6 19.6 11.8 17.5 16.4 12 21 12 21z"/></svg>
+      </div>
+    </button>
+    <p class="hint">Chạm vào phong thư để mở</p>
+  </section>
+
+  <article class="letter" id="letter" hidden>
+    <img class="sheep" src="__TEARY__" alt="Cừu nhỏ rưng rưng xin lỗi">
+    <p class="dear">Dear chị Đoàn Thanh Tú,</p>
+    <p class="body" id="body"></p>
+    <p class="sign" id="sign">Khôi Lê</p>
+    <div class="actions" id="actions">
+      <button class="btn btn-yes" id="yes">Ok, tạm tha</button>
+      <button class="btn btn-no" id="no">Đ'</button>
+    </div>
+  </article>
+</main>
+
+<div class="thanks" id="thanks" hidden>
+  <div class="thanks-inner">
+    <img src="__THANKFUL__" alt="Cừu nhỏ mãn nguyện">
+    <h2>Tại hạ xin đa tạ!!!</h2>
+    <p>Hứa lần sau nghĩ kỹ rồi mới nói ạ</p>
+  </div>
+</div>
+<canvas id="confetti" hidden></canvas>
+
+<button class="music" id="music" aria-label="Bật/tắt nhạc" hidden>
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 17.5A2.5 2.5 0 1 1 6.5 15c.2 0 .3 0 .5.1V5.6l11-2.4v12.3A2.5 2.5 0 1 1 15.5 13c.2 0 .3 0 .5.1V7.4L9 8.9v8.6z"/></svg>
+</button>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* background hearts */
+  const hearts = ["♥", "♡", "✿", "♥"];
+  for (let i = 0; i < 9; i++) {
+    const s = document.createElement("span");
+    s.textContent = hearts[i % hearts.length];
+    s.style.left = Math.random() * 100 + "%";
+    s.style.fontSize = 12 + Math.random() * 18 + "px";
+    s.style.animationDuration = 9 + Math.random() * 10 + "s";
+    s.style.animationDelay = -Math.random() * 15 + "s";
+    $("floaters").appendChild(s);
+  }
+
+  /* ---------- Music box (Web Audio, original tune) ---------- */
+  let ctx, master, playing = false, timer, step = 0;
+  // [midi note, beats]; 0 = rest
+  const tune = [
+    [72,1],[76,1],[79,1],[76,1], [74,1],[77,1],[81,2],
+    [79,1],[76,1],[72,1],[74,1], [76,3],[0,1],
+    [72,1],[76,1],[79,1],[84,1], [83,1],[81,1],[79,2],
+    [77,1],[76,1],[74,1],[71,1], [72,3],[0,1],
+  ];
+  const bass = [48, 53, 55, 48, 48, 53, 55, 48];
+  const BEAT = 0.42;
+  const hz = (m) => 440 * Math.pow(2, (m - 69) / 12);
+
+  function pluck(freq, t, vol = 0.18, dur = 1.6) {
+    const o = ctx.createOscillator(), o2 = ctx.createOscillator(), g = ctx.createGain();
+    o.type = "sine"; o2.type = "triangle";
+    o.frequency.value = freq; o2.frequency.value = freq * 2;
+    const g2 = ctx.createGain(); g2.gain.value = 0.25;
+    o.connect(g); o2.connect(g2).connect(g); g.connect(master);
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(vol, t + 0.01);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    o.start(t); o2.start(t); o.stop(t + dur); o2.stop(t + dur);
+  }
+
+  function initAudio() {
+    if (ctx) return;
+    ctx = new (window.AudioContext || window.webkitAudioContext)();
+    master = ctx.createGain(); master.gain.value = 0.55;
+    const delay = ctx.createDelay(); delay.delayTime.value = 0.33;
+    const fb = ctx.createGain(); fb.gain.value = 0.28;
+    master.connect(ctx.destination);
+    master.connect(delay); delay.connect(fb).connect(delay); delay.connect(ctx.destination);
+  }
+
+  let nextTime = 0, barBeat = 0, bar = 0;
+  function schedule() {
+    while (nextTime < ctx.currentTime + 0.3) {
+      const [n, beats] = tune[step % tune.length];
+      if (n) pluck(hz(n), nextTime);
+      if (barBeat === 0) pluck(hz(bass[bar % bass.length]), nextTime, 0.1, 2.4);
+      nextTime += beats * BEAT;
+      barBeat += beats;
+      if (barBeat >= 4) { barBeat -= 4; bar++; }
+      step++;
+    }
+  }
+  function startMusic() {
+    initAudio();
+    if (ctx.state === "suspended") ctx.resume();
+    if (playing) return;
+    playing = true; nextTime = ctx.currentTime + 0.1;
+    timer = setInterval(schedule, 80);
+    $("music").classList.add("playing");
+  }
+  function stopMusic() {
+    playing = false; clearInterval(timer);
+    $("music").classList.remove("playing");
+  }
+  function jingle() {
+    if (!ctx) return;
+    const t = ctx.currentTime + 0.05;
+    [72, 76, 79, 84, 88].forEach((n, i) => pluck(hz(n), t + i * 0.09, 0.2, 1.2));
+  }
+  $("music").addEventListener("click", () => (playing ? stopMusic() : startMusic()));
+
+  /* ---------- Envelope -> letter ---------- */
+  const message =
+    "Em thành thật xin lỗi vì lời nói thiếu suy nghĩ này. Em đã buột miệng nói ra mà không nghĩ tới cảm xúc của chị. Em chỉ nghĩ đơn giản là chia sẻ thông tin thui :< " +
+    "Rất xin lũi chị xinh nhiều ạ. Chị thứ lỗi cho em nhé?";
+
+  let typingDone = false;
+  function finishTyping() {
+    typingDone = true;
+    $("body").textContent = message;
+    $("sign").classList.add("show");
+    setTimeout(() => { $("actions").classList.add("show"); armedAt = performance.now() + 700; }, 300);
+  }
+  function typeLetter() {
+    const el = $("body");
+    if (reduce) return finishTyping();
+    let i = 0;
+    const caret = document.createElement("span"); caret.className = "caret";
+    const text = document.createTextNode("");
+    el.replaceChildren(text, caret);
+    const tick = () => {
+      if (typingDone) return;
+      text.data = message.slice(0, ++i);
+      if (i >= message.length) return finishTyping();
+      const ch = message[i - 1];
+      setTimeout(tick, /[.?,:<]/.test(ch) ? 260 : 32);
+    };
+    tick();
+    // tap the letter to skip the typing
+    $("letter").addEventListener("click", (e) => { if (!typingDone && !e.target.closest(".btn")) finishTyping(); });
+  }
+
+  $("envelope").addEventListener("click", () => {
+    startMusic();
+    $("music").hidden = false;
+    $("envelope").classList.add("open");
+    setTimeout(() => {
+      $("intro").hidden = true;
+      $("letter").hidden = false;
+      typeLetter();
+    }, 650);
+  });
+
+  /* ---------- The "Đ'" button that refuses to be clicked ---------- */
+  const pleas = [
+    "Ơ, đừng mà...",
+    "Chị nghĩ lại đi...",
+    "Xin cô nương cân nhắc lại một phen...",
+    "Em biết lỗi thật rồi mà",
+    "Nút này hỏng rồi chị ơi",
+    "Bấm nút hồng kia đi ạ",
+    "Thôi mà chị xinh ơi",
+  ];
+  let tries = 0;
+  const no = $("no"), yes = $("yes");
+
+  function plea(x, y, text) {
+    const p = document.createElement("div");
+    p.className = "plea"; p.textContent = text;
+    document.body.appendChild(p);
+    const half = p.offsetWidth / 2 + 16;
+    p.style.left = Math.min(Math.max(x, half), innerWidth - half) + "px";
+    p.style.top = Math.max(y - p.offsetHeight - 6, 16) + "px";
+    setTimeout(() => p.remove(), 1700);
+  }
+
+  const letter = $("letter");
+  let armedAt = 0; // dodge only after the buttons have been visible for a moment
+
+  let lastDodge = 0;
+  function runAway(e, fromHover) {
+    if (e && e.cancelable) e.preventDefault();
+    if (!armedAt || (fromHover && performance.now() < armedAt)) return;
+    lastDodge = performance.now();
+    tries++;
+    // the forgive button keeps getting more tempting (resize first, then measure)
+    yes.style.fontSize = Math.min(1.35 + tries * 0.1, 2) + "rem";
+    yes.style.padding = `${Math.min(12 + tries * 2, 24)}px ${Math.min(26 + tries * 4, 52)}px`;
+    // keep the button inside the letter sheet so it can never leave the screen
+    const L = letter.getBoundingClientRect();
+    const r = no.getBoundingClientRect();
+    if (!no.classList.contains("runaway")) {
+      no.style.left = r.left - L.left + "px"; no.style.top = r.top - L.top + "px";
+      no.classList.add("runaway");
+    }
+    const Y = yes.getBoundingClientRect(); // measured after the layout settles
+    const pad = 12;
+    const maxX = Math.max(L.width - r.width - pad, pad);
+    const maxY = Math.max(L.height - r.height - pad, pad);
+    const cx = r.left - L.left, cy = r.top - L.top;
+    const avoid = [Y, $("body").getBoundingClientRect(), document.querySelector(".dear").getBoundingClientRect()];
+    const hitsYes = (x, y) => avoid.some((A) =>
+      x < A.right - L.left + 8 && x + r.width > A.left - L.left - 8 &&
+      y < A.bottom - L.top + 8 && y + r.height > A.top - L.top - 8);
+    let x, y, guard = 0;
+    do {
+      x = pad + Math.random() * (maxX - pad);
+      y = pad + Math.random() * (maxY - pad);
+    } while ((Math.hypot(x - cx, y - cy) < 90 || hitsYes(x, y)) && ++guard < 200);
+    no.style.left = x + "px"; no.style.top = y + "px";
+    no.style.transform = `rotate(${(Math.random() * 30 - 15).toFixed(1)}deg)`;
+
+    plea(r.left + r.width / 2, r.top, pleas[(tries - 1) % pleas.length]);
+    if (tries > 5) no.textContent = tries % 2 ? "Đ'?" : "Đ'";
+    if (ctx) pluck(hz(60 + Math.floor(Math.random() * 12)), ctx.currentTime, 0.12, 0.4);
+  }
+  // desktop: dodge only when the mouse really moves onto it; touch: dodge on press
+  no.addEventListener("pointermove", (e) => { if (e.pointerType === "mouse") runAway(null, true); });
+  no.addEventListener("pointerdown", (e) => { if (e.pointerType !== "touch") runAway(e); });
+  no.addEventListener("touchstart", (e) => runAway(e), { passive: false });
+  no.addEventListener("click", (e) => e.preventDefault());
+  no.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") runAway(e); });
+
+  /* ---------- Forgiven ---------- */
+  yes.addEventListener("click", () => {
+    if (performance.now() - lastDodge < 600) return;
+    no.remove();
+    $("thanks").hidden = false;
+    jingle();
+    if (!reduce) confetti();
+  });
+
+  function confetti() {
+    const c = $("confetti"); c.hidden = false;
+    const g = c.getContext("2d");
+    const dpr = Math.min(devicePixelRatio || 1, 1.5);
+    c.width = innerWidth * dpr; c.height = innerHeight * dpr; g.scale(dpr, dpr);
+    const colors = ["#e2768f", "#f7c3d0", "#d6a77a", "#ffd96a", "#c5546f", "#ffffff"];
+    const bits = Array.from({ length: 80 }, () => ({
+      x: innerWidth / 2, y: innerHeight / 2,
+      vx: (Math.random() - 0.5) * 14, vy: -Math.random() * 14 - 4,
+      r: 4 + Math.random() * 6, rot: Math.random() * 6, vr: (Math.random() - 0.5) * 0.3,
+      c: colors[(Math.random() * colors.length) | 0], heart: Math.random() < 0.45,
+    }));
+    const t0 = performance.now();
+    (function frame(t) {
+      g.clearRect(0, 0, innerWidth, innerHeight);
+      bits.forEach((b) => {
+        b.vy += 0.28; b.vx *= 0.99; b.x += b.vx; b.y += b.vy; b.rot += b.vr;
+        g.save(); g.translate(b.x, b.y); g.rotate(b.rot); g.fillStyle = b.c;
+        if (b.heart) {
+          const s = b.r / 6;
+          g.scale(s, s); g.beginPath();
+          g.moveTo(0, 3); g.bezierCurveTo(-8, -3, -4, -9, 0, -4); g.bezierCurveTo(4, -9, 8, -3, 0, 3); g.fill();
+        } else g.fillRect(-b.r / 2, -b.r / 4, b.r, b.r / 2);
+        g.restore();
+      });
+      if (t - t0 < 5000) requestAnimationFrame(frame); else c.hidden = true;
+    })(t0);
+  }
+})();
+</script>
