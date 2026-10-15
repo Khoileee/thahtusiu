@@ -1,6 +1,6 @@
 import {venues, clusters} from './venues.mjs';
 import {films, cafeMoods, regions, cuisines} from './data.mjs';
-import {createMusic} from './music.mjs';
+import {createSong} from './song.mjs';
 import {defaults, sanitize, byId, pickName, stepDone, complete, itinerary, routeLink, responseText, dateLabel} from './plan.mjs';
 
 const $ = s => document.querySelector(s);
@@ -22,35 +22,41 @@ const ui = {mood:null, region:null, cuisine:null};
   const f = byId(state.food); if (f) { ui.cuisine = f.cuisine; ui.region = regions.find(r => r.cuisines.includes(f.cuisine))?.id || null; }
 }
 
-const music = createMusic();
 const MUSIC_KEY = 'dear-tu-music';
 const musicPref = () => { try { return localStorage.getItem(MUSIC_KEY); } catch { return null; } };
+const setPref = v => { try { localStorage.setItem(MUSIC_KEY, v); } catch {} };
+let hintTimer, closeTimer;
+const song = createSong('yt-player', ({playing}) => {
+  syncMusic();
+  // Đã phát được thì tự thu gọn trình phát sau một chút.
+  if (playing && $('#song').classList.contains('open')) { clearTimeout(closeTimer); closeTimer = setTimeout(() => setPanel(false), 1800); }
+});
+function setPanel(open, hint = false) {
+  $('#song').classList.toggle('open', open);
+  $('#song').classList.toggle('hint', open && hint);
+}
 function syncMusic() {
-  document.querySelectorAll('.music-btn').forEach(b => { b.setAttribute('aria-pressed', music.playing); b.setAttribute('aria-label', music.playing ? 'Tắt nhạc nền' : 'Bật nhạc nền'); b.classList.toggle('playing', music.playing); });
+  document.querySelectorAll('.music-btn').forEach(b => { b.setAttribute('aria-pressed', song.playing); b.setAttribute('aria-label', song.playing ? 'Tắt nhạc nền' : 'Bật nhạc nền'); b.classList.toggle('playing', song.playing); });
+}
+// Trình duyệt chặn phát (thường gặp trên iPhone) thì mở trình phát để người xem tự chạm ▶.
+function playSong() {
+  song.play();
+  clearTimeout(hintTimer);
+  hintTimer = setTimeout(() => { if (!song.playing && !song.failed && musicPref() !== 'off') setPanel(true, true); }, 1600);
 }
 function toggleMusic() {
-  if (music.playing) music.stop(); else music.start();
-  try { localStorage.setItem(MUSIC_KEY, music.playing ? 'on' : 'off'); } catch {}
+  if (song.playing) { song.pause(); setPref('off'); setPanel(false); }
+  else { setPref('on'); playSong(); }
   syncMusic();
 }
-// Trình duyệt chỉ cho phát tiếng sau khi người xem tương tác với trang.
-// Thử tự phát ngay; nếu bị chặn thì bật ở lần chạm/bấm/gõ phím đầu tiên ở bất kỳ đâu.
-const UNLOCK = ['pointerdown', 'touchend', 'keydown'];
+// Trình duyệt chỉ cho phát tiếng sau khi người xem tương tác: bật ở lần chạm/bấm/gõ phím đầu tiên ở bất kỳ đâu.
+const UNLOCK = ['pointerdown', 'keydown'];
 function unlockMusic(e) {
-  if (e.target.closest?.('.music-btn')) return; // để nút ♪ tự xử lý
+  if (e.target.closest?.('.music-btn, .song')) return; // để nút ♪ và trình phát tự xử lý
   UNLOCK.forEach(t => document.removeEventListener(t, unlockMusic, true));
-  if (musicPref() !== 'off' && !music.playing) { music.start(); syncMusic(); }
+  if (musicPref() !== 'off' && !song.playing) playSong();
 }
-if (musicPref() !== 'off') {
-  UNLOCK.forEach(t => document.addEventListener(t, unlockMusic, true));
-  music.tryAutoplay().then(ok => { if (ok) { UNLOCK.forEach(t => document.removeEventListener(t, unlockMusic, true)); syncMusic(); } });
-}
-let pausedByHide = false;
-document.addEventListener('visibilitychange', () => {
-  if (document.hidden && music.playing) { music.stop(); pausedByHide = true; }
-  else if (!document.hidden && pausedByHide) { music.start(); pausedByHide = false; }
-  syncMusic();
-});
+if (musicPref() !== 'off') UNLOCK.forEach(t => document.addEventListener(t, unlockMusic, true));
 
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
 let toastTimer;
@@ -247,7 +253,8 @@ async function share() {
 document.addEventListener('click', e => {
   const b = e.target.closest('button, [data-open]'); if (!b) return;
   const d = b.dataset;
-  if (d.action === 'open') { if (musicPref() !== 'off') { music.start(); syncMusic(); } showScreen('planner'); return; }
+  if (d.action === 'open') { if (musicPref() !== 'off' && !song.playing) playSong(); showScreen('planner'); return; }
+  if (d.action === 'song-close') { setPanel(false); return; }
   if (d.action === 'music') { toggleMusic(); return; }
   if (d.action === 'cover') { showScreen('cover'); return; }
   if (d.go !== undefined) { state.step = +d.go; save(); render(true); return; }

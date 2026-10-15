@@ -16,7 +16,7 @@
 </head>
 <body>
   <section class="screen cover" id="cover" aria-label="Thư mời">
-    <button class="music-btn on-cover" data-action="music" aria-pressed="false" aria-label="Bật nhạc nền"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span><span class="music-label">Nhạc</span></button>
+    <button class="music-btn on-cover" data-action="music" aria-pressed="false" aria-label="Bật nhạc nền"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span><span class="music-label">Tip Toe</span></button>
     <img class="cover-art" src="assets/hero.webp" alt="" width="1536" height="1024" fetchpriority="high">
     <div class="cover-inner">
       <p class="cover-date"><span>Thứ Bảy</span><b>17.10</b><span>Hà Đông</span></p>
@@ -35,7 +35,7 @@
     <header class="topbar">
       <button class="home" data-action="cover" aria-label="Xem lại thư mời">♡</button>
       <nav class="tabs" id="tabs" aria-label="Các bước"></nav>
-      <button class="music-btn" data-action="music" aria-pressed="false" aria-label="Bật nhạc nền"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span><span class="music-label">Nhạc</span></button>
+      <button class="music-btn" data-action="music" aria-pressed="false" aria-label="Bật nhạc nền"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span><span class="music-label">Tip Toe</span></button>
     </header>
     <div class="scroller" id="scroller">
       <div class="body">
@@ -46,6 +46,14 @@
     <footer class="pager" id="pager"></footer>
   </section>
 
+  <aside class="song" id="song" aria-label="Nhạc nền">
+    <div class="song-card">
+      <button class="song-close" data-action="song-close" aria-label="Thu gọn trình phát nhạc">×</button>
+      <div class="song-player"><div id="yt-player"></div></div>
+      <p class="song-meta"><b>Tip Toe (Speed Up)</b> · HYBS</p>
+      <p class="song-hint">Chạm ▶ để nghe nhạc nha ♡</p>
+    </div>
+  </aside>
   <dialog id="sheet" aria-labelledby="sheet-title"><div id="sheet-body"></div></dialog>
   <div id="toast" role="status" aria-live="polite"></div>
   <noscript><p class="noscript">Thiệp cần bật JavaScript để chọn quán nhé.</p></noscript>
