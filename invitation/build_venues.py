@@ -16,6 +16,8 @@ GROUPS = ['cafe', 'japanese', 'vietnamese', 'korean', 'thai', 'western']
 COVER = {}
 DROP = set()
 # Quán đã bị loại sau khi xem (giữ nguyên dữ liệu nghiên cứu).
+# Tên phụ hiển thị gọn hơn ghi chú nghiên cứu.
+AKA = {'an-bistro-cafe': "Trước đây là AN'Garden, nay còn gọi là Eden Garden"}
 EXCLUDE = {'torii-rooftop', 'le-monde-steak-nguyen-van-loc'}
 
 CLUSTERS = [
@@ -117,7 +119,7 @@ def main():
             venues.append({
                 'id': v['id'], 'group': g, 'kind': 'cafe' if g == 'cafe' else 'food',
                 'cuisine': v.get('cuisine') or ('cafe' if g == 'cafe' else g),
-                'rank': rank, 'name': v['name'], 'sub': v.get('subcategory'), 'tagline': v.get('tagline'),
+                'rank': rank, 'name': re.sub(r'\s*\(.*$', '', v['name']).strip(), 'aka': AKA.get(v['id']) or (re.search(r'\((.*)\)', v['name']) or [None, None])[1], 'sub': v.get('subcategory'), 'tagline': v.get('tagline'),
                 'desc': v.get('description'), 'address': v.get('address'), 'area': v.get('area'),
                 'cluster': cluster(v), 'inAeon': cluster(v) == 'aeon',
                 'distance': distance_short(v), 'distanceFull': v.get('distance_to_aeon'),

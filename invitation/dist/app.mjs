@@ -23,7 +23,7 @@ const ui = {mood:null, region:null, cuisine:null};
 
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
 let toastTimer;
-function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 2400); }
+function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 1800); }
 const cover = v => v.photos[0]?.src.replace('.webp', '-s.webp');
 const nf = new Intl.NumberFormat('vi-VN');
 const ext = (url, label, cls = 'link') => url ? `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label}<span aria-hidden="true"> ↗</span></a>` : '';
@@ -177,7 +177,7 @@ function openSheet(id) {
     ${v.photos.length > 1 ? `<div class="gallery-nav"><button data-gal="-1" aria-label="Ảnh trước">‹</button><span id="gal-count">1 / ${v.photos.length}</span><button data-gal="1" aria-label="Ảnh sau">›</button></div>` : ''}
     <div class="sheet-content">
       <p class="vcard-kicker">${esc(v.inAeon ? 'Trong AEON' : clusters[v.cluster])} · ${esc(typeOf(v))}</p>
-      <h2 id="sheet-title">${esc(v.name)}</h2>
+      <h2 id="sheet-title">${esc(v.name)}</h2>${v.aka ? `<p class="sheet-aka">${esc(v.aka)}</p>` : ''}
       <p class="sheet-tag">${esc(v.tagline)}</p>
       ${v.rating.score ? `<p class="sheet-rating">${rating(v)} <span class="src">đánh giá Google</span></p>` : ''}
       <p class="sheet-desc">${esc(v.desc)}</p>
@@ -194,6 +194,7 @@ function openSheet(id) {
 
 /* ---------- Render ---------- */
 function render(top) {
+  $('#planner').dataset.step = state.step;
   renderTabs();
   $('#stage').innerHTML = `<div class="stage-in" data-step="${state.step}">${[stepCafe, stepFood, stepFilm, stepDoneView][state.step]()}</div>`;
   renderPager();
@@ -230,11 +231,13 @@ document.addEventListener('click', e => {
     const k = d.key, again = state[k] === d.pick && d.pick !== 'custom';
     state[k] = d.pick; save();
     if (d.close) $('#sheet').close();
-    const left = $('#vgrid')?.scrollLeft;
     render();
-    if (left) $('#vgrid').scrollLeft = left;
+    // Giữ băng chuyền ở đúng thẻ vừa chọn và trả focus về nút chọn của thẻ đó.
+    const btn = document.querySelector(`#stage [data-pick="${CSS.escape(d.pick)}"][data-key="${k}"]`);
+    const g = $('#vgrid'), cardEl = btn?.closest('.vcard');
+    if (g && cardEl) g.scrollLeft = cardEl.offsetLeft - g.offsetLeft;
     if (d.pick === 'custom') $(`#${k}Custom`)?.focus();
-    else if (!again) toast(`Đã chọn ${pickName(state, k)} ♡`);
+    else { btn?.focus({preventScroll:true}); if (!again) toast(`♡ Đã chọn ${pickName(state, k)}`); }
     return;
   }
   if (d.action === 'close') { $('#sheet').close(); return; }
