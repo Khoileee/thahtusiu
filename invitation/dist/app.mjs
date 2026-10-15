@@ -33,6 +33,18 @@ function toggleMusic() {
   try { localStorage.setItem(MUSIC_KEY, music.playing ? 'on' : 'off'); } catch {}
   syncMusic();
 }
+// Trình duyệt chỉ cho phát tiếng sau khi người xem tương tác với trang.
+// Thử tự phát ngay; nếu bị chặn thì bật ở lần chạm/bấm/gõ phím đầu tiên ở bất kỳ đâu.
+const UNLOCK = ['pointerdown', 'touchend', 'keydown'];
+function unlockMusic(e) {
+  if (e.target.closest?.('.music-btn')) return; // để nút ♪ tự xử lý
+  UNLOCK.forEach(t => document.removeEventListener(t, unlockMusic, true));
+  if (musicPref() !== 'off' && !music.playing) { music.start(); syncMusic(); }
+}
+if (musicPref() !== 'off') {
+  UNLOCK.forEach(t => document.addEventListener(t, unlockMusic, true));
+  music.tryAutoplay().then(ok => { if (ok) { UNLOCK.forEach(t => document.removeEventListener(t, unlockMusic, true)); syncMusic(); } });
+}
 let pausedByHide = false;
 document.addEventListener('visibilitychange', () => {
   if (document.hidden && music.playing) { music.stop(); pausedByHide = true; }
