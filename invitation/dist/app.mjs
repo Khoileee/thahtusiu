@@ -36,7 +36,7 @@ function setPanel(open, hint = false) {
   $('#song').classList.toggle('hint', open && hint);
 }
 function syncMusic() {
-  document.querySelectorAll('.music-btn').forEach(b => { b.setAttribute('aria-pressed', song.playing); b.setAttribute('aria-label', song.playing ? 'Tắt nhạc nền' : 'Bật nhạc nền'); b.classList.toggle('playing', song.playing); });
+  document.querySelectorAll('.music-btn').forEach(b => { b.setAttribute('aria-pressed', song.playing); b.setAttribute('aria-label', song.playing ? 'Tắt nhạc nền' : 'Bật nhạc nền'); b.classList.toggle('playing', song.playing); const l = b.querySelector('.music-label'); if (l) l.textContent = song.playing ? 'Tip Toe' : 'Bật nhạc'; });
 }
 // Trình duyệt chặn phát (thường gặp trên iPhone) thì mở trình phát để người xem tự chạm ▶.
 function playSong() {
@@ -56,7 +56,7 @@ function unlockMusic(e) {
   UNLOCK.forEach(t => document.removeEventListener(t, unlockMusic, true));
   if (musicPref() !== 'off' && !song.playing) playSong();
 }
-if (musicPref() !== 'off') UNLOCK.forEach(t => document.addEventListener(t, unlockMusic, true));
+if (musicPref() !== 'off') { UNLOCK.forEach(t => document.addEventListener(t, unlockMusic, true)); song.autoStart(); }
 
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
 let toastTimer;
