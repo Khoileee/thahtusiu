@@ -1,7 +1,7 @@
 import {venues} from './venues.mjs';
 import {films, DATE, AEON, cuisines} from './data.mjs';
 
-export const defaults = {v:2, step:0, cafe:'', cafeCustom:'', food:'', foodCustom:'', film:'', filmCustom:'', order:'dinner-first', time:'15:30', notes:''};
+export const defaults = {v:2, step:0, cafe:'', cafeCustom:'', food:'', foodCustom:'', film:'', filmCustom:'', order:'film-cafe', time:'14:00', notes:''};
 const TIME = /^([01]\d|2[0-3]):[0-5]\d$/;
 
 export const byId = id => venues.find(v => v.id === id);
@@ -13,7 +13,7 @@ export function sanitize(raw = {}) {
   if (ok(raw.cafe, 'cafe')) s.cafe = raw.cafe;
   if (ok(raw.food, 'food')) s.food = raw.food;
   if ([...films.map(f => f.id), 'custom', 'none'].includes(raw.film)) s.film = raw.film;
-  if (['film-first', 'dinner-first'].includes(raw.order)) s.order = raw.order;
+  if (['film-cafe', 'film-first', 'dinner-first'].includes(raw.order)) s.order = raw.order;
   if (typeof raw.time === 'string' && TIME.test(raw.time)) s.time = raw.time;
   if (Number.isInteger(raw.step) && raw.step >= 0 && raw.step <= 3) s.step = raw.step;
   return s;
@@ -35,7 +35,9 @@ export function dateLabel() {
 // Thời gian di chuyển ước lượng giữa hai điểm theo cụm khu vực.
 function travel(a, b) {
   const ca = a?.cluster || 'custom', cb = b?.cluster || 'custom';
-  return ca === cb && ca !== 'custom' ? 5 : 15;
+  const near = new Set(['aeon', 'duong-noi']);
+  if (ca === cb && ca !== 'custom') return 5;
+  return near.has(ca) && near.has(cb) ? 5 : 15; // quán sát AEON: Dương Nội, FLC Garden City
 }
 const toMin = hm => { const [h, m] = hm.split(':').map(Number); return h * 60 + m; };
 const fmt = n => `${String(Math.floor(n / 60) % 24).padStart(2, '0')}:${String(n % 60).padStart(2, '0')}`;
@@ -51,15 +53,29 @@ export function itinerary(s) {
   const gap = (title, minutes) => { if (minutes <= 0) return; items.push({type:'gap', title, start:fmt(t), end:fmt(t + minutes), minutes}); t += minutes; };
   const foodSub = food ? `${cuisines[food.cuisine] ? 'Món ' + cuisines[food.cuisine].title + ' · ' : ''}${food.inAeon ? 'trong AEON' : food.area}` : 'Ăn tối cùng nhau';
   const dinner = () => stop('food', '🍜', pickName(s, 'food') || 'Bữa tối', foodSub, 90, food);
-  const movie = () => {
-    const ready = t;
+  const movie = (waitLabel = 'Lượn AEON, mua bắp nước', minLead = 0) => {
+    const ready = t + minLead;
     const show = film?.times?.map(toMin).find(m => m >= ready);
-    const start = show ?? ready;
-    if (start - ready >= 10) gap(show ? 'Lượn AEON, mua bắp nước' : 'Nghỉ chân một chút', start - ready);
+    const late = show !== undefined && show - t > 90; // suất gần nhất cách giờ hẹn quá xa
+    const start = late ? ready : show ?? ready;
+    if (start - t >= 10) gap(waitLabel, start - t);
     t = start;
-    stop('film', '🎬', pickName(s, 'film') || 'Một bộ phim', film ? (show ? 'Suất ' + fmt(show) + (film.tags?.[fmt(show)] ? ' · phòng ' + film.tags[fmt(show)] : '') + ' · CGV AEON Hà Đông' : 'Chưa có suất phù hợp, chọn giờ khác nhé') : 'CGV AEON Hà Đông', (film?.minutes || 105) + ADS, cinema, {noShow:!!film && show === undefined});
+    const sub = !film ? 'CGV AEON Hà Đông'
+      : show === undefined ? 'Chưa có suất phù hợp, chọn giờ khác nhé'
+      : late ? `Không có suất gần giờ này (gần nhất ${fmt(show)}), chọn phim khác nhé`
+      : 'Suất ' + fmt(show) + (film.tags?.[fmt(show)] ? ' · phòng ' + film.tags[fmt(show)] : '') + ' · CGV AEON Hà Đông';
+    stop('film', '🎬', pickName(s, 'film') || 'Một bộ phim', sub, (film?.minutes || 105) + ADS, cinema, {noShow:!!film && (show === undefined || late)});
   };
-  stop('cafe', '☕', pickName(s, 'cafe') || 'Một góc cafe', cafe ? (cafe.inAeon ? 'trong AEON' : cafe.area) : 'Ngồi nói chuyện', 90, cafe);
+  const coffee = (minutes = 90) => stop('cafe', '☕', pickName(s, 'cafe') || 'Một góc cafe', cafe ? (cafe.inAeon ? 'trong AEON' : cafe.area) : 'Ngồi nói chuyện', minutes, cafe);
+  if (s.film !== 'none' && s.order === 'film-cafe') {
+    movie('Gặp nhau ở AEON, mua bắp nước', 10);
+    gap('Di chuyển sang quán cafe', travel(cinema, cafe));
+    coffee(75);
+    gap('Đi dạo, lượn lờ rồi qua quán', 30 + travel(cafe, food));
+    dinner();
+    return items;
+  }
+  coffee();
   if (s.film === 'none') {
     gap('Đi dạo, lượn lờ rồi qua quán', 45 + travel(cafe, food));
     dinner();
