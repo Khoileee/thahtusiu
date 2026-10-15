@@ -18,3 +18,6 @@ Thumbs.db
 *.key
 credentials.json
 service-account*.json
+
+# Ảnh vòng nghiên cứu đầu (đã thay bằng research/v3), giữ ở máy
+research/v2/*/photos/

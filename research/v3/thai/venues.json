@@ -1,0 +1,245 @@
+[
+  {
+    "id": "thai-market-smart-city",
+    "name": "Thai Market Restaurant – Vincom Smart City",
+    "category": "food",
+    "cuisine": "thai",
+    "subcategory": "Nhà hàng Thái gọi món (chuỗi, trong TTTM)",
+    "tagline": "Chua cay ngọt, đúng điệu Thái",
+    "description": "Nhà hàng Thái của chuỗi Thai Market ở tầng 1 Vincom Mega Mall Smart City, không gian gỗ sáng, cây xanh và mái vải. Thực đơn gọi món đủ các món kinh điển: pad thái tôm mực, súp tom yum, gỏi đu đủ, cà ri xanh tôm, thịt heo nướng xiên và xôi xoài.",
+    "address": "Tầng 1, TTTM Vincom Mega Mall Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội",
+    "area": "Vinhomes Smart City (Tây Mỗ)",
+    "in_aeon": false,
+    "distance_to_aeon": "~1,8 km đường chim bay; ~3 km đường xe, khoảng 7–10 phút xe máy",
+    "hours": "Thứ Bảy: 10:30–21:30 (Google Maps). Đặt bàn: 1900 0207 / uudai.thaimarket.com.vn/datban",
+    "price_range": "200.000–300.000đ/người (Google Maps); món chính ~150–200k",
+    "signature": [
+      "Pad Thái tôm mực",
+      "Súp Tom Yum hải sản",
+      "Cà ri xanh tôm",
+      "Gỏi đu đủ (Som Tam)",
+      "Xôi xoài"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 407,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJeQAnQxRTNDERUCKXMZjaWwc"
+    },
+    "highlights": [
+      "\"Đồ ăn ngon, nhân viên nhiệt tình, thân thiện. Nhà hàng đẹp, sạch đảm bảo vệ sinh!\" — Google Maps, ~8/2026",
+      "\"Cá nhân mình chưa từng ăn món Pad nào hợp khẩu vị đến như vậy! Nhưng ngon nhất phải là Cari xanh tôm\" — Google Maps, ~2/2026",
+      "\"Không gian thoáng mát, sạch sẽ… giá cả rẻ hơn so với mặt bằng đồ Thái\" — Google Maps, ~8/2026"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): có giờ mở cửa cho T7, không có cờ đóng cửa, review 1–3 tháng gần đây và chủ quán phản hồi đều. Website thaimarket.com.vn đang liệt kê chi nhánh 'Tầng 1 TTTM Vincom Mega Mall Smart City'. Fanpage chuỗi truy cập được (123.069 người theo dõi, 4.565 người đang nói về trang).",
+    "links": {
+      "maps": "https://www.google.com/maps?cid=530257728348037712",
+      "menu": "https://thaimarket.com.vn/",
+      "facebook": "https://www.facebook.com/thaimarketrestaurant",
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://thaimarket.com.vn/"
+    },
+    "photos": [
+      {
+        "file": "photos/thai-market-smart-city/01.jpg",
+        "caption": "Bàn món Thái: pad thái, tom yum, heo nướng xiên",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe4-iKtF0jyegUbJ-SPDgXLbnT_mHAW1p3asWgKSVI4-UkOQBAv9DA1UxUCvfeeAchyn27szhAMVThbg5yIEBJ7u94C4Krg1Pd1WZhry8bdYl9p6BZqOxcoNUGM0y9fiWF_Gkugi_bN97I=w1600",
+        "width": 1440,
+        "height": 1440
+      },
+      {
+        "file": "photos/thai-market-smart-city/02.jpg",
+        "caption": "Pad thái tôm mực trên lá chuối",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdocXpU6LMfSCvQrt6fsFsEGLdyY9MP0TlDd3IVW6RBMs5pFa1pcpqvAUpG9dljBuUE5TdrJMm2LBdoWBY8C9NzENETo_x4SHmXDhBSPaNG172ml8MUlUTC_5zi2OOMtJXG8HdEFYa4BANs=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/thai-market-smart-city/03.jpg",
+        "caption": "Súp tom yum hải sản",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcJPSFUd1lqw-WNsH2tBETLYaQ4W63iei2Vg6h5p8kjpv_FDTVHZsrtVnPBZM4pRDd_abfTHhUEoF4Lr6vujy8aH0cSNubICYXn72hHtf66JSI88yjbIzLQ4_Zt-I45cJKKFzEEBHvN4VIi=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/thai-market-smart-city/04.jpg",
+        "caption": "Gỏi đu đủ cua muối",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdDfM20PjfcuDbO1cVprrnRU-lCeIk-mLNs72D8wZqzutWCSbPQMZBkAhP4HSn8Tqrx4Mfe-jshsS5A4zyp-8UESvK5ZfmBLcNm5OsLjf1_pQJEQnqCNXtZd_g3DTWyzEyqswz8nVmQ44g=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/thai-market-smart-city/05.jpg",
+        "caption": "Không gian gỗ sáng, cây xanh, mái vải",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdJhSfWUdz54e1ixgdo3YQuO8TyW8n5dw3Y8-2phXN96kLWxvC_EIdZHAQ6zjDwJsBMfpl6l8tyHfBL739HTY8VAVNjRsKhQQlXWGqg0Yv1ZsYwxhBjXLNd6OSq-V-berELG1t8wCZlkYg=w1600",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "why_picked": "Món Thái gọi món, review gần đây đều tốt và nhắc đến vệ sinh. Không gian sáng, sạch, chỉ cách AEON 7–10 phút. Giá dễ chịu.",
+    "confidence": "high"
+  },
+  {
+    "id": "khrua-baan-thai-aeon",
+    "name": "Khrua Baan Thai – AEON Mall Hà Đông",
+    "category": "food",
+    "cuisine": "thai",
+    "subcategory": "Nhà hàng Thái hiện đại (chuỗi, trong AEON)",
+    "tagline": "Ăn Thái xong, đi bộ xem phim",
+    "description": "Chi nhánh trong AEON Mall của chuỗi Khrua Baan Thai ('Modern Thai Cuisine'), không gian gỗ ấm với hoạ tiết chữ Thái. Món nổi bật: pad thái tôm nướng, gỏi miến tôm cay, cổ heo nướng chấm Jaew, đậu que xào. Ăn xong đi bộ vài phút là tới CGV.",
+    "address": "TTTM AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "AEON Mall Hà Đông",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON Mall Hà Đông, đi bộ tới CGV",
+    "hours": "Theo giờ TTTM, khoảng 10:00–22:00 (Google chưa ghi giờ; T7 nên đến trước 20:30). ĐT: 0785 166 266",
+    "price_range": "150.000–350.000đ/người (Google: 300–400k cho bàn; một review nhóm 12 người ~380k/người)",
+    "signature": [
+      "Pad Thái tôm nướng",
+      "Gỏi miến tôm cay",
+      "Cổ heo nướng chấm Jaew",
+      "Đậu que xào",
+      "Cơm rang Thái"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 660,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJjUqB9qxTNDERTHLerHmYNLc"
+    },
+    "highlights": [
+      "\"Đồ ăn ngon dễ ăn, nhân viên phục vụ tốt\" — Google Maps (trích ở vòng v2), 2026",
+      "\"Thèm đồ Thái là nhớ tới Khrua Baan Thai\" — Lemon8 @nphlinhhhh (chuỗi), 6/2026",
+      "\"Các món trong combo ăn cũng tạm ổn, có thịt heo ăn khá ok… chờ không quá lâu\" — Google Maps, ~9/2026"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): listing do chủ quản lý, không có cờ đóng cửa, review dày đặc 1–3 tháng gần đây. Danh bạ AEON Hà Đông (aeonmall-hadong.com.vn) có trang 'Khrua Baan Thai'. Website chuỗi khruabaanthai.com.vn hoạt động, fanpage chuỗi 53.736 người theo dõi.",
+    "links": {
+      "maps": "https://www.google.com/maps?cid=13201344056088490572",
+      "menu": "https://khruabaanthai.com.vn/kbt-menu/",
+      "facebook": "https://www.facebook.com/khruabaanthai",
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://khruabaanthai.com.vn/"
+    },
+    "photos": [
+      {
+        "file": "photos/khrua-baan-thai-aeon/01.jpg",
+        "caption": "Pad thái tôm nướng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdWaZXrqxgKysUehtbG3tRrIDTu_YwJ9GgsQC3wWprCGC_33YQIpaa-dC0usoKGwdP4Stds-rmtEtEAkLpDRITF1Rf9fDkSpFp_qsSzD8s3BoyeTp20g_xZ7oUG76RXzTsJfjlY-lk_c6Mp=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/khrua-baan-thai-aeon/02.jpg",
+        "caption": "Bàn món Thái: cổ heo nướng, pad thái, tôm chiên",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTn7Qgw-hBJ1rYM1zomyybo-FszknS4vwoyYsxk84U3kNvMh0ATZ6yxs6DJ8W3GLv4O2N9jmjQ1EGH8K1heNrlm8GD_5gQGz-xm9IdK-hpvyFw-1gnOuIkRhxPmw4wLcP6kBNi7YnTYerH=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/khrua-baan-thai-aeon/03.jpg",
+        "caption": "Gỏi miến tôm cay",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLepaNExZ8ZAj3V84ihLBMVOEMldhL3Z7YGI03R3CwCr0-Nh-hQX_7OvcwMM3cIkZb4rh0bUfih21xNTLWMn9y6r5MpddbsZ1xC0yaTx7bONxKO77aiXa3NAsaO8gdLDMkQShvYseZPvpnI=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/khrua-baan-thai-aeon/04.jpg",
+        "caption": "Cổ heo nướng chấm Jaew",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLebJ9ZQXcmt_iVozuuA5ErzNoW-4zw7mqaKPBOz0RGd-mVREhHwkGYYK6hYEC_gZzNbuGXN4fyUgZ22c9gm71HyqsEZas7EJmHfhZsNrD_WfwCzGEFts8NoszJ6ZXet_bQ-rOTpjki0K0w=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/khrua-baan-thai-aeon/05.jpg",
+        "caption": "Không gian nhà hàng trong AEON Mall",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfiWLLJPfR8-eVOT15lMXHJl1QCHUBQMLMQJSmNZ2WJORQBFkyQsWVhSIX-lYlVjhWaruosPlvdb4zzSaIMgYUxKJegGk7I81k22BhNBQ__jfuLA_nAS2rdur_jhkbl6_N8WCAtxNXPbW7T=w1600",
+        "width": 1080,
+        "height": 1440
+      }
+    ],
+    "why_picked": "Lựa chọn Thái tiện nhất cho buổi hẹn có xem phim: cùng tòa nhà với CGV, rating 4.9. Món Thái gọi món, không phải lẩu.",
+    "confidence": "medium-high"
+  },
+  {
+    "id": "saep-thai-cuisine",
+    "name": "Saep Thai Cuisine – Geleximco Lê Trọng Tấn",
+    "category": "food",
+    "cuisine": "thai",
+    "subcategory": "Thai bistro gọi món, có vang",
+    "tagline": "Bistro Thái nhỏ, ấm và chuẩn vị",
+    "description": "Bistro Thái mới mở (khoảng giữa 2026) trong khu biệt thự Geleximco, tường gạch trắng, kệ rượu, hoa trên bàn, cảm giác nhỏ và ấm cúng. Món được khen 'bám sát nguyên bản': pad thái, cổ heo nướng, mực sốt chua ngọt, súp tom yum, cơm chiên trứng cuộn tôm, kèm bia và vang.",
+    "address": "18 – A36 KĐT Geleximco, Lê Trọng Tấn, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Geleximco – Lê Trọng Tấn",
+    "in_aeon": false,
+    "distance_to_aeon": "~2,5 km đường chim bay; ~3,5 km đường xe, khoảng 8–10 phút xe máy",
+    "hours": "Google Maps chưa đăng giờ mở cửa; review cho thấy quán phục vụ buổi tối. Nên gọi/nhắn trước tối T7",
+    "price_range": "200.000–300.000đ/người (Google Maps); món chính ~180–330k",
+    "signature": [
+      "Pad Thái",
+      "Cổ heo nướng Saep",
+      "Mực xào sốt chua ngọt kiểu Thái",
+      "Súp Tom Yum",
+      "Cơm chiên trứng cuộn tôm"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 83,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJAdcQJgBTNDERk6VpK9kc1gY"
+    },
+    "highlights": [
+      "\"Đồ ăn ở đây làm rất chuẩn vị Thái… không gian hơi nhỏ, nhưng bù lại mang cảm giác khá ấm cúng\" — Google Maps, ~8/2026",
+      "\"Món nào cũng ngonnn. Nhân viên phục vụ chu đáo\" — Google Maps, ~8/2026",
+      "\"Cơm trứng tôm rất ngon… Quán mới mở ăn thử rất ok\" — Google Maps, ~8/2026"
+    ],
+    "open_evidence": "Chỉ có Google Maps (15/10/2026): không có cờ đóng cửa, khoảng 80 review dồn trong 2–3 tháng gần đây, có ảnh thực đơn và mặt tiền. Không tìm thấy fanpage, Lemon8 hay bài báo về quán. Chưa có giờ mở cửa. Cần gọi xác nhận.",
+    "links": {
+      "maps": "https://www.google.com/maps?cid=492612928305472915",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/saep-thai-cuisine/01.jpg",
+        "caption": "Pad thái với trứng và đậu phộng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfS8TbOSBEofRPbnuJeSczzm3ivFargg-dArKZVVpfsY7FF63muiDjS83BhEoeWbD8gYR-6jg-SVmSrMdtxrVY0nF4e7cVG4SplqWisdxnE6_WqWBvhFzaYZYyu5loYJP29zINlO15gngo=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/saep-thai-cuisine/02.jpg",
+        "caption": "Pad thái tôm mực kèm chanh, đậu phộng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeg9Sj6uugxt8_lL3a8heTF0pmEn7vvdYpDfx57iNAqro8xwZu4epJ9REryRvPg6qAwfME3vNE7Fx64Wi9K17OH94eFZZWWV69Y-bLe-xECABzVf-v3KIKkMnIH28Rc9CYgEpm221j8EleO=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/saep-thai-cuisine/03.jpg",
+        "caption": "Mực sốt chua ngọt kiểu Thái",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfU7UdHe5Y7NRCK9mYGyHQtCjlshEhXVvDxLDvJnnR6Chgvk5kWecmdjF16mbgpuOhNIp0xPZKPhmaHXrynToGFRxV7CTQlSPRit-Cswlhf8NkRtazGZl2Lgj9ZqB-CF8wE5VRd8utJCFM=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/saep-thai-cuisine/04.jpg",
+        "caption": "Phòng ăn tường gạch trắng, kệ rượu",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeHDRe3zJkXlP6OTstJxC8l8BnvKeoF2lss2_hof1Tv9HStkkTEpV8Gi3mSZv7IbuLMfB5DMWTSmbHZsWA-SBmE_XeHG6ueY2wG7Ou5wOnNdFyGII1mJwlik7EVSqDAmdVyAbTL-hIiPda6=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/saep-thai-cuisine/05.jpg",
+        "caption": "Mặt tiền Saep giữa cây xanh",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcAK5NlXFXszys44sfKUkjlEPvNxmz-xENf07OhUCCKTP6pE-1AjfL2zgny7CwVKlmdGMwQFJYYQlWy_hcnKt2_EjJSU_DXo5W7WT3RyLDJxiZ_EEPT3Yl99DgXG4NIQ6QILMlR9bDsBSM2=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "why_picked": "Quán Thái mang chất 'bistro hẹn hò' nhất quanh AEON: ấm cúng, có vang, món đẹp mắt, review mới rất tốt, chỉ 8–10 phút xe. Quán mới nên ít nguồn xác minh.",
+    "confidence": "medium-low (quán mới, chỉ xác minh được qua Google Maps)"
+  }
+]

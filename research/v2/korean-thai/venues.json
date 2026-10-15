@@ -1,0 +1,962 @@
+[
+  {
+    "id": "galbiroman",
+    "name": "Galbi Roman (Galbiroman) – Nguyễn Văn Lộc",
+    "cuisine": "korean",
+    "subcategory": "Buffet thịt nướng Hàn Quốc (BBQ than hoa)",
+    "tagline": "Nướng than Hàn, panchan đầy bàn",
+    "description": "Cơ sở mới của chuỗi buffet nướng Hàn Galbi Roman trên phố ẩm thực Nguyễn Văn Lộc. Thịt heo, bò nướng than tại bàn, nhân viên hỗ trợ nướng, đi kèm nhiều panchan, trứng hấp và canh. Không gian kiểu Hàn, sạch sẽ, phù hợp bữa tối ấm cúng.",
+    "address": "129 P. Nguyễn Văn Lộc, Làng Việt kiều Châu Âu, Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (Nguyễn Văn Lộc)",
+    "in_aeon": false,
+    "distance_to_aeon": "~5 km đường bộ, ~13–15 phút xe máy (đường chim bay ~3,7 km)",
+    "hours": "10:00–23:00 hằng ngày (Google Maps)",
+    "price_range": "~299k–499k/người buffet (theo bài Lemon8 2025; Google ghi phổ biến 300–400k) – nên gọi xác nhận",
+    "signature": [
+      "Buffet nướng than (ba chỉ heo, sườn galbi, bò)",
+      "Trứng hấp",
+      "Panchan Hàn đa dạng",
+      "Mì lạnh"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 411,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Galbiroman+Nguy%E1%BB%85n+V%C4%83n+L%E1%BB%99c+129+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“Điểm mình thích nhất là nhân viên sẽ hỗ trợ nướng thịt tại bàn” – Google review",
+      "“Đồ ăn ngon, thịt heo nướng cũng rất ngon, nhiều món panchan” – Google review",
+      "“Ngon lắm ạ, đồ ăn lên nhanh, nhân viên nhiệt tình, quán sạch sẽ!” – Google review"
+    ],
+    "open_evidence": "Google Maps hiển thị giờ mở cửa bình thường, không gắn cờ đóng cửa; nhiều review ~1 tháng trước (≈9/2026), chủ quán trả lời review gọi đây là 'cơ sở mới'; fanpage riêng cho chi nhánh Hà Đông; website chuỗi galbiroman.com liệt kê địa chỉ 129 Nguyễn Văn Lộc.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Galbiroman+Nguy%E1%BB%85n+V%C4%83n+L%E1%BB%99c+129+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": "https://galbiroman.com/",
+      "facebook": "https://www.facebook.com/p/Galbiroman-Nguy%E1%BB%85n-V%C4%83n-L%E1%BB%99c-%EA%B0%88%EB%B9%84%EB%A1%9C%EB%A7%8C-%ED%95%98%EB%8F%99%EC%A0%90-61586030198101/",
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://galbiroman.com/"
+    },
+    "trend_notes": "Chi nhánh mới mở (review dồn dập trong 1–5 tháng gần đây), rating cao 4.8; chuỗi quảng bá đầu bếp Top 10 MasterChef Hàn. Buffet nướng có khói/mùi – nên đặt bàn tối thứ Bảy.",
+    "confidence": "medium-high",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/galbiroman/01.jpg",
+        "caption": "Mặt tiền Galbi Roman Nguyễn Văn Lộc",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcnKq_EoyjExHd_5EtGeNSKnVREr_aJ6djx5hloUl-F9C9QEJW5Y0YwdjZESxpPLx5fDyEqKyEfrMlFOjMuZS3q4sIfMQL06_CwkBWwV_qGzlbQNMk1Tv6oEcQ_wmJR113RH1c0INE9V7I=w1600",
+        "width": 1600,
+        "height": 1260
+      },
+      {
+        "file": "photos/galbiroman/02.jpg",
+        "caption": "Ba chỉ heo tươi và thịt nướng Hàn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfPlVoohXPPOU98quipXLbMte62Q72a50hVbK-u8j1FmqVq5YZFW7Q2HRdt2gJhA2yEJIQyrSxSW_V4siiiWxQszpz78SIW1MXR5RdFtrhOJLnv4M96MNHoH271_dEzAYWvJVOGszbUWtX5=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/galbiroman/03.jpg",
+        "caption": "Bàn nướng than cùng panchan và trứng hấp",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc36VXXHyf-d2x5zqmujfiRkqCwf5yGmpOtt_0dAgSijRqEJCwCeZ3YYukZ2in6sZy6v5haiItGtP_f6Od15rAhXpUgtlX8dCoaJrvQ0xXjuR6w12h24HLMXS8Y1lwaaGDzUiZrMmGZNCT3=w1600",
+        "width": 1600,
+        "height": 1211
+      },
+      {
+        "file": "photos/galbiroman/04.jpg",
+        "caption": "Thịt nướng trên vỉ cùng panchan",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJO14tA9hjP8xHjc1QDdTzw-OwQjQy_GfhgEh0xEIWbWkysRMT4jaGWtuB-6qC_HRmU8NugOqxU4LzeIgsr7XIBS4AW9RYWasjVjtsdBJr-rEXpN156xLpPaJnPEx5qpvfQEGURwsYemTG=w1600",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  {
+    "id": "pogeun",
+    "name": "Pogeun – Korean Home Pub (Nguyễn Văn Lộc)",
+    "cuisine": "korean",
+    "subcategory": "Đồ Hàn gia đình / Korean pub, decor xinh",
+    "tagline": "Quán Hàn xinh xỉu, gấu bông đón cửa",
+    "description": "Quán đồ Hàn concept 'Korean home pub' với mặt tiền kính, gấu bông và nhiều góc chụp ảnh. Món được bày chỉn chu: gà chiên sốt, kimbap, cơm lươn, japchae, trứng hấp phô mai. Không gian một tầng rộng, hợp hẹn hò nhẹ nhàng.",
+    "address": "12 dãy 16A3, Làng Việt kiều Châu Âu (ngõ 23 Nguyễn Văn Lộc), Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (Nguyễn Văn Lộc)",
+    "in_aeon": false,
+    "distance_to_aeon": "~5 km đường bộ, ~13–15 phút xe máy",
+    "hours": "Trưa ~10:45–14:15 (T7–CN 10:15–15:00), tối 17:00–21:30/22:00 – nghỉ giữa ca chiều (Google Maps)",
+    "price_range": "200k–300k/người (Google Maps); một review: 2 người ~400k",
+    "signature": [
+      "Gà chiên sốt kem chua / sốt cay",
+      "Kimbap",
+      "Cơm lươn trứng ốp",
+      "Japchae",
+      "Trứng hấp phô mai",
+      "Salad hoa quả Hàn"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 1173,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Pogeun+Nguy%E1%BB%85n+V%C4%83n+L%E1%BB%99c+12+d%C3%A3y+16A3+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“Ấn tượng đầu tiên khi món ra đó là ‘chỉn chu’” – Google review",
+      "“Đồ ăn khá oke, đa dạng, không gian đẹp, thích hợp tổ chức sinh nhật, sống ảo” – Google review",
+      "Lưu ý: “Quán lúc nào cũng khá đông, lên đồ hơi chậm” – Google review"
+    ],
+    "open_evidence": "Google Maps có giờ mở cửa, không gắn cờ đóng cửa; review rải từ 4–8 tháng trước (2026), chủ quán trả lời review gần đây; fanpage 'Pogeun - Hà Đông' hoạt động; Foody có trang chi nhánh.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pogeun+Nguy%E1%BB%85n+V%C4%83n+L%E1%BB%99c+12+d%C3%A3y+16A3+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": "https://www.foody.vn/ha-noi/pogeun-do-han-12-day-16a3-lang-viet-kieu-chau-au",
+      "facebook": "https://www.facebook.com/p/Pogeun-H%C3%A0-%C4%90%C3%B4ng-61555239760913/",
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "trend_notes": "Hay xuất hiện trên Lemon8/TikTok 'ăn gì ở Nguyễn Văn Lộc' nhờ decor gấu bông, khăn bàn hồng. Quán nghỉ giữa chiều (~14:15/15:00–17:00) – cần canh giờ sau phim.",
+    "confidence": "high",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/pogeun/01.jpg",
+        "caption": "Mặt tiền Pogeun với gấu bông trước cửa",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLczXOrbHeM6oFyxy16nFSzfZSIb-41dSCCqd0ttQEkD6rEXRM__JvNBQj1XKFoItFkpwshet_6bf9HJGghpsmDit2wfMSm4CbLsQ-SzOzhhw6DCMYfjXYktATqwyGYIbqY8iPU2=w1600",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "photos/pogeun/02.jpg",
+        "caption": "Bàn tiệc khăn hồng nhiều món Hàn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeRgIr9w1MJaIbvk25qxdwNE-q8glaaneBDXAmx4vzrEl_oR901Dn46AqY_aEIF7RExnu4Zz9meXyqibQ7j69o4Dd65NIfZTyOWRzLovrPMsmhcWKr-GGTVsBlIdXbI48ZhTJ8Ysw=w1600",
+        "width": 1600,
+        "height": 2189
+      },
+      {
+        "file": "photos/pogeun/03.jpg",
+        "caption": "Cơm lươn trứng ốp kiểu Hàn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf1ak_qsma4aRr2d5rZNcIiInat3TKPbJN7YmiGn8K0kbC3yHChqFLqxIqIMw86NOPAMTdktw4GrcM-sIneYIhwB93WphfwStJJwDRl0aXRslDpRM6rmUZp1Jq1VooRcSosAPe_l8HlaH45=w1600",
+        "width": 1440,
+        "height": 1440
+      },
+      {
+        "file": "photos/pogeun/04.jpg",
+        "caption": "Gà chiên sốt và bánh gạo",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdYUWCa0FnkCma5vqzYQnIULqGcsKBnVgtOQBZVQi31bedPXgGsRA99bW_8oCdYpC319VGlhaNLfFvAyr1plnU2w6EgNbqa1KzIfTw2Uo9SrnXgmX_hpPoVstO89cFAziOtKhE_1G2-93w=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  },
+  {
+    "id": "nollowa",
+    "name": "Nollowa Chicken – Mỗ Lao",
+    "cuisine": "korean",
+    "subcategory": "Gà rán Hàn Quốc",
+    "tagline": "Gà rán Hàn giòn rụm, nhà xinh",
+    "description": "Chi nhánh của chuỗi gà rán Hàn Nollowa (thành lập 2006) trong một toà nhà riêng nhiều cây xanh ở KĐT Mỗ Lao. Gà ngoài giòn trong mềm, nhiều vị sốt, kèm tokbokki, mì, salad. Không gian sáng, gỗ ấm, sạch sẽ.",
+    "address": "BT 01-11, Khu đô thị Mỗ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao",
+    "in_aeon": false,
+    "distance_to_aeon": "~4,5 km đường bộ, ~12–15 phút xe máy",
+    "hours": "10:00–22:30 hằng ngày (Google Maps)",
+    "price_range": "~150k–250k/người (Google: phổ biến 200–300k cho bàn)",
+    "signature": [
+      "Gà rán truyền thống",
+      "Gà sốt xì dầu / mật ong / phô mai",
+      "UFO Cheese Chicken",
+      "Tokbokki",
+      "Mì lạnh"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 2809,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Nollowa+Chicken+BT+01+11+M%E1%BB%97+Lao+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“Thịt ngoài giòn trong mềm ngon. Sốt kèm cũng rất ngon” – Google review",
+      "“Quán đẹp và sạch sẽ. Chỉ là chờ hơi lâu.” – Google review",
+      "“Đồ ăn siêu ngon, nhân viên tư vấn nhiệt tình” – Google review"
+    ],
+    "open_evidence": "Google Maps giờ mở cửa bình thường, ~2.800 review, nhiều review 2–5 tháng trước; có liên kết đặt món BeFood đang hoạt động; fanpage Facebook.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Nollowa+Chicken+BT+01+11+M%E1%BB%97+Lao+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100089989945499",
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "trend_notes": "Một trong những quán gà Hàn được review nhiều nhất Hà Đông; khách hay so sánh các quán gà khác với Nollowa. Có 1 review phàn nàn đau bụng – ghi chú để cân nhắc.",
+    "confidence": "high",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/nollowa/01.jpg",
+        "caption": "Toà nhà Nollowa Chicken giữa cây xanh",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcOH6Af0WzxOXuVHrkRxrVEZ5Ly0AxHavgDzH7Uyflxsr4QgSU5GQxh6UMC0b35ZNFhYN_jhgwsjj4tDM_d4Bd_03CcLuvG67O3pY6cNLTRNIEP6vCxISBvL1dR3jQQu_V3pk81OzrevOlr=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/nollowa/02.jpg",
+        "caption": "Không gian bên trong ấm cúng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf6C8cdlwfKufw-Pdci5gJyKd9ZfgJy2bjvdU5KHT7rQufO-7zNtBnx7ktxFade2Lr4zegxhYMmSj4Jpq41QTSfE0uQ0NnNXDQ2h1RM90qiUx5qoXxoCISYFKjwb8VvrYJ1KsKaneWDL5Qf=w1600",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "file": "photos/nollowa/03.jpg",
+        "caption": "Gà rán giòn nhiều vị",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfpQzp6LHMtEX6QpHUkeo7pd1t-oI8qFXAy_q08schkaA1B-WiFKjr8nBrcyrY9w6ZshCkbsOPlGmyVzLZtBSiRbP2sTrovOxd34VXcJO58KZgsjC-o8kPXyiD6NZtRzSnaWOKO553GStQq=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/nollowa/04.jpg",
+        "caption": "Salad gà rán sốt",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfNu02XOzh_djc-XFtoV6I3yJaqhaqAeg_7qbF4WzaoOf6icjYIJ3Gsr0vUB-17ss0xkl2jadnSjQ4NAh-c01rG2EeoFqJ8Y-greL8yBV3oVxnN5b8b6I5J2NJm3BsdRTyJcZMM2R2iZyNB=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  },
+  {
+    "id": "donchicken",
+    "name": "Don Chicken – The Linc Park City",
+    "cuisine": "korean",
+    "subcategory": "Gà nướng lò & gà rán Hàn, pizza Hàn",
+    "tagline": "Gà Hàn nướng lò, gần AEON",
+    "description": "Thương hiệu gà Hàn Quốc nổi tiếng với gà nướng lò ít dầu và gà rán, nằm tầng 2 TTTM The Linc trong Park City – gần AEON nhất trong nhóm quán Hàn ngoài mall. Thực đơn có tokbokki, pizza Hàn, canh rong biển, bia tươi; không gian rộng, sạch.",
+    "address": "Tầng 2, TTTM The Linc, Park City Hanoi, Lê Trọng Tấn, Dương Nội/La Khê, Hà Đông, Hà Nội",
+    "area": "Park City (Lê Trọng Tấn)",
+    "in_aeon": false,
+    "distance_to_aeon": "~3–3,5 km đường bộ, ~8–10 phút xe máy",
+    "hours": "11:00–22:00 hằng ngày (Google Maps)",
+    "price_range": "150k–300k/người (Google: 100–400k)",
+    "signature": [
+      "Gà nướng lò sốt",
+      "Gà rán giòn",
+      "Gà sốt cay hạnh nhân + bánh gạo",
+      "Pizza Hàn",
+      "Tokbokki"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 837,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Don+Chicken+THE+LINC+ParkCity+Hanoi"
+    },
+    "highlights": [
+      "“Không gian quán rộng rãi, thoáng mát, sạch sẽ. Nhân viên phục vụ nhiệt tình” – Google review",
+      "Khách nhận xét gà nướng lò ít dầu, đậm vị (mô tả của nhà hàng trên Google)",
+      "Lưu ý: có review cho rằng gà rán “không hợp khẩu vị” – khẩu vị tuỳ người"
+    ],
+    "open_evidence": "Google Maps giờ 11:00–22:00, review 3 tuần–4 tháng trước; website donchickenhanoi.vn; bài review dearhanoi 8/2025.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Don+Chicken+THE+LINC+ParkCity+Hanoi",
+      "menu": "https://donchickenhanoi.vn/",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://donchickenhanoi.vn/"
+    },
+    "trend_notes": "Gần AEON nhất (cùng trục Lê Trọng Tấn), khu The Linc mới, dễ gửi xe. Cùng tầng có Dong Gogi (buffet nướng, 4.6/150) làm phương án dự phòng.",
+    "confidence": "high",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/donchicken/01.jpg",
+        "caption": "Set món Don Chicken: tokbokki, mì ý, gà",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf_mKwxJjG1QQq-C6e4a2eMlRDpQHoO5O1zCAEGEZbi00aeTvzC9j7SVGrfU0Me_HYIOAaGzM10ljPJqZZvf0ApkRWCEKtAPSM9nXuXo81zD_EuHA1GO-zmnsRNTrM1mbv3YZf1c3-1u0nh=w1600",
+        "width": 1600,
+        "height": 2400
+      },
+      {
+        "file": "photos/donchicken/02.jpg",
+        "caption": "Cửa hàng Don Chicken tại The Linc Park City",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf-8NY-EMIrKmgmAntttTSRuEOKK8p_Ay8Dxx8oczoPEtafJQSk64-Tb4a0faZrxWICGimNR2LpSRh1JbAG9tvsIsw58OUqDy7Un_N6oJpJplyxcUnNm8HHeW2bLpQqVuHBK7I68H4hsnkF=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/donchicken/03.jpg",
+        "caption": "Gà sốt cay hạnh nhân và bánh gạo",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLevy8IDNYbVjJp1RRV6UkrNMka7yzW60y0hGQ580gV37p5PWwv4-Bg5jBRHsumrR0e2Zc22Qe8vFLbnjPjL7-BoTCEyU91lnUmzUGKe2_RwcLRMHPkmk7_t4CxOebsUolO1VebS2VJyYLBf=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/donchicken/04.jpg",
+        "caption": "Pizza kiểu Hàn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdGvPR2SwOFz-VCTPvZpzr9CJlkzyvqXf7O8-8LgQdVl8jHZSVS9PJYyUx3DwxTErF0ZQfSFp-MTkl7qhmdZ3MffKfD4vBrV8efSgtbT1WJTeFlaUQm6pA-Zc4xaGIAvNTEZsvDbrlUSPMk=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  },
+  {
+    "id": "kimmari",
+    "name": "Kim Mari Chicken – Hà Đông",
+    "cuisine": "korean",
+    "subcategory": "Gà rán & món Hàn bình dân",
+    "tagline": "Gà sốt cay, mì lạnh mát lạnh",
+    "description": "Quán gà rán và món Hàn trẻ trung trên phố Nguyễn Văn Lộc, mặt tiền vàng nổi bật. Gà giòn sốt đậm, mì lạnh naengmyeon, mì kem, canh Hàn; giá mềm, phần ăn đầy đặn. Không gian sáng, sạch, hợp bữa nhẹ.",
+    "address": "48 P. Nguyễn Văn Lộc, Làng Việt kiều Châu Âu, Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (Nguyễn Văn Lộc)",
+    "in_aeon": false,
+    "distance_to_aeon": "~5 km đường bộ, ~13–15 phút xe máy",
+    "hours": "10:00–22:30 hằng ngày (Google Maps)",
+    "price_range": "100k–200k/người (Google Maps)",
+    "signature": [
+      "Gà sốt cay + bánh gạo",
+      "Mì lạnh naengmyeon",
+      "Mì sốt kem",
+      "Canh Hàn nồi đá"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 2115,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Kimmari+Chicken+48+Nguy%E1%BB%85n+V%C4%83n+L%E1%BB%99c+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“Gà chiên giòn bên ngoài, bên trong vẫn mềm mọng, sốt đậm đà, vừa miệng, không bị ngấy” – Google review",
+      "“Quán sạch sẽ, các bạn nhân viên cũng nhanh nhẹn” – Google review",
+      "Lưu ý: một review cho rằng hương vị “so với Nollowa thì còn thua một chút”"
+    ],
+    "open_evidence": "Google Maps giờ 10:00–22:30; review 1–5 tháng trước; bài đăng của quán trên Google nhắc khuyến mãi 'đến hết tháng 9/2026' và đang chuẩn bị cơ sở mới – hoạt động rất tích cực.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Kimmari+Chicken+48+Nguy%E1%BB%85n+V%C4%83n+L%E1%BB%99c+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": null,
+      "facebook": "https://www.facebook.com/profile.php?id=61568616977822",
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "trend_notes": "Đang mở rộng chuỗi (post 'NEW STORE LOADING'), hay chạy minigame/quà tặng – kiểu quán đang lên với giới trẻ.",
+    "confidence": "high",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/kimmari/01.jpg",
+        "caption": "Mặt tiền Kim Mari Chicken lên đèn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4UEIUhlOP4BdIyerfdOVEaU-i2JXOHWdJJFR3_h7ArpGK_duQyUrb7dG4YZ4vknBDSbVwBFxKgkQFxQRA7ZSwbSWjRD2YhvqOVcVpwwcf5sdZYUzPkKPSKBLpZTz5UghfxIBEZg=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/kimmari/02.jpg",
+        "caption": "Mì lạnh naengmyeon",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLded1q-PC6LwSPR4eVZc6NepdZrnL7nSQWvBKGCThiJkCpZXXH4-BgxbLQLTTuOr1WSL8pmyUEu8I23hAbQkCPm94ynMeS1H5HhSMffiglN_qcrB72f4BH3gXpyaqUKdxmWvBRLR_iAYEo=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/kimmari/03.jpg",
+        "caption": "Gà sốt cay với bánh gạo",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdr0bpr1-gu-qsLXfvJ1M22Mp94ICDqTmgOskDLPbrqPoCudB_pn9EnGur_bEej3lBkkuT_65OibQBjDKAqo8Z-w_wE7W1MTO7eHWOUllGqM_CWoanQ4D-Cgz2wAi1k0CZTaECaDnfxAetj=w1600",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "file": "photos/kimmari/04.jpg",
+        "caption": "Không gian sáng sủa nhiều bàn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc7imLU7cox2QLn81nLm2siiOYMqGh615HQ3lMvYS5gv3MTu0s64unBVS6c55PRGaFP4aGGrct3GP6PxrT-xr-m7vny91hYyk-CU09j91RY15MrO8Qvp53gngZ4QeYXY09g8bqmU8dQw8Y9=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  },
+  {
+    "id": "meatplus",
+    "name": "Meat Plus – AEON Mall Hà Đông",
+    "cuisine": "korean",
+    "subcategory": "Nướng Hàn gọi món (bò Mỹ, than Bijang)",
+    "tagline": "Bò Mỹ nướng than ngay trong AEON",
+    "description": "Nhà hàng nướng Hàn gọi món dùng bò Mỹ và than, nhân viên nướng hộ tại bàn; có quầy salad/panchan. Nằm tầng 2 AEON, tiện ăn trước hoặc sau phim, không gian ghế da, đèn ấm.",
+    "address": "Gian T269–270, Tầng 2, AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Dương Nội (trong AEON)",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON Mall Hà Đông (tầng 2)",
+    "hours": "11:00–22:00 (thứ Năm từ 10:00) (Google Maps)",
+    "price_range": "300k–500k/người (Google Maps & dearhanoi); combo trưa từ ~120k",
+    "signature": [
+      "Dẻ sườn bò Mỹ 'Hoàng Đế'",
+      "Thăn bò Mỹ",
+      "Sườn bò ướp",
+      "Canh sườn bò",
+      "Mì lạnh"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 357,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Meat+Plus+Aeon+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“Chất lượng thịt vẫn được giữ nguyên như các cơ sở khác tươi ngon mọng nước” – Google review",
+      "“Nhân viên phục vụ tận tâm, nướng hộ mình từ đầu tới cuối” – Google review",
+      "Lưu ý: “không gian quán hơi bí và ồn ào vì trong khu ăn uống của TTTM”"
+    ],
+    "open_evidence": "Google Maps giờ mở cửa bình thường; review 6–12 tháng trước, chủ quán phản hồi review; fanpage meatplus.aeonhadong.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Meat+Plus+Aeon+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": "https://www.facebook.com/meatplus.aeonhadong/",
+      "facebook": "https://www.facebook.com/meatplus.aeonhadong/",
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "trend_notes": "Lựa chọn nướng Hàn 'sang' nhất trong AEON; King BBQ (4.3/549, buffet) là phương án đông vui hơn.",
+    "confidence": "medium-high",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/meatplus/01.jpg",
+        "caption": "Không gian ghế da tại Meat Plus AEON",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc4ZKnX4R2E5FtYO53VilMrc2UBRF1dEFeQXKSJkgHvc1Rvkv0zx4Ts4ILSnroGUYy3Qx3l6ksOBVIRsZN7PCYc6pKkjV7BAB49VoSG_Zkx6CCRi7X9GEq96JGTI40WlGarvVadX7kpFIzp=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/meatplus/02.jpg",
+        "caption": "Vỉ nướng than cùng bò Mỹ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfxTBEfkpRcqU45AG8Y-urv_Y5i39JWYeY1zoeyHsbbMIPnjozJpF-putQGSv7u6eGsPLPXxBpAUTgzPGPW8OYy-UZDHKlXI5Jm8pyyv_55HI32ZmiSB5zxQPQy7KHJdemfxeONkRCCg5k=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/meatplus/03.jpg",
+        "caption": "Dẻ sườn bò Mỹ tươi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeQvjlkC7ErYf0q61FQJcgz5fFyGvjO1y6IQoCKMC1s1E3TWv-Ozt0ftS1gdyl1txXrnRFLe5krK297bj6weVYqZ2Srft3hpFmbOeKi6qnfvXp2j5n9zk7n9kCXVG2ncpxO5Sk3VjRvfh0X=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/meatplus/04.jpg",
+        "caption": "Panchan và rau cuốn đi kèm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdgqJn9xCGCGjSpqAqRDn82sQqq2HLCWRByDu09KaFbZZtAnsre4PzGdegcBLekwhbnQrceV-2MhO9fkRmiIxYkwo-f4OlzaDA10oRXBKI4Yq6uFTPq0kYhDL4UQY_UxM8cgH81uIOOiA8X=w1600",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  {
+    "id": "dookki-aeon",
+    "name": "Dookki – AEON Mall Hà Đông",
+    "cuisine": "korean",
+    "subcategory": "Buffet lẩu tokbokki",
+    "tagline": "Lẩu tokbokki tự chọn vui vẻ",
+    "description": "Buffet lẩu tokbokki tự pha sốt, hơn 30 topping (bánh gạo, chả cá, xúc xích, gà rán), cuối bữa rang cơm kim chi phô mai trong nồi. Giá dễ chịu, vui và tương tác – hợp buổi hẹn trẻ trung trong AEON.",
+    "address": "TTTM AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Dương Nội (trong AEON)",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON Mall Hà Đông",
+    "hours": "10:00–22:00 hằng ngày (Google Maps)",
+    "price_range": "~139k–169k/người (chưa VAT; dearhanoi/emdoi 2025)",
+    "signature": [
+      "Lẩu tokbokki tự pha sốt",
+      "Bánh gạo nhân phô mai",
+      "Gà rán",
+      "Cơm rang kim chi phô mai cuối nồi"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 2494,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=DOOKKI+AEON+MALL+H%C3%80+%C4%90%C3%94NG"
+    },
+    "highlights": [
+      "“Quán rất mát mẻ, sạch sẽ. Đồ ăn ngon, nhân viên siêu cấp cute đáng yêu” – Google review",
+      "“fill đồ nhanh, liên tục nên đồ ăn lúc nào cũng nóng giòn” – Google review",
+      "Lưu ý: có review phản ánh vệ sinh (côn trùng) – điểm trừ cần cân nhắc"
+    ],
+    "open_evidence": "Google Maps giờ 10:00–22:00, review 2–6 tháng trước (2026); website dookkivietnam.com.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=DOOKKI+AEON+MALL+H%C3%80+%C4%90%C3%94NG",
+      "menu": "https://dookkivietnam.com/",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://dookkivietnam.com/"
+    },
+    "trend_notes": "Rất đông khách trẻ; cũng có Dookki The Linc Park City (4.7/2.092). Phong cách buffet ồn – hợp buổi vui hơn là lãng mạn.",
+    "confidence": "high",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/dookki-aeon/01.jpg",
+        "caption": "Lẩu tokbokki cùng gà rán",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcAselqIqxZUGZFkHofJO59MQyuyY_qZfQw_D491kfJuMcHhItQ6gtacWRxSirp8GeHI90XEXJmvMNwljaDpG3rxm8hmdHSEoQtF61xGpSW8BrcJTcOhuJXcxj6H3oeTTUjlkhb49L34p2k=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/dookki-aeon/02.jpg",
+        "caption": "Lẩu tokbokki nhiều topping",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeDa2hzLr0Cd15oHBr02WOwKpA3JCii8CfOHgv738oFoj5VGo1DJtiG0_v9lbpOe8AJB8PJuuUbeNIzj5XbUtlRPzLoR_0MJg3QVrWsfHutbOLlIh0Y3KzkgpnLJRU-Lyr4RSu0fnIPupS1=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/dookki-aeon/03.jpg",
+        "caption": "Lẩu tokbokki hải sản",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfRF7T2C7_BCo0aKYlBFxxpXpjmSML3w1OYP9Yxqa-ztutnqnDsV1fVTVhU6WCIAO_KmVFQoLuqw_Jk_o5QXcpySzq6FCiT1TLelcHDnE-MRHuAMJwUt86eDMuBYwESZIBhlspA-8G3D37X=w1600",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "file": "photos/dookki-aeon/04.jpg",
+        "caption": "Quầy buffet Dookki tại AEON",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcN8r6cL391vaf3ma38Kj02NiAMEq5KNP3OvCRt1P6k1Q7agEu63-32Bb58sf5n8JboLj2S7BDQm9SGrGOBymfJPLQFQvQnV1K-OBe0ftwWadtxkQcqY9QaLO1HJv2WbQsdgGctb2vt0UB1=w1600",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "id": "khrua-nvl",
+    "name": "Khrua Baan Thai – 155 Nguyễn Văn Lộc",
+    "cuisine": "thai",
+    "subcategory": "Nhà hàng Thái hiện đại (fusion)",
+    "tagline": "Bangkok thu nhỏ giữa Hà Đông",
+    "description": "Chi nhánh Hà Đông của chuỗi Khrua Baan Thai, không gian rộng, sáng, nội thất gỗ – đá hiện đại. Món Thái bày đẹp: pad thái tôm sú trứng lòng đào, gỏi hải sản, thịt heo nướng, xôi xoài. Độ cay vừa phải, dễ gọi nhiều món chia nhau.",
+    "address": "155 P. Nguyễn Văn Lộc, Làng Việt kiều Châu Âu, Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (Nguyễn Văn Lộc)",
+    "in_aeon": false,
+    "distance_to_aeon": "~5 km đường bộ, ~13–15 phút xe máy",
+    "hours": "10:30–21:30 hằng ngày (Google Maps)",
+    "price_range": "100k–300k/người (dearhanoi; Google 200–300k)",
+    "signature": [
+      "Pad Thái tôm sú",
+      "Mì cua / mì tôm hùm",
+      "Gỏi hải sản Thái",
+      "Thịt heo nướng",
+      "Xôi xoài",
+      "Trà Thái"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 1194,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Khrua+Baan+Thai+155+Nguy%E1%BB%85n+V%C4%83n+L%E1%BB%99c+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“Đồ ăn ngon, hợp lý, bày biện đẹp... Mình vẫn cho trải nghiệm ở quán 9 điểm” – Google review",
+      "“Đồ ăn ngon, nhân viên phục vụ nhiệt tình” – Google review",
+      "Lưu ý: vài review chê tháp sườn mặn/cay và xôi hơi nhão"
+    ],
+    "open_evidence": "Google Maps giờ 10:30–21:30, review 1–10 tháng trước; website chuỗi khruabaanthai.com.vn liệt kê chi nhánh 155 Nguyễn Văn Lộc (finhay review 2026).",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Khrua+Baan+Thai+155+Nguy%E1%BB%85n+V%C4%83n+L%E1%BB%99c+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": "https://khruabaanthai.com.vn/kbt-menu/",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://khruabaanthai.com.vn/"
+    },
+    "trend_notes": "Chuỗi Thái được review nhiều nhất Hà Nội; cơ sở Hà Đông 1.194 review. Có chi nhánh trong AEON (xem khrua-aeon).",
+    "confidence": "high",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/khrua-nvl/01.jpg",
+        "caption": "Không gian sáng, hiện đại tại cơ sở 155 Nguyễn Văn Lộc",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeiBf45i5GCyIaeWmJSKQyhEQXVVI4zUEN9JjyJxWY3eYpVaHDxJGdReADw-10SxQUk7K-koGy5JSmDHiHDzu0VaLH7F38f0Je8u-ocmr4IOe9NFVdQe8W_1lfpKgqqdnZd3E2EyQ198JY=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/khrua-nvl/02.jpg",
+        "caption": "Pad Thái tôm sú với trứng lòng đào",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfGKsg_9h3LGCumET0hpPimAAhTRAT91-JcR7VJt0LP6OYWz0eyUQ50bAyWdkqBcVZnvxBJiZ-6JmmqAocwFLrl-R6UXlozAIugzFbPjQYhYAFRCQkD6F1NuNqXxTMfGgdUnF6l8O09NeA=w1600",
+        "width": 1440,
+        "height": 1440
+      },
+      {
+        "file": "photos/khrua-nvl/03.jpg",
+        "caption": "Xôi xoài cốt dừa tráng miệng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcEht1KpMB-7HT0V8qniOxsirBaAot1UPsbDNNQIKpblkhfsHf76-AX6ny88YUWbZVLJ_H263Rbv2MhDRGAC7g5MVwVohW5lAZNDS6Hoy3Ox6kLD5pSBtDfuPqfKkQ4fm23X9PbPAHqWjU=w1600",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "file": "photos/khrua-nvl/04.jpg",
+        "caption": "Gỏi hải sản kiểu Thái",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdLOl7wnICBhSGI_IpiMrdnk7sFK9kp1_UsUSVV1KXGx4K7cYdXsn7WZpvLRm8B1pRhwE8jGsb6OURItoV0cZXYhY4x1iSyJ7WaKuhcBcjil65QNMhPBrfmQcefdak3PxDzyLut-ujnZ1GY=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  },
+  {
+    "id": "khrua-aeon",
+    "name": "Khrua Baan Thai – AEON Mall Hà Đông",
+    "cuisine": "thai",
+    "subcategory": "Nhà hàng Thái hiện đại (trong mall)",
+    "tagline": "Pad thái thơm lừng sau buổi phim",
+    "description": "Chi nhánh Khrua Baan Thai trong AEON Mall Hà Đông với biển 'Modern Thai Cuisine', đèn ấm và cờ Thái trang trí. Món Thái quen thuộc: pad thái, gỏi tôm, thịt nướng chấm Jaew, lẩu xương bò Thái. Rating Google rất cao, tiện nhất nếu xem phim CGV.",
+    "address": "TTTM AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Dương Nội (trong AEON)",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON Mall Hà Đông",
+    "hours": "Theo giờ TTTM (~10:00–22:00) – Google chưa ghi giờ, nên kiểm tra",
+    "price_range": "~150k–350k/người (Google: 300–400k cho bàn)",
+    "signature": [
+      "Pad Thái tôm",
+      "Miến trộn tôm cay",
+      "Thịt heo nướng chấm Jaew",
+      "Lẩu xương bò Thái",
+      "Đậu que xào"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 660,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Khrua+Baan+Thai+AEON+Mall+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“Đồ ăn ngon dễ ăn, nhân viên phục vụ tốt” – Google review",
+      "“Đồ ăn ngon nv chu đáo nhiệt tình” – Google review",
+      "Lưu ý: một review thấy vị chưa bằng cơ sở Liễu Giai, xôi xoài hơi ướt"
+    ],
+    "open_evidence": "Google Maps listing do chủ quản lý, review dày đặc 1–3 tháng trước (≈7–9/2026); website chuỗi.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Khrua+Baan+Thai+AEON+Mall+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": "https://khruabaanthai.com.vn/kbt-menu/",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://khruabaanthai.com.vn/"
+    },
+    "trend_notes": "Chi nhánh tương đối mới trong AEON (review tập trung 2026); 4.9★ có thể phần nào do chương trình mời đánh giá – vẫn là lựa chọn Thái tốt nhất trong mall.",
+    "confidence": "medium-high",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/khrua-aeon/01.jpg",
+        "caption": "Không gian Khrua Baan Thai tại AEON Mall Hà Đông",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcf3sAI6YQ61BjOShvvLHrpnJ2lnryYLYA_hXgWA2xt0VyJCmZcvEYVz747Ii8KUNYXJWb47doT6qyaFfc1BU3YQMB8DMkmWk7i2richjvMGR0DAaqhKuUp7eIpFEwcc1B_1fpzDpBpX7fR=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/khrua-aeon/02.jpg",
+        "caption": "Mâm món Thái: pad thái, gỏi, thịt nướng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdf2Q6NRaKwxsWOzysJXomjsx9_VVTorrXFNswKAPI6j41w4AzoqSsg5Q_seWh5rseA0auALdhNXOrQ_w7op8Tzntif1m4EfyMLUa6hcELhOL56rmSpEVNCQCMIbTLyViozI6agJc1nsyk=w1600",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "file": "photos/khrua-aeon/03.jpg",
+        "caption": "Gỏi tôm chua cay kiểu Thái",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLepaNExZ8ZAj3V84ihLBMVOEMldhL3Z7YGI03R3CwCr0-Nh-hQX_7OvcwMM3cIkZb4rh0bUfih21xNTLWMn9y6r5MpddbsZ1xC0yaTx7bONxKO77aiXa3NAsaO8gdLDMkQShvYseZPvpnI=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/khrua-aeon/04.jpg",
+        "caption": "Thịt heo nướng chấm sốt Jaew",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeMFIavOzBsrq_oOn3O2DHFfM7NoblUq5FmCk_dNN5jbbpYYrWgo9AJEZ8EJ9F-j4nuUWe7Ud2nN0rrOWr4sKFTgseaT_y-2yYcf6pn3CTjJ0JXltGFV36iRqgxN7PrPeU4y_G0iWC86wY=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  },
+  {
+    "id": "thailathaila",
+    "name": "Thái La Thái La",
+    "cuisine": "thai",
+    "subcategory": "Lẩu Thái & món Thái – sân vườn đèn lồng",
+    "tagline": "Lẩu Thái dưới vườn đèn lồng",
+    "description": "Quán lẩu Thái mới với sân vườn treo đèn lồng nhiều màu, mái ngói và cây xanh – không gian buổi tối rất lãng mạn. Nước lẩu Thái đậm, topping đa dạng (bò, hải sản, tiết pudding). Phục vụ được khen nhiệt tình; giá hợp lý.",
+    "address": "18 Ngõ 2 Quang Trung, Hà Đông, Hà Nội",
+    "area": "Quang Trung (trung tâm Hà Đông)",
+    "in_aeon": false,
+    "distance_to_aeon": "~4 km đường bộ, ~10–12 phút xe máy (đường chim bay ~3,1 km)",
+    "hours": "09:00–24:00 hằng ngày (Google Maps)",
+    "price_range": "200k–400k/người (Google); review: 2 người ăn no ~700k",
+    "signature": [
+      "Lẩu Thái Tomyum",
+      "Bò Mỹ / hải sản nhúng lẩu",
+      "Tiết pudding",
+      "Món Thái gọi kèm"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 304,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Th%C3%A1i+La+Th%C3%A1i+La+18+Ng%C3%B5+2+Quang+Trung+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“Đồ ăn ngon, không gian ấm cúng. Nhân viên thì đáng yêu và nhiệt tình quá trời” – Google review",
+      "“không gian đỉnh chóp, quán đầu tư làm ăn lâu dài” – Google review",
+      "Lưu ý: hôm mưa phải chờ bàn ~30 phút; có người thấy nước lẩu hơi mặn"
+    ],
+    "open_evidence": "Google Maps giờ 09:00–24:00, review 1–8 tháng trước, chủ quán trả lời review đều; fanpage Facebook (lập ~2025, 1.5K follower); bài Threads giới thiệu quán.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Th%C3%A1i+La+Th%C3%A1i+La+18+Ng%C3%B5+2+Quang+Trung+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": null,
+      "facebook": "https://www.facebook.com/p/Th%C3%A1i-La-Th%C3%A1i-La-61579956790328/",
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "trend_notes": "Quán mới nổi 2025–2026, được Threads/FB gọi là 'lẩu Thái ngon nhất khu Hà Đông'; không gian đèn lồng rất ăn ảnh – nên đặt bàn tối thứ Bảy (0918 212 061 theo fanpage).",
+    "confidence": "medium",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/thailathaila/01.jpg",
+        "caption": "Sân vườn treo đèn lồng rực rỡ buổi tối",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeP35vnJcZann9NIMS5hx2l9HpvJv6GuwJYikxJLdvCqEjY1gGQY8u7LscPGyD02osy6vpQk4Vl1N_4gnI-16t6dD0UnWHzMWDvU0IPKvoo4LHN1lTR-a0ywyCvv_p09Eta7YIv422DHDdR=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/thailathaila/02.jpg",
+        "caption": "Mặt tiền quán nhìn từ trên cao",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeKstQGVtFM245Kw2FzT957gcaSsCnB6L6H5aAXgJDR_jAR9uln4mL9wi1ef2DNP1V_W1udVNYZjQC9BeCq8vUFhoDUwHp6NF-1B3sjRKQfXNMssZ9alf37uM_FrsMCyHW4hupd1KiW-tP3=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/thailathaila/03.jpg",
+        "caption": "Nồi lẩu Thái đỏ cam cùng topping",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd19m6bLkwbUMo-j3MVrPLqdKb8ra0zT_nxjmWTlPXlBkVtO0P8ub9F0hw18pI_NUcwRgHq7-S9fleWXZH62WPZ01TJgFn-CqC4wqRJkG2BepEjeKMSU18l2tcAWGg0Kjx9r_R_qQdldRXl=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/thailathaila/04.jpg",
+        "caption": "Góc bàn có hoa và đèn lồng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdDMsZvQ1RJNFzVGxGAZ7xqvRrXwR3ojLBfnRscRHlhKcnf6j9pQDVntqdz4aEoQrEpA21mEp90qrOU7137Hb5N9h4eXLi-4gqwdA4aAU93a-MNYwe0FqtNaRJKLcjzLwc2HrmOMUdjMwHV=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  },
+  {
+    "id": "omgthai",
+    "name": "OMG Thai – Nguyễn Văn Trỗi",
+    "cuisine": "thai",
+    "subcategory": "Thai street food bistro",
+    "tagline": "Tomyum đầy tôm, gà Thái giòn",
+    "description": "Quán Thái phong cách street-food hiện đại, mặt tiền trắng có bàn ngoài trời. Lẩu tomyum hải sản đầy topping, pad thái, mì mama, gà chiên sốt Thái và xôi xoài; phần ăn đầy đặn. Quán không quá đông, khá chill.",
+    "address": "P. Nguyễn Văn Trỗi / 195 P. Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao",
+    "in_aeon": false,
+    "distance_to_aeon": "~4,5–5 km đường bộ, ~12–15 phút xe máy",
+    "hours": "09:30–23:00 hằng ngày (Google Maps)",
+    "price_range": "100k–250k/người (Google: 100–300k)",
+    "signature": [
+      "Lẩu Tomyum hải sản",
+      "Pad Thái bò",
+      "Mì Mama",
+      "Gà chiên sốt Thái",
+      "Xôi xoài",
+      "Khoai tây sốt phô mai kem hành"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 637,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=OMG+Thai+Nguy%E1%BB%85n+V%C4%83n+Tr%E1%BB%97i+M%E1%BB%99+Lao+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“Con tôm rất to... Mình gọi tomyum và pad thái đều rất ngonnnn” – Google review",
+      "“Quán kh quá đông nên mk thấy chill chill” – Google review",
+      "Lưu ý: có khách theo review TikTok thấy chưa xứng giá"
+    ],
+    "open_evidence": "Google Maps giờ 09:30–23:00, review 2–7 tháng trước; fanpage thaiomgvietnam hoạt động.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=OMG+Thai+Nguy%E1%BB%85n+V%C4%83n+Tr%E1%BB%97i+M%E1%BB%99+Lao+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": null,
+      "facebook": "https://www.facebook.com/thaiomgvietnam",
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "trend_notes": "Từng được TikTok review nhiều (món khoai sốt phô mai); đánh giá chia hai nhưng đa số tích cực.",
+    "confidence": "medium-high",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/omgthai/01.jpg",
+        "caption": "Mặt tiền OMG Thai phố Nguyễn Văn Trỗi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdcPURFBUmSJMp1CAu8sh-NvmDocPiWvkr2HRLO7uf3Io2W7rRgm0dG0yaV2mF3GvyWIBukpyojput3eyAbecH88nQWMgIoPKGHRSfY3ErdRcgDfNf9DkklzX5mgbpNKzz7thNLqo8TmLo=w1600",
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "file": "photos/omgthai/02.jpg",
+        "caption": "Lẩu Tomyum hải sản đầy topping",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcYZq1vPPPMx5QS3gGkfw1SfVjnUW7tvSv7PlICs13zbJo3n_6074WngPiYtnWVdMM-2sWPXQbcDM9BcwsCjr2kS2ud3UN1ASmIH__W-vSdXEsP6k6-FyvoHAmiPRWdfnEa_sWsp-aKBF8E=w1600",
+        "width": 1600,
+        "height": 2120
+      },
+      {
+        "file": "photos/omgthai/03.jpg",
+        "caption": "Gà chiên sốt kiểu Thái",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcNcfjLsWsITTB8rrvYVJgbwTz84Cju88IPfAcXavfzp1_qGCLI4YqN4NVbseWy5CvLQdBNi8Wxbt-65wONhK46xjH-Er85PRHgTG11STwUBlyiFsszh5TUYnhaURm5wN4FKxV47G8R9fea=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/omgthai/04.jpg",
+        "caption": "Bàn món: gỏi, xôi xoài, tomyum",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfenw-mSTwU9Ye9EByY5MJ2z3wR1RSLP3JiIfdKzr6xsOEpV1ICPLQDVzbc3ACJrZvZuInzUynKoakW1QQPYgBDJkLWK1gt1d00PZvYYICQ-oGsdUHEvGEZ7GCPVCd390LmSa-OBdv6nvsP=w1600",
+        "width": 1600,
+        "height": 2844
+      }
+    ]
+  },
+  {
+    "id": "kohyam-nvl",
+    "name": "Bếp Thái Koh Yam – Nguyễn Văn Lộc",
+    "cuisine": "thai",
+    "subcategory": "Lẩu Thái & món Thái (chuỗi)",
+    "tagline": "Lẩu tháp sườn Thái nghi ngút",
+    "description": "Chi nhánh chuỗi Bếp Thái Koh Yam (9 cơ sở Hà Nội), không gian tone kem, ghế gỗ, sạch. Nổi bật lẩu tháp sườn/xương bò, lẩu Thái, phở xào, gỏi xoài cá trê giòn. Vị đã điều chỉnh hợp khẩu vị Việt.",
+    "address": "137 P. Nguyễn Văn Lộc, KĐT Mỗ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (Nguyễn Văn Lộc)",
+    "in_aeon": false,
+    "distance_to_aeon": "~5 km đường bộ, ~13–15 phút xe máy",
+    "hours": "11:00–22:00 hằng ngày (Google Maps)",
+    "price_range": "70k–250k/món; ~200k–300k/người (Google/dearhanoi)",
+    "signature": [
+      "Lẩu tháp sườn / xương bò Thái",
+      "Lẩu Tomyum",
+      "Phở xào Thái",
+      "Gỏi xoài cá trê giòn",
+      "Đậu que xào"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 858,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%BFp+Th%C3%A1i+Koh+Yam+137+Nguy%E1%BB%85n+V%C4%83n+L%E1%BB%99c+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“mấy đồ bọn mình order đều xuất sắc á... Sườn mềm ngon, đậu que giòn” – Google review",
+      "Dearhanoi: cư dân Hà Đông coi đây là quán Thái 'ruột', khen gỏi xoài cá trê",
+      "Lưu ý: vài review gần đây chê giá cao so với lượng, phục vụ chậm"
+    ],
+    "open_evidence": "Google Maps giờ 11:00–22:00, review 1–5 tháng trước; website kohyam.vn.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%BFp+Th%C3%A1i+Koh+Yam+137+Nguy%E1%BB%85n+V%C4%83n+L%E1%BB%99c+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": "https://kohyam.vn/",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://kohyam.vn/"
+    },
+    "trend_notes": "Chuỗi quen thuộc, ổn định nhưng review gần đây lẫn lộn hơn Khrua Baan Thai cùng phố.",
+    "confidence": "medium",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/kohyam-nvl/01.jpg",
+        "caption": "Không gian tone kem ấm áp",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVAant4UpoSPHrNMrNgFk7bInzwpzqDe7DhMZLVtljKdXVmNSjQiWU7yDyw4XmNII2nAChPDu_z5XmPGS2EaaNmcmCWyCrT-ITmVrXeztMKoXdLUjruPa7syAb_sYmysmqirkpHWBb1_gt=w1600",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "file": "photos/kohyam-nvl/02.jpg",
+        "caption": "Mặt tiền Bếp Thái Koh Yam 137 Nguyễn Văn Lộc",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTT3lBfM7RPjcgMUr920vfKhRlB9EDyWeBHDtLoliBdorLKKJbF6P9TraSmbkzoFs1fSwNM-JFgnuwhvSuEP48t_N-BPrp5qGkPRY6yGWxcUCO4VxsxOQfp3uiDe1ao5c-RYlVXVwVd7k1=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/kohyam-nvl/03.jpg",
+        "caption": "Phở xào kiểu Thái",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf9VaWLZzoaEydQqVTFweZ-kQRhFaZMKYGhnxkd9O_uszuK1oppEw3Y7vLQ_X792Kf-wrL_YsmqMmA2bMBvT6SmpUK-3GvnCStUFFHxbStv-G8M3kEICRw31g3EYw2--MFFepnl1SWlQd4=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/kohyam-nvl/04.jpg",
+        "caption": "Lẩu tháp sườn bò Thái",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcJrzjpPsKfvQRYaPAsD7ps3zQDRlskp6ur9SgiAj4c4fU9uvztx3G9mkYbblgng4riUe08rjNLAvgTL_EfDcVXnaT9Di38p0dTt7xrPGgh0vdiQki0LjV2hAQwg_rcG22tW2njuTsxw9Q-=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  },
+  {
+    "id": "thaiexpress-aeon",
+    "name": "ThaiExpress – AEON Mall Hà Đông",
+    "cuisine": "thai",
+    "subcategory": "Nhà hàng Thái (chuỗi, trong mall)",
+    "tagline": "Tomyum cay nồng ngay cạnh rạp",
+    "description": "Chi nhánh chuỗi ThaiExpress tầng 2 AEON, không gian rộng, đèn thả, ghế mây – sạch và hiện đại. Lẩu tomyum chua cay, gà nướng, gỏi hải sản, cơm gà Thái. Phương án dự phòng tiện lợi trong mall.",
+    "address": "Lô T261, Tầng 2, AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Dương Nội (trong AEON)",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON Mall Hà Đông (tầng 2)",
+    "hours": "10:00–22:00 hằng ngày (Google Maps)",
+    "price_range": "49k–369k/món; ~200k–350k/người",
+    "signature": [
+      "Lẩu Tomyum",
+      "Gà nướng Thái",
+      "Gỏi hải sản",
+      "Cơm gà Thái"
+    ],
+    "rating": {
+      "score": 4.0,
+      "count": 290,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Thai+Express+Aeon+Mall+H%C3%A0+%C4%90%C3%B4ng"
+    },
+    "highlights": [
+      "“Nhà hàng rộng rãi, sạch sẽ. Đồ ăn ngon và đội ngũ nhân viên phục vụ luôn nhiệt tình” – Google review",
+      "Dearhanoi: khách quen khen lẩu tomyum vị chua cay cân bằng, tôm to tươi",
+      "Lưu ý: nhiều review phàn nàn phục vụ chậm giờ cao điểm cuối tuần"
+    ],
+    "open_evidence": "Google Maps giờ 10:00–22:00, review 4–7 tháng trước; website thaiexpress.vn.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Thai+Express+Aeon+Mall+H%C3%A0+%C4%90%C3%B4ng",
+      "menu": "https://thaiexpress.vn/",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://thaiexpress.vn/"
+    },
+    "trend_notes": "Rating thấp nhất nhóm Thái (4.0); chỉ nên chọn nếu muốn ở hẳn trong AEON và Khrua Baan Thai AEON kín bàn.",
+    "confidence": "medium",
+    "category": "food",
+    "photos": [
+      {
+        "file": "photos/thaiexpress-aeon/01.jpg",
+        "caption": "Không gian ThaiExpress tại AEON Hà Đông",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcFLFjYnDwBg3_3WKXwhwDqnGmFMgDyMOdoEIymyUsIdTxOZ_1a02PuJkE2JTHWwdqRpmkqSvqspSB5XI9eqCDQ2Kyagbz5ZeI9Cw4IxvS6jOqisWByPAEadRs4N3PYYuheg44fjUw_nLc=w1600",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "file": "photos/thaiexpress-aeon/02.jpg",
+        "caption": "Lẩu Tomyum chua cay",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeyOLqIDtUCvFtWBXBcTMraFDXSwqMdci7AST7rJqWfQtv_tizfgO3M0fj_pqFpoSJo95_efcowryPpGlQAcqScP2yJJNKAz6ucsS0iFvEmlgVOMr6PHQ-IkDJqRqnqjpJSd90iDZKlmCU=w1600",
+        "width": 1242,
+        "height": 707
+      },
+      {
+        "file": "photos/thaiexpress-aeon/03.jpg",
+        "caption": "Gà nướng kiểu Thái ăn kèm rau thơm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLflnFcoQVdoq4FwLI7QJlrpEL4v9h810LKxu5R2GZPqSVnVdPIPab8JPcv38y48bpmnVMUyalFmB9crvy7DCIPx9Qh7AF5LeEzH5-0WUPvc8TpICeBccKwHPWUVcY-qfzgx_fFmECjdEwLH=w1600",
+        "width": 1276,
+        "height": 956
+      },
+      {
+        "file": "photos/thaiexpress-aeon/04.jpg",
+        "caption": "Gỏi hải sản Thái",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeoMKJVLqZP-ccSyb0pvbREIcNrFuoplrlriWvE19ktBgR3C8qedCV1XEdUBcH6EOGU3eoALpdXWjlu9MFan8L0oryqvKPyxghQyl_F50rRa751iou8cFzwQKMnka9cm3SkqqvMeYgOxYNG=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  }
+]

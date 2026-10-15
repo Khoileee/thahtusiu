@@ -1,0 +1,1097 @@
+[
+  {
+    "id": "ken-coffee-dai-mo",
+    "name": "Kén Coffee Đại Mỗ",
+    "category": "cafe",
+    "subcategory": "indoor aesthetic + sân vườn",
+    "tagline": "Địa Trung Hải ngay cạnh AEON",
+    "description": "Không gian rộng theo phong cách Địa Trung Hải pha wabi-sabi: tường vàng kem, cửa vòm, trần gỗ, bình hoa lớn giữa sảnh. Có cả sảnh trong nhà và hiên/sân ngoài trời nhiều cây; đi bộ hoặc chạy xe vài phút là tới từ AEON.",
+    "address": "VL 10, Khu đô thị FLC Garden City, Đại Mỗ, Hà Nội",
+    "area": "FLC Garden City (đối diện/ngay cạnh AEON)",
+    "coordinates": {
+      "lat": 20.9915156,
+      "lng": 105.7537838
+    },
+    "distance_to_aeon": "~0.4 km đường đi (ước tính), ~3 phút xe máy; có thể đi bộ ~5–8 phút",
+    "hours": "07:00–23:00 hằng ngày (Thứ Bảy 17/10: 07:00–23:00)",
+    "price_range": "Google Maps: 1–100.000 ₫/người; đồ uống + bánh tầm trung, khách nhận xét \"giá rổ hợp lý\"",
+    "signature": [
+      "Bơ già dừa non",
+      "Cà phê & trà đậm vị",
+      "Matcha latte",
+      "Bánh crepe/mousse"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 178,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=6836221014894867044"
+    },
+    "highlights": [
+      "\"Quán rộng cực, phong cách địa trung hải và wabi sabi nên chill lắm, có cả chỗ ngồi trong nhà và ngoài trời\"",
+      "\"Quán rất đẹp, góc nào cũng xinh, nhân viên nhiệt tình\"",
+      "\"Quán mát, nước ngon, view đẹp\""
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa ghi cho đúng ngày 17/10/2026 (07:00–23:00), không có cờ đóng cửa; 5 đánh giá \"một tháng trước\" (~9/2026), 3 đánh giá \"2 tháng trước\". Chủ quán đã xác nhận listing.",
+    "links": {
+      "maps": "https://maps.google.com/?cid=6836221014894867044",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=K%C3%A9n%20Coffee%20%C4%90%E1%BA%A1i%20M%E1%BB%97%20VL%2010%2C%20Khu%20%C4%91%C3%B4%20th%E1%BB%8B%20FLC%20Garden%20City%2C%20%C4%90%E1%BA%A1i%20M%E1%BB%97%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": "https://www.facebook.com/share/1BuvB3jmgp/?mibextid=wwXIfr",
+      "instagram": null,
+      "tiktok": null,
+      "website": null,
+      "menu": null
+    },
+    "photos": [
+      {
+        "file": "photos/ken-coffee-dai-mo/01.jpg",
+        "caption": "Sảnh chính trần gỗ, bình hoa lớn và cửa vòm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLegv1Ce6ldu3ciPGxXrh_SMxiAB5pRzYI6kpO_983NImtu_b8YL6xU1iqWM0s2sMpCxNsQLoae6uLV2XdvS26yWagTkaD2LuD9D22yNwzrI8kth4ML5068zt1RPw6dAYylxM-GHFkmPqieT=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/ken-coffee-dai-mo/02.jpg",
+        "caption": "Hiên ngoài trời lát đá, nhiều cây xanh",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcvXHa8VFy4TED4U4En4yUgyy2IddzqiJWtyXI94NJYXvh3tYFYqnDuRCGAxAk2wmFfJhd9JTan18MaFBHIAYfQVa1XgjC348H8MCm8K9Juavbl1SYGKTTqKGeWyw4tYfG66Uk0Au-NVLky=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/ken-coffee-dai-mo/03.jpg",
+        "caption": "Góc cửa vòm gạch đỏ với bàn tròn gỗ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfgO-acOijbmsPDt-oRf0Zt15kEMWlLCIuVhWLjxAtZSb-qa2qocIe-xWtnM0a-6nhL5iVymOMy9LUlR71m9sTXntkzc0hBgrqx2kC4BqUsGNKX4RgyQ7iI7LwLAxQwhut_iJLTA9zn5_U=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/ken-coffee-dai-mo/04.jpg",
+        "caption": "Matcha latte, cà phê và bánh mousse",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc2unmR_xHNbuVt3UEhpk-WdI2hCvJ4ZKPxLODqzCJo_pVNvKr3zyX31KZcbeKNL0T7wI6K_0RWQNWlO6n5Wt8yctm28awZvD_KdwEAlySpUilfyKhgjHuvPC5aQI6kRYVvDuxJRDv82QVs=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Chưa tìm thấy video TikTok cụ thể qua tìm kiếm web; nổi trên Google Maps với 4.7★ và nhiều ảnh check-in gần đây. Quán mới hơn các quán Văn Quán (đa số review trong 2026).",
+    "confidence": "high"
+  },
+  {
+    "id": "cheka-cafe",
+    "name": "Cheka Cafe",
+    "category": "cafe",
+    "subcategory": "sân vườn + concept decor",
+    "tagline": "Góc nào cũng thành bối cảnh phim",
+    "description": "Quán cà phê kết hợp spa trong khu biệt thự Dương Nội, có hiên gỗ ngoài trời rợp cây và khu sân cỏ dựng tiểu cảnh. Bên trong decor tân cổ điển, thay concept theo mùa (Giáng sinh, Quốc khánh, Trung thu) nên lúc nào cũng có góc chụp ảnh mới.",
+    "address": "M4-L12, Khu đô thị Dương Nội, Hà Đông, Hà Nội",
+    "area": "Dương Nội",
+    "coordinates": {
+      "lat": 20.9788739,
+      "lng": 105.759863
+    },
+    "distance_to_aeon": "~2.0 km đường đi (ước tính), ~7 phút xe máy",
+    "hours": "07:00–23:00 hằng ngày (Thứ Bảy 17/10: 07:00–23:00)",
+    "price_range": "Khoảng 25.000–45.000 ₫/đồ uống (Toidicafe, 2022); Google Maps: 1–100.000 ₫/người",
+    "signature": [
+      "Socola đá xay kem tươi",
+      "Sữa chua/sinh tố xoài kem",
+      "Trà trái cây",
+      "Gọi món qua ứng dụng tại bàn"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 1728,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=4946417953346474474"
+    },
+    "highlights": [
+      "\"Không gian rộng rãi, thoáng mát. View đẹp, decor chụp ảnh bao đẹp\"",
+      "\"Quán chịu khó cập nhật, thay đổi concept liên tục\"",
+      "Lưu ý: cuối tuần rất đông, có review chê chỗ ngồi trong nhà hơi chật khi bật hiệu ứng tuyết"
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026, 15 đánh giá \"4 tháng trước\" (~6/2026). Báo VOV5/MIA.vn đưa tin decor Quốc khánh 2/9/2025 gây sốt mạng xã hội.",
+    "links": {
+      "maps": "https://maps.google.com/?cid=4946417953346474474",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=Cheka%20Cafe%20M4-L12%2C%20Khu%20%C4%91%C3%B4%20th%E1%BB%8B%20D%C6%B0%C6%A1ng%20N%E1%BB%99i%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://chekacafe.net/",
+      "menu": null
+    },
+    "photos": [
+      {
+        "file": "photos/cheka-cafe/01.jpg",
+        "caption": "Tiểu cảnh sân cỏ với khung gương và nấm trang trí",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdUoQFLkXd8_-bT2jSvkp3cXObcdfuwpbfe8zo_aelt22ovuYqQjlfbK_CAgTPdNkBmI58Fyxvzp3CakJoiEP14-ieqsc0S3fWAN7NaUON9mhR__ggnVuou5D7OB8YHg5OB5ftXGlpq-y5h=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/cheka-cafe/02.jpg",
+        "caption": "Hiên gỗ ngoài trời treo đèn lồng, nhìn ra hàng cây",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcoMNtishhywFovrQze3uX20ItMbGoHOc69peyzo6FGUL5k_3ZF4tULj8lxqvrfz73yD7_To79Qg8mnbNrKTfXOGScZmWmUZODK7V0r3AmwlYoOWIWdcBEw5DmnQ9IAM9LIKPT93wkI6KI=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/cheka-cafe/03.jpg",
+        "caption": "Sảnh trong nhà phong cách tân cổ điển",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd-NUpCfUX2H1sGBNWk7GmVN41N_wt9eiF7aIae9M4apQmHThXhE0sLlPW3qn9uQquHZZEbvFwa7VBGdAnr4NKZcPto13HQAD55W7NOthQp6qtSss7Z1o8QghJ1ObKb9Zdp4MAw7Dz7L855=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/cheka-cafe/04.jpg",
+        "caption": "Đồ uống đá xay kem tươi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfp5E2Bnrw1aOEPff8163GjixF8KjTxeqxDyQCILtNiPKGIDlaEzmBIjHqXktfH-NH6acggLdlu4z6Nfa7AKatPMBQamFKNPasDpstpiY_Oce5hFxN-X5fUXK7Ykogj4bBpz4HB=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1066
+      }
+    ],
+    "trend_notes": "Hay viral theo mùa: decor 2/9 (2025) được VOV5 và MIA.vn đưa tin; concept Noel với cây thông >3 m và hiệu ứng tuyết. Nhiều bài check-in trên các trang cẩm nang.",
+    "confidence": "high"
+  },
+  {
+    "id": "nha-go-van-quan",
+    "name": "Nhà Gỗ (Wooden House Coffee)",
+    "category": "cafe",
+    "subcategory": "sân vườn + gần hồ",
+    "tagline": "Căn nhà gỗ giữa vườn sỏi",
+    "description": "Biệt thự gỗ mộc mạc gần hồ Văn Quán, lối vào lát sỏi, sân vườn nhiều cây, có cả hiên dưới mái ngói lẫn sàn gỗ ngoài trời che ô. Bên trong cột gỗ, cửa sổ ô kính lớn, cầu thang gỗ lên tầng; buổi tối sân vườn lên đèn rất ấm.",
+    "address": "18 BT1B, Khu đô thị Văn Quán, Hà Đông, Hà Nội",
+    "area": "Văn Quán (hồ Văn Quán)",
+    "coordinates": {
+      "lat": 20.9792397,
+      "lng": 105.7902145
+    },
+    "distance_to_aeon": "~5.6 km đường đi (ước tính), ~17 phút xe máy",
+    "hours": "08:00–23:00 hằng ngày (Thứ Bảy 17/10: 08:00–23:00)",
+    "price_range": "32.000–59.000 ₫/đồ uống (theo ảnh menu khách chụp trên Google Maps)",
+    "signature": [
+      "Bạc xỉu kem mặn/kem trứng/kem tiramisu",
+      "Trà hibiscus xí muội hồng đào",
+      "Ô long phong lan vanilla",
+      "Matcha dê cười (pistachio)"
+    ],
+    "rating": {
+      "score": 4.2,
+      "count": 993,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=794760310213643007"
+    },
+    "highlights": [
+      "\"Decor kiểu mộc mạc gần gũi thiên nhiên, hơi hoài cổ\"",
+      "\"Ngồi dưới mái hiên … quên béng mất đang ở Hà Nội\" (ý review)",
+      "Có nhiều gia đình đưa trẻ nhỏ tới vào cuối tuần"
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026; 20 đánh giá \"2 tháng trước\" (~8/2026), 13 đánh giá \"3 tháng trước\".",
+    "links": {
+      "maps": "https://maps.google.com/?cid=794760310213643007",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=Nh%C3%A0%20G%E1%BB%97%20%28Wooden%20House%20Coffee%29%2018%20BT1B%2C%20Khu%20%C4%91%C3%B4%20th%E1%BB%8B%20V%C4%83n%20Qu%C3%A1n%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null,
+      "menu": "photos/nha-go-van-quan/menu.jpg"
+    },
+    "photos": [
+      {
+        "file": "photos/nha-go-van-quan/01.jpg",
+        "caption": "Sàn gỗ ngoài trời lên đèn buổi tối",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfpRgVb0E-5SiwMi9Q0NhJMJ8SqLY3tAjEv7q_rBQu3EqZhEaXmjVPHWRw7LhCiXJ-naQVa-65TXHEI2IOybRsyQbXeo6rrPez9pbVSxwcmC_IGxErrEvjlkIs6PnVKktEzdks2=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/nha-go-van-quan/02.jpg",
+        "caption": "Mặt tiền nhà gỗ phủ cây xanh",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTue7E45X44UW_3Xz5xO_9IqWRZ1qTh4UOmN9dqSScWLGsAMoJ4SVXmgqqAqePJDLn5qrsu1leYd5ELlXxxrypdNjEyRuKr3323AgfbnC_2hQybQBcpL4mX5YK9iDNtPgpq1bavWq2V88W=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/nha-go-van-quan/03.jpg",
+        "caption": "Sân sỏi bên cửa sổ gỗ ô kính",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdN-s9Or-rPy6HqjP0FnkEnXFIkQREWMoPsVl4KQfn7K2Tf0kR-EzWJZ1f0fOADxq40xPjhp_EgQzbDYry7sulcJcns1sm31TbQMd3ykdSSdkYQRjnL0JK_HvHnb0BrOQlV3HoK_GP7a6s=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/nha-go-van-quan/04.jpg",
+        "caption": "Bàn cạnh cửa sổ ô kính nhìn ra phố",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdRe5SyqkEJQwCfX0nsCpP6hCdHZYmNClcsspmcH24TNuZ55pQXK-mv9aETRJtG1937-anp2yy_UkttBAYgRaLvD8PryMzHP7FvmZYgONknFJe6kkgbILrVjf7mITmqV3cgQxk123QepMky=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "trend_notes": "Có trong danh sách \"quán cafe sống ảo hồ Văn Quán\" của Toidicafe/Tripi (tên cũ Wooden House Coffee). Chưa xác minh video TikTok cụ thể.",
+    "confidence": "high"
+  },
+  {
+    "id": "xanh-cafe-van-quan",
+    "name": "Xanh Cafe",
+    "category": "cafe",
+    "subcategory": "view hồ",
+    "tagline": "Hiên hoa giấy sát mép hồ",
+    "description": "Quán mở sát bờ hồ Văn Quán với sân rộng dưới giàn hoa giấy và cây cổ thụ, bàn ghế sắt kiểu vườn nhìn thẳng ra mặt nước. Phía sau có khu trong nhà kính sáng; buổi tối hiên treo đèn dây.",
+    "address": "Khu đô thị Văn Quán (ven hồ Văn Quán), Hà Đông, Hà Nội",
+    "area": "Văn Quán (hồ Văn Quán)",
+    "coordinates": {
+      "lat": 20.9764719,
+      "lng": 105.7910703
+    },
+    "distance_to_aeon": "~5.9 km đường đi (ước tính), ~18 phút xe máy",
+    "hours": "07:00–23:00 hằng ngày (Thứ Bảy 17/10: 07:00–23:00)",
+    "price_range": "Google Maps không ghi khoảng giá; review nói giá \"hơi đắt\" so với chất lượng đồ uống",
+    "signature": [
+      "Cà phê Việt (nâu/bạc xỉu)",
+      "Nước ép, trà trái cây"
+    ],
+    "rating": {
+      "score": 4.1,
+      "count": 1153,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=10688249387130483160"
+    },
+    "highlights": [
+      "\"Không gian rộng thoáng, view hồ đẹp\"",
+      "\"Không gian thoáng mát, nhiều cây xanh\"",
+      "Điểm trừ được nhắc: đồ uống bình thường, phục vụ hơi chậm, có quầy tự phục vụ"
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026; có đánh giá \"một tháng trước\" (~9/2026) và 5 đánh giá \"3 tháng trước\"; chủ quán trả lời review.",
+    "links": {
+      "maps": "https://maps.google.com/?cid=10688249387130483160",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=Xanh%20Cafe%20Khu%20%C4%91%C3%B4%20th%E1%BB%8B%20V%C4%83n%20Qu%C3%A1n%20%28ven%20h%E1%BB%93%20V%C4%83n%20Qu%C3%A1n%29%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null,
+      "menu": null
+    },
+    "photos": [
+      {
+        "file": "photos/xanh-cafe-van-quan/01.jpg",
+        "caption": "Bàn sát lan can nhìn ra hồ Văn Quán",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLelWO_kBGldL8IS9au054ZofM8ZvFnWOxdYfFppgYQWriFG-ZIvovJsYW2XqzkMz6rfNbo3DO5OPGJFV4luWXhe6cQ8Ni3XSnD7SLKAwum9mOIJIbocOu6GH2D_v8yzq0JoUbvFgXepMP0=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/xanh-cafe-van-quan/02.jpg",
+        "caption": "Sân rộng dưới giàn hoa giấy",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcq8nWh8c62qoFTrvOpnh_gnggs0DOvUHIckgmxkVoF4HMGpEKhZtt-BEWjQDEubSQjdbz5c-q_WGLRR0bukcRjZyxYHoji4j6YCwCu6A1uc-9O5mEGqtROvTfMO-KY-fJGWd-9JIr_c_Q=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/xanh-cafe-van-quan/03.jpg",
+        "caption": "Tán hoa giấy phủ kín mái hiên",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_Y8nOW7BK_pxA4Nwfl6Yidr_oxwcGe1Vax-ONSLlEECncYApEcmLaOV3yJgM6WaEvt_53Cmlm4hcGtdFj6BTBts-74LUBWY1QCQvrCTDkrkyaLoQmksQ60iHny6od5ApyyevGdUjZee8=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/xanh-cafe-van-quan/04.jpg",
+        "caption": "Mặt hồ nhìn từ chỗ ngồi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdbS0uJcAeMuAzlWV8S1F-1ER7KnRGhMOUQP4V8GyMrgB_Rx9aH9JFcKbNVTpIqKjKzpX4TVVpw7Q21GcCLvnclC6ZCz7ZQLWwzQ5lS2CiHCY9Ot_-XbJcxptStoOwXKrYEtdMcsETOhIs=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Ít thấy trên các bài TikTok/blog gần đây; được biết tới chủ yếu nhờ vị trí ven hồ (1.153 đánh giá Google).",
+    "confidence": "high"
+  },
+  {
+    "id": "amore-coffee-n-cakey",
+    "name": "Amóre Coffee n Cakey",
+    "category": "cafe",
+    "subcategory": "view hồ + indoor aesthetic",
+    "tagline": "Cửa kính lớn, bánh xinh, view hồ",
+    "description": "Tiệm cà phê – bánh phong cách vintage Hàn Quốc bên hồ Văn Quán: tường trắng, sàn gỗ, cửa vòm và dãy bàn dài cạnh ô kính lớn nhìn ra hàng cây ven hồ. Không gian nhẹ nhàng, có hoa tươi, nhạc nhỏ.",
+    "address": "30 TT11B, Khu đô thị Văn Quán, Hà Đông, Hà Nội",
+    "area": "Văn Quán (hồ Văn Quán)",
+    "coordinates": {
+      "lat": 20.9774179,
+      "lng": 105.7902186
+    },
+    "distance_to_aeon": "~5.7 km đường đi (ước tính), ~18 phút xe máy",
+    "hours": "Google Maps không hiển thị giờ trong dữ liệu lấy được (Toidicafe/Tripi không ghi) — cần kiểm tra trước",
+    "price_range": "35.000–120.000 ₫ (Toidicafe, gồm cả bánh); khách nhận xét \"giá hơi cao\"",
+    "signature": [
+      "Cold brew mơ",
+      "Matcha latte",
+      "Hồng trà kem trứng nướng",
+      "Bánh caramel, tiramisu matcha, bánh chanh"
+    ],
+    "rating": {
+      "score": 4.2,
+      "count": 204,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=862032002339573068"
+    },
+    "highlights": [
+      "\"Không gian vintage, rộng rãi, yên tĩnh và chill lắm … view hồ và lộc vừng siêu đỉnh\"",
+      "\"Quán view hồ xinh nhẹ nhàng … có hoa tươi, tiếng nhạc dịu nhẹ\"",
+      "\"Bánh ngon tuy nhiên hay hết sớm\""
+    ],
+    "open_evidence": "Google Maps 14/10/2026: 7 đánh giá \"2 tháng trước\" (~8/2026), 19 đánh giá \"6 tháng trước\"; chủ quán đã viết mô tả. Không có cờ đóng cửa.",
+    "links": {
+      "maps": "https://maps.google.com/?cid=862032002339573068",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=Am%C3%B3re%20Coffee%20n%20Cakey%2030%20TT11B%2C%20Khu%20%C4%91%C3%B4%20th%E1%BB%8B%20V%C4%83n%20Qu%C3%A1n%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null,
+      "menu": null
+    },
+    "photos": [
+      {
+        "file": "photos/amore-coffee-n-cakey/01.jpg",
+        "caption": "Dãy bàn dài cạnh ô kính lớn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe-tfsXRsQfqEHXURzxnuou3c8MVds_Q41JOwB7XlYBG6-Zzi2cRBQ8d5GWFTGKmMYhTrcUHG_WT4fmNfVssm4NpLeBgx9nh3fc2-VKO4cLCT8_cz4mMtlp9ftOWjlXT1RZ_SpKPrEM0_yK=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/amore-coffee-n-cakey/02.jpg",
+        "caption": "Ô cửa sổ nhìn ra cây và hồ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd6SGZbWuukqvK9fT8FGGEfBzO9Pb9crRO9mB1jC2fCTPF7Mb8rbjYbJNPUjKpIENKEZQGtz0yQF1rwxPYBodMOkZ2GgHToUdZzuy1y-nRmVa9TDPdFxbBgpyO5dHi7QxdMT71rygekp6g=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/amore-coffee-n-cakey/03.jpg",
+        "caption": "Mặt tiền cửa vòm gỗ kiểu châu Âu",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf8braIX3Jp-EZvSAAfud8G5aurTApyGLHl8KgFiB4A1g5xf1pHPckMJR5S8AzpW8gdvL3uE8B4zSlAh_hqVQOITK3lGwKdq4_qrLk5CgykC9g7TjHcqDicnAahUqSOGvHv49-8=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "file": "photos/amore-coffee-n-cakey/04.jpg",
+        "caption": "Khay đồ uống và bánh",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfvfgy2AC0G5KHBy4OMQdzKDLvPyPxddhbibqGGi7jE-54YqgalHvOOYYG47ad05dHbz7NLjdZ86b0dfjZ9pgkMVtPfu7YIe47y0SKb36dIJRYAlDtHQzvY2VnV3ktTONNcenaVoJoGM4U=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Có trong danh sách quán sống ảo hồ Văn Quán (Tripi 6/2025). Style vintage Hàn hợp ảnh Instagram.",
+    "confidence": "high"
+  },
+  {
+    "id": "an-bistro-cafe",
+    "name": "AN Bistro & Cafe (AN Garden)",
+    "category": "cafe",
+    "subcategory": "sân vườn trong nhà + gần hồ",
+    "tagline": "Khu rừng nhỏ ba tầng bên hồ",
+    "description": "Quán ba tầng với giếng trời thông tầng, giàn cây rủ xanh mướt và cầu thang sắt giữa sảnh, giống một nhà kính lớn. Nằm cạnh hồ Văn Quán, phục vụ cả cà phê, trà hoa và brunch/bistro.",
+    "address": "56 BT8 Văn Quán (đường 19/5), Khu đô thị Văn Quán, Hà Đông, Hà Nội",
+    "area": "Văn Quán (hồ Văn Quán)",
+    "coordinates": {
+      "lat": 20.9773537,
+      "lng": 105.7923162
+    },
+    "distance_to_aeon": "~6.0 km đường đi (ước tính), ~18 phút xe máy",
+    "hours": "07:00–23:30 hằng ngày (Thứ Bảy 17/10: 07:00–23:30)",
+    "price_range": "Đồ uống khoảng 65.000–80.000 ₫ (review 2025–2026); Toidicafe ghi 30.000–80.000 ₫",
+    "signature": [
+      "Ấm trà hoa",
+      "Eden passionate (trà chanh leo)",
+      "Brunch: pizza, pasta, salad"
+    ],
+    "rating": {
+      "score": 4.2,
+      "count": 1461,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=12725046927597906719"
+    },
+    "highlights": [
+      "\"Không khí tốt, không ồn, quán rộng, đẹp, ghế thoải mái\"",
+      "\"View đẹp, không gian yên tĩnh … phù hợp cả cho tâm sự hoặc làm việc\"",
+      "Điểm trừ được nhắc: giá cao (khoảng 80k/ly), đồ ăn bình thường"
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026 (07:00–23:30); 4 đánh giá \"2 tháng trước\" (~8/2026). Lưu ý: listing đã đổi tên từ AN Garden thành AN Bistro & Cafe; ảnh gần đây có tấm lót in \"Eden Garden\".",
+    "links": {
+      "maps": "https://maps.google.com/?cid=12725046927597906719",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=AN%20Bistro%20%26%20Cafe%20%28AN%20Garden%29%2056%20BT8%20V%C4%83n%20Qu%C3%A1n%20%28%C4%91%C6%B0%E1%BB%9Dng%2019/5%29%2C%20Khu%20%C4%91%C3%B4%20th%E1%BB%8B%20V%C4%83n%20Qu%C3%A1n%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null,
+      "menu": null
+    },
+    "photos": [
+      {
+        "file": "photos/an-bistro-cafe/01.jpg",
+        "caption": "Giếng trời ba tầng phủ cây rủ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc06LFh-_6uhVkP0BwOyAVtWFCLQETgYQAzQjJNZhNnp1_VGxFwP_aRY9UJ9bMKen8mqrrGxqHbJPOno9iT94R2K82_4Tx-VDExcv-QK7nXDnc4aiJSz5X3uK9PlpJrbJNL8Kw8bYBwyBzx=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/an-bistro-cafe/02.jpg",
+        "caption": "Sảnh chính với cầu thang sắt và hồ cây",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfzk5X5ysR0lTDtqeuno1403K0HVbtAsSSGvjdNywpuvIMYCYlCKsVuIsoLznIj6G2MMYbiMabhjJd9Ij_J-HZ6J5Jft_C49aORgxllrr0cz38Kyq00dI74Gi080ZMJIWNbTMQkofA04Ep0=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/an-bistro-cafe/03.jpg",
+        "caption": "Lối vào kính về đêm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdO4jvdq6eYSapiVQX8Zgqu12xdyKIBtG-jTej75sa6RVm-OUzJLUK_S-C6PXUW78i_W7MRnQBQqvYFlQKD_SrvcLUDZsS_P1VHo4TlbBUhQOSvfGzPdeLZp0brFsT6Na77kHPV=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/an-bistro-cafe/04.jpg",
+        "caption": "Ấm trà hoa",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeBWeYk3OYSy8t_wWqzCV367kBnDv8bxb6AYMSbKunCRaFPshk7zfN2NYe2KpxFDr9e-MH-wyHnr3FIb5msxwkHn4YVzRYE4_atch12hWE5ai5jValbqmB4JG7L5YXn0DG5aP9Y=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Một trong những quán \"nhà kính xanh\" nổi tiếng nhất Hà Đông (1.461 đánh giá Google, có trong Toidicafe/Tripi). Nhiều review gần đây chê giá cao.",
+    "confidence": "high"
+  },
+  {
+    "id": "kaki-coffee",
+    "name": "Kaki Coffee",
+    "category": "cafe",
+    "subcategory": "indoor aesthetic",
+    "tagline": "Cổng vòm trắng, sát AEON",
+    "description": "Quán cà phê nghệ thuật ngay khu đô thị Nam Cường sát AEON, cổng vòm trắng, nội thất tông kem với vòm tường, đèn mây và cửa kính lớn. Có khu ngồi trong nhà và ngoài trời, sáng sủa, nhiều góc chụp ảnh.",
+    "address": "A02 - L01 Khu đô thị Dương Nội (Nam Cường), Hà Đông, Hà Nội",
+    "area": "Dương Nội (sát AEON)",
+    "coordinates": {
+      "lat": 20.9850337,
+      "lng": 105.7528037
+    },
+    "distance_to_aeon": "~0.7 km đường đi (ước tính), ~4 phút xe máy",
+    "hours": "07:00–23:00 hằng ngày (Thứ Bảy 17/10: 07:00–23:00)",
+    "price_range": "Google Maps: 1–100.000 ₫/người",
+    "signature": [
+      "Matcha dừa",
+      "Bia matcha",
+      "Trà sen vàng",
+      "Cà phê muối, croissant chấm sữa"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 160,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=12465736424637948989"
+    },
+    "highlights": [
+      "\"Không gian quán rộng rãi, thoáng mát, có khu ngồi ở cả trong và ngoài\"",
+      "\"Matcha dừa và bia matcha ngon\"",
+      "\"Quán sạch sẽ, sáng sủa và được trang trí đẹp mắt\""
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026; 5 đánh giá \"4 tháng trước\" (~6/2026); chủ quán trả lời review.",
+    "links": {
+      "maps": "https://maps.google.com/?cid=12465736424637948989",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=Kaki%20Coffee%20A02%20-%20L01%20Khu%20%C4%91%C3%B4%20th%E1%BB%8B%20D%C6%B0%C6%A1ng%20N%E1%BB%99i%20%28Nam%20C%C6%B0%E1%BB%9Dng%29%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null,
+      "menu": null
+    },
+    "photos": [
+      {
+        "file": "photos/kaki-coffee/01.jpg",
+        "caption": "Cổng vòm trắng và mặt tiền",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdaDH-sKfYijwWMsIrV1tVe4o0VLhblNYuWyl1OoNy4pT-P4h1PPyJv_pGskqSxgpVRpnbueB4I35YCM-9U2sPtT7dlUSR0HZPfNjsIEiiY9QO7rU0KAtpCnjQCbsQaw3mQ6hw4SKjSdzs=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/kaki-coffee/02.jpg",
+        "caption": "Phòng chính tông kem với vòm tường, đèn mây",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeiHDkWAZR85g4eyP3h1BdGfFM-Hzj5Df5XJhNXZEWsLnw8YAVtzylblvFMjEJDoyTE_BmYEF26co2m0oEZ7hS1TjZeyyeuirKI106HMXe-2FWDV8nfGnYf_QjxNaxLI9mdjLHIz5uSsuo=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/kaki-coffee/03.jpg",
+        "caption": "Góc bàn tròn cạnh cửa vòm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc3UvqnSGF8P5jk1WeOtdXrk5hx0sxh-ZaTZqw1HOEtrW6Hhc8OPeAe7nzFUQpIM0VAFoWs9qnT2QWrM5j6TxU9m1eHCQ8h9DS4YTZPtu51EPlzZlBh3PkF3qsmoY6X77zZNRy4SbWH09o=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/kaki-coffee/04.jpg",
+        "caption": "Matcha và croissant",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeMh5c1cS2CNW-OFsWOxXLHZn27sFZ70pxWvYNIItaZz3j6HyIvLPfwnLXLrQBHLkreE65cZN4KcdBh3WvuufsKza8JN8bQd_8XDNc12rt30tYBsDF5IGW78Fvro8ZX4OmldB6wTZOWzhyN=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "trend_notes": "Chưa xác minh TikTok; điểm Google rất cao (4.9★).",
+    "confidence": "high"
+  },
+  {
+    "id": "ucity-coffee",
+    "name": "Ucity Coffee",
+    "category": "cafe",
+    "subcategory": "sân vườn + biệt thự",
+    "tagline": "Biệt thự xanh, mở đến khuya",
+    "description": "Quán ba tầng trong khu biệt thự An Vượng, sân trước rộng có bàn ngoài trời, mặt tiền nhiều cây và hoa. Trong nhà sáng, quầy bar màu xanh lá; mở đến 2 giờ sáng nên tiện ghé sau suất phim muộn.",
+    "address": "L24 An Vượng Villa, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Dương Nội (An Vượng)",
+    "coordinates": {
+      "lat": 20.9823683,
+      "lng": 105.7549451
+    },
+    "distance_to_aeon": "~1.2 km đường đi (ước tính), ~5 phút xe máy",
+    "hours": "07:00–02:00 hằng ngày (Thứ Bảy 17/10: 07:00–02:00)",
+    "price_range": "Google Maps: 1–100.000 ₫/người; review: \"giá cũng hợp lý\"",
+    "signature": [
+      "Cold brew",
+      "Matcha latte",
+      "Trà hoa quả",
+      "Cà phê phin/pha máy"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 392,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=2329580744692686960"
+    },
+    "highlights": [
+      "\"Quán có không gian rất xanh, rộng rãi, thoáng mát, sạch sẽ\"",
+      "\"Matcha latte thơm, dễ uống … ngồi ngoài trời cũng vẫn thoải mái\"",
+      "Có review chê một món \"must try\" không ngon"
+    ],
+    "open_evidence": "Google Maps 14/10/2026 hiển thị \"Đang mở cửa · Đóng cửa vào 2:00\"; review nhắc xem World Cup 2026 tại quán (~6–7/2026); 4 đánh giá \"3 tháng trước\".",
+    "links": {
+      "maps": "https://maps.google.com/?cid=2329580744692686960",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=Ucity%20Coffee%20L24%20An%20V%C6%B0%E1%BB%A3ng%20Villa%2C%20D%C6%B0%C6%A1ng%20N%E1%BB%99i%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://ucity.vn/",
+      "menu": null
+    },
+    "photos": [
+      {
+        "file": "photos/ucity-coffee/01.jpg",
+        "caption": "Biệt thự và sân trước ban ngày",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeRYh8ggDlC8dC7HqI7wOWUtEZKa37nNL90Zv6qiYQ6lfYhJUezcR6r4q_ENPzNxVVJv1S6fWI7c4dQeCVrPhYoXuWc_ThOiExJ4WuVw7Fu1p-fbYGx-SSgpmYk8yyrViL4UK-wdtq-6xs7=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/ucity-coffee/02.jpg",
+        "caption": "Sân ngoài trời lên đèn buổi tối",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLewHzylbLnYxXnV6-L5g8nnT2dgZVnHcY2mIG34iJSYaibn1g5aGX3shLtFAgMERQvQjo5NthzR7QBcQAifY1A5uDLj-9TjqRvW-CyVktujjPkC_XRF8Em-7l40Y7jIYQWUZxhhKzT7TFA=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 901
+      },
+      {
+        "file": "photos/ucity-coffee/03.jpg",
+        "caption": "Lối vào trang trí hoa",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdCfxIU5FNnNwWTsVQkLZXl8aaa9NI4ETdcNdPpQZLzXNxFze8sDFk2vfrr__M2Fil6-TZZ4pRYew9JPJVdhFOP-GNMrEj_CArAQUIj0t7nPx0oNYfr4yA_P4J-cLZFJdOOl-s0K7eL_JUE=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 901
+      },
+      {
+        "file": "photos/ucity-coffee/04.jpg",
+        "caption": "Đồ uống tại bàn gỗ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcPlIj4IhfIrR_dQmm_xF_5eaVzYzbVwKUx04nU1ovnIIvKaP7D0HJF93j9NsoqHUeLOt536HxpA1w3LQQ8HmW77Lj8MgierUA_nzI-AGdyYYw1Wdw7XVPP13SQvTzkmeKqW1ljJfC2aAM=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "trend_notes": "Chưa thấy viral; điểm mạnh là gần AEON và giờ mở muộn.",
+    "confidence": "high"
+  },
+  {
+    "id": "moc-lab",
+    "name": "Mộc Lab",
+    "category": "cafe",
+    "subcategory": "sân vườn + cửa kính",
+    "tagline": "Vườn nhỏ yên tĩnh, giá dễ chịu",
+    "description": "Biệt thự trong Làng Việt kiều Châu Âu với tầng trệt rộng, nhiều cửa sổ kính nhìn ra lối vườn nhiệt đới bao quanh nhà. Phong cách lowkey, tường xám, cây xanh, có sân sau che ô; thường yên tĩnh.",
+    "address": "11 BT16A1, Làng Việt kiều Châu Âu, Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (Làng Việt kiều Châu Âu)",
+    "coordinates": {
+      "lat": 20.984367,
+      "lng": 105.7836899
+    },
+    "distance_to_aeon": "~4.6 km đường đi (ước tính), ~14 phút xe máy",
+    "hours": "07:30–23:00 hằng ngày (Thứ Bảy 17/10: 07:30–23:00)",
+    "price_range": "30.000–50.000 ₫/đồ uống (ảnh menu khách chụp trên Google Maps)",
+    "signature": [
+      "Cold brew mơ / cam sả",
+      "Trà vải hoa hồng",
+      "Matcha latte",
+      "Bơ sữa chua"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 256,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=10081575087094442781"
+    },
+    "highlights": [
+      "\"Không gian siêu rộng, yên tĩnh … nhiều cửa sổ kính và view đều thoáng nhìn ra khoảng vườn\"",
+      "\"Nhạc nhẹ và đồ uống oke (và rẻ!). Phù hợp đi 2–4 người\"",
+      "\"Trà trái cây không phải lúc nào cũng pha ngon\""
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026; có đánh giá \"3 tháng trước\" và \"6 tháng trước\"; phần lớn review cũ hơn (1–2 năm) nên tin cậy ở mức trung bình.",
+    "links": {
+      "maps": "https://maps.google.com/?cid=10081575087094442781",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=M%E1%BB%99c%20Lab%2011%20BT16A1%2C%20L%C3%A0ng%20Vi%E1%BB%87t%20ki%E1%BB%81u%20Ch%C3%A2u%20%C3%82u%2C%20M%E1%BB%99%20Lao%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": "https://www.facebook.com/moclabcafe",
+      "instagram": null,
+      "tiktok": null,
+      "website": null,
+      "menu": "photos/moc-lab/menu.jpg"
+    },
+    "photos": [
+      {
+        "file": "photos/moc-lab/01.jpg",
+        "caption": "Sân sau che ô, cây xanh bao quanh",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdYQII9ZdxzVyKURNphQLsdzw8hQazwupHxDCzW4QADKFy9i8jq7cV1rHoswVRVjuqnMRBVZ5aSiOm-e8lRwspXhhKCNh9XqaJvGfN-R9HKb21tQklT5LaEB68LX2jVFGrMmN4hWchDTxCR=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/moc-lab/02.jpg",
+        "caption": "Tầng trệt cửa kính, cầu thang và cây",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf_E1tfkril4Iz-11j2qyhypuKXJ3XDvqFa7CiFSMySD7-_gue7iFrUTe2Dd7xWA_vPP49ohbwJ6njZ0ozCFRAq0rYBElqVOL__sVuuymMYk6rooqObi8KCQgCNbfBSoPXOVn80CWGw5TF-=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/moc-lab/03.jpg",
+        "caption": "Bàn cạnh cửa sổ kính lớn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdWLuR28R2EvdmJVawUVThHaMJw9CCdqiJv0Mh3Z6fDnAnsrWYkeWznw1zHhE5-M_6gVvNU9A84CSEHL4uOzLIm4seqlGXJnL_VP2j4VC2W9xwPJL98b-UqBLggVemsAUQHl_V5eA=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2134
+      },
+      {
+        "file": "photos/moc-lab/04.jpg",
+        "caption": "Lối vườn nhiệt đới quanh nhà",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdQsRdmEXqN6roC8SefoQ209Dr_3399ka2Z4iGMxHXOztoI9ioGWt8JFEF4xm1gSuo_qFyx1aFPZIX44NdqtaKL0GNdK_e8-WL0Kk4ii5DKqo3Y0dtGx6FNS9UOQm_fauR5anxv_gjX82RL=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Toidicafe có trang quán; kiểu quán lowkey, ít viral.",
+    "confidence": "medium"
+  },
+  {
+    "id": "mori-coffee",
+    "name": "Mori Coffee",
+    "category": "cafe",
+    "subcategory": "sân vườn + công viên",
+    "tagline": "Vườn cá Koi trong công viên",
+    "description": "Quán nằm trong công viên X4 khu Lacasta Văn Phú, mặt tiền nhiều cây, có hồ cá Koi nhỏ giữa vườn và dãy chỗ ngồi sau vách kính. Không gian rộng, nhiều chỗ ngồi ngoài trời, có khu chơi cho trẻ em.",
+    "address": "Ô thứ tự 8, Công viên X4, Lacasta, KĐT Văn Phú, Kiến Hưng, Hà Đông, Hà Nội",
+    "area": "Văn Phú / Kiến Hưng",
+    "coordinates": {
+      "lat": 20.956194,
+      "lng": 105.7674365
+    },
+    "distance_to_aeon": "~5.5 km đường đi (ước tính), ~17 phút xe máy",
+    "hours": "06:30–23:00 (T2–T5), 06:30–23:30 (T6–CN; Thứ Bảy 17/10: 06:30–23:30)",
+    "price_range": "Khoảng 20.000–50.000 ₫/đồ uống (Toidicafe, 2022); review: \"giá hợp lý\"",
+    "signature": [
+      "Cà phê truyền thống & pha máy",
+      "Sinh tố bơ",
+      "Cacao đá xay"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 232,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=4176511198747797377"
+    },
+    "highlights": [
+      "\"Mori ghi điểm khi có không gian ngoài trời rộng rãi, chỗ để xe thoải mái\"",
+      "\"Không gian thoáng mát, nhiều chỗ ngồi. Rất thích hợp cho các cặp đôi\"",
+      "Lưu ý: có khu vui chơi trẻ em nên cuối tuần có thể ồn"
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026; 3 đánh giá \"4 tháng trước\" (~6/2026), 6 đánh giá \"10 tháng trước\".",
+    "links": {
+      "maps": "https://maps.google.com/?cid=4176511198747797377",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=Mori%20Coffee%20%C3%94%20th%E1%BB%A9%20t%E1%BB%B1%208%2C%20C%C3%B4ng%20vi%C3%AAn%20X4%2C%20Lacasta%2C%20K%C4%90T%20V%C4%83n%20Ph%C3%BA%2C%20Ki%E1%BA%BFn%20H%C6%B0ng%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null,
+      "menu": null
+    },
+    "photos": [
+      {
+        "file": "photos/mori-coffee/01.jpg",
+        "caption": "Lối vào vườn lên đèn buổi tối",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdAXoxI-t1fd9bCUXKh3E645d62DdYPkuTV2COWLlCAvpqtM9DGdNUnZxi82lhB3vjM8XHprpHWQkmSPj9vNxotdmWSvlTISBMZalHSWDSYShf7v386J8dvuk_XK4NPyJ9VECRLYl22E4fg=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/mori-coffee/02.jpg",
+        "caption": "Hồ cá Koi giữa vườn cây",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeZywHuGM8Nf7uw2lSfHqnqXlJsqx7ub0HaIRGLBYfrsFNGzTkI-kHO4iAEiizt0peaXihF2EvvIyMVF5UEsaFod_5oS_CPxlRz4NK0CQY9HB20uyyVypkk0o_g1pwVafKemcVwhJUJoVjl=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/mori-coffee/03.jpg",
+        "caption": "Dãy chỗ ngồi sau vách kính nhìn ra vườn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfZnrAIsr-wpkUrBdYwBbG3Ral8oINRtMXLLh6ESdkdFtzEG99bLkM9C_6KjZTQFGeMNGoIgpfq5JJtgNyfaJvrzVH9MCDBIlzBNZeH4QiT3PSBztzww1PI_HvSfo_wK_quTaBNQmGCKvcd=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/mori-coffee/04.jpg",
+        "caption": "Sinh tố bơ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc08drLqpDTnl6Zlu6bblacoMovQUNOUQwliBQ6c60jjJQdO7D7zKrFXOG6PrI49OF_m8UgwWgcmmNc0vfch_VREzUWFd9x1Lr7x9gNILJvlosuxfhBG9LvmeLs7Cjg0fExq-CyEQ=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1367,
+        "height": 2048
+      }
+    ],
+    "trend_notes": "Không thấy viral; hợp đi dạo công viên Lacasta trước/sau khi uống.",
+    "confidence": "medium"
+  },
+  {
+    "id": "cuc-cu-quan",
+    "name": "Cafe Cúc Cu Quán",
+    "category": "cafe",
+    "subcategory": "view hồ + live acoustic",
+    "tagline": "Đèn lồng Hội An bên hồ",
+    "description": "Quán ngay ngã ba hồ Văn Quán, tường vàng kiểu Hội An, đèn lồng nhiều màu và dãy ghế ngoài hiên hướng ra hồ. Có hát live acoustic 20:15–22:15 các tối thứ Sáu, thứ Bảy, Chủ nhật.",
+    "address": "B4 BT1, Khu đô thị Văn Quán, Hà Đông, Hà Nội",
+    "area": "Văn Quán (hồ Văn Quán)",
+    "coordinates": {
+      "lat": 20.9788309,
+      "lng": 105.7895515
+    },
+    "distance_to_aeon": "~5.6 km đường đi (ước tính), ~17 phút xe máy",
+    "hours": "07:00–00:00 hằng ngày (Thứ Bảy 17/10: 07:00–00:00; live 20:15–22:15)",
+    "price_range": "Google Maps: 1–100.000 ₫/người",
+    "signature": [
+      "Cà phê kem muối",
+      "Trà quất hồng bì",
+      "Trà dâu tằm nha đam",
+      "Trà sen"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 526,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=17374970282994018133"
+    },
+    "highlights": [
+      "\"Quán ngay ngã ba hồ Văn Quán, rộng rãi, thoáng mát. Decor đẹp, nhiều góc sống ảo\"",
+      "\"Cà phê kem muối … đánh giá 9/10\"",
+      "Ngồi hiên ngoài là sát vỉa hè, ồn hơn quán trong vườn"
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026; mô tả chủ quán ghi lịch live T6–T7–CN; 2 đánh giá \"4 tháng trước\", 4 đánh giá \"11 tháng trước\". Ảnh gần đây có decor dịp 2/9.",
+    "links": {
+      "maps": "https://maps.google.com/?cid=17374970282994018133",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=Cafe%20C%C3%BAc%20Cu%20Qu%C3%A1n%20B4%20BT1%2C%20Khu%20%C4%91%C3%B4%20th%E1%BB%8B%20V%C4%83n%20Qu%C3%A1n%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null,
+      "menu": "https://food.be.com.vn/resto?id=61694"
+    },
+    "photos": [
+      {
+        "file": "photos/cuc-cu-quan/01.jpg",
+        "caption": "Mặt tiền đèn lồng Hội An buổi tối",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeEuxlPMTnxGaS-cZced0TErTLwBa5z6MgMAkSBYBOq4t2KFc5y4Hj8r0szdnVsWS9X9yjs_0tbZeE3RABfGbgQWBTw7Hy_a8k29m2D_OWSLrhSSpJJjCijcn6eRUUHhjKePwLBHg=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1066
+      },
+      {
+        "file": "photos/cuc-cu-quan/02.jpg",
+        "caption": "Hiên dài treo đèn lồng nhiều màu",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcTEJ2EG6836-GPs_TX7FE-1chacBAzshIgJkdqhxcVNJO1dZjK4IocfOvw3mSNB0DlGQ957pCVpnm5hYc-OmXHlnvcjp9pQU4fdWQfQ0k22XaV-f8EBwFBP6AwmCSRho5V7dsLZrb0WJOC=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1284,
+        "height": 1712
+      },
+      {
+        "file": "photos/cuc-cu-quan/03.jpg",
+        "caption": "Hàng cây ven hồ Văn Quán trước quán",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLde4FTYIlVY-Xx_RLnvHLgZFZT-UkCnd4T1CYiFPKeVaiQjnadRzNhKuQeTEKsej4NQXaY3U8D2Y-fvhTaS6PA6tq3Xx1qOJhz4j8CYflsh4QvZ6SQfiRgF_-K9IyOr4sxFMbdYPg=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/cuc-cu-quan/04.jpg",
+        "caption": "Hai ly trà trái cây",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcT8of8cabvxX3qWwE1NHE3NyCrlIRnGSNLmHT_-4xPrGCKVNg-lwQ8Ovqduoh9oH0o3lWuQ0lUj5IoVaZ4s8aiMVD0plJYssRcrPAeJ1gZYumykZTy0XZiWlDVHSKmLfPWvNnlmeLkQMs=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1284,
+        "height": 1712
+      }
+    ],
+    "trend_notes": "Có trang Foody (\"Cà phê Cúc-cu Hồ Văn Quán\"); hát live cuối tuần là điểm nhấn buổi tối.",
+    "confidence": "medium"
+  },
+  {
+    "id": "the-cozy-village",
+    "name": "The Cozy Village Cafe",
+    "category": "cafe",
+    "subcategory": "indoor aesthetic + board game",
+    "tagline": "Board game, tô tượng, nhâm nhi",
+    "description": "Quán nhiều tầng ở góc đường Lacasta Văn Phú, phòng tường đỏ treo tranh cổ điển, sofa da xanh, kệ sách và kệ board game. Có workshop tô tượng, làm ốp điện thoại; thoáng nhờ cửa sổ lớn nhưng là không gian trong nhà là chính.",
+    "address": "214 P. Tống Tất Thắng, Lacasta, KĐT Văn Phú, Kiến Hưng, Hà Đông, Hà Nội",
+    "area": "Văn Phú / Kiến Hưng",
+    "coordinates": {
+      "lat": 20.9568376,
+      "lng": 105.7672088
+    },
+    "distance_to_aeon": "~5.4 km đường đi (ước tính), ~17 phút xe máy",
+    "hours": "08:00–22:30 (T2–T6), 08:00–23:00 (T7–CN; Thứ Bảy 17/10: 08:00–23:00)",
+    "price_range": "Matcha ~55.000 ₫, bạc xỉu ~45.000 ₫; combo board game 69.000 ₫ gồm nước (review)",
+    "signature": [
+      "Combo board game kèm đồ uống",
+      "Matcha latte",
+      "Workshop tô tượng"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 619,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=2576382503979417150"
+    },
+    "highlights": [
+      "\"Đồ uống ngon, nhân viên phục vụ nhiệt tình, quán rộng rãi đẹp đẽ, mát mẻ\"",
+      "\"Quán khá đa dạng board game\"",
+      "Có review chê đồ uống dở/đắt và đặt bàn trước nhưng không được ghi nhận"
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026; 7 đánh giá \"4 tháng trước\", 3 đánh giá \"3 tháng trước\"; chủ quán xác nhận listing.",
+    "links": {
+      "maps": "https://maps.google.com/?cid=2576382503979417150",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=The%20Cozy%20Village%20Cafe%20214%20P.%20T%E1%BB%91ng%20T%E1%BA%A5t%20Th%E1%BA%AFng%2C%20Lacasta%2C%20K%C4%90T%20V%C4%83n%20Ph%C3%BA%2C%20Ki%E1%BA%BFn%20H%C6%B0ng%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": "https://www.facebook.com/share/1GifP5NCp1/?mibextid=wwXIfr",
+      "instagram": null,
+      "tiktok": null,
+      "website": null,
+      "menu": null
+    },
+    "photos": [
+      {
+        "file": "photos/the-cozy-village/01.jpg",
+        "caption": "Tầng trệt sáng với cửa sổ lớn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe_jQvKRqE6IgETrXGyiFmEUuegOn5S-nMllg7IKsonKRXMRjzQMikG-J8xpXwTxsS7ofTNJ2cjkcigw0Lro0tiMZJr8LivvxQMTREtTrBgxetC2FL3I_WXd74UB4i4FwylSyKczw=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "file": "photos/the-cozy-village/02.jpg",
+        "caption": "Phòng tường đỏ, sofa da xanh và tranh cổ điển",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdZ3EmcNe00aDDbSmyoMb4lSWwJijlH7wgLeaQUh2BzHdB0wDXy9qMt1eSSFzOdFtIMvF1EHrOjDYVLB4xg1vVG1EY0YBaQHH_2Yb8MmVqcyWY-NRVC5dEBzF08t3w8DHGt0hamrwDPAE4T=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/the-cozy-village/03.jpg",
+        "caption": "Góc đọc sách với ghế bành",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcNttBKhyWaGNxAxEB9LQF5nUCHiZgbN-AhGkvGGFnBnwMogE16UQLgo8HOwpRPtd_Rdq_v9djA9MmmXpIweTCyrv3tNe4p0HgrYrl-xCpd3oSobFQyYo71P657Dz-omsM476MJS2O6LGEA=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/the-cozy-village/04.jpg",
+        "caption": "Góc tô tượng cạnh cửa kính",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLelkdoJGoN1VQomThQCmoyWZfwUorwoXPOANBJ8r_2-sIQ8f-fGYqHL9VdP-ka0wT9q2w24IT_cdzstkjSVVXt1rCm54L3HALNOeXsUkNzRmZAlkHVzoidXkgQ7IwpRxd9hlv7PLg=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Hợp kiểu buổi hẹn có hoạt động (board game/tô tượng). Không phải quán view.",
+    "confidence": "medium"
+  },
+  {
+    "id": "starbucks-aeon-ha-dong",
+    "name": "Starbucks AEON Mall Hà Đông",
+    "category": "cafe",
+    "subcategory": "trong AEON (dự phòng)",
+    "tagline": "Dự phòng ngay trong AEON",
+    "description": "Cửa hàng Starbucks trong AEON Mall Hà Đông, trần gỗ uốn lượn, quầy bánh và bàn cao; có thêm vài bàn bên ngoài. Tiện cho trước/sau suất chiếu CGV, nhưng cuối tuần đông.",
+    "address": "AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Trong AEON Mall",
+    "coordinates": {
+      "lat": 20.9887665,
+      "lng": 105.7507103
+    },
+    "distance_to_aeon": "Trong AEON Mall Hà Đông (đi bộ 1–3 phút tới CGV)",
+    "hours": "09:00–22:00 hằng ngày (Thứ Bảy 17/10: 09:00–22:00)",
+    "price_range": "Google Maps: 100.000–200.000 ₫/người; đồ uống chuỗi khoảng 60.000–120.000 ₫",
+    "signature": [
+      "Frappuccino",
+      "Matcha latte",
+      "Bánh ngọt theo mùa"
+    ],
+    "rating": {
+      "score": 4.1,
+      "count": 415,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=477019069807314535"
+    },
+    "highlights": [
+      "\"Đi vào cuối tuần quán khá đông nhưng nhân viên take care mình cực kì nhiệt tình\"",
+      "Một review nói phải ngồi ngoài vì trong nhà hết chỗ"
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026; 5 đánh giá \"2 tháng trước\" (~8/2026).",
+    "links": {
+      "maps": "https://maps.google.com/?cid=477019069807314535",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=Starbucks%20AEON%20Mall%20H%C3%A0%20%C4%90%C3%B4ng%20AEON%20Mall%20H%C3%A0%20%C4%90%C3%B4ng%2C%20D%C6%B0%C6%A1ng%20N%E1%BB%99i%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://www.starbucks.vn/",
+      "menu": null
+    },
+    "photos": [
+      {
+        "file": "photos/starbucks-aeon-ha-dong/01.jpg",
+        "caption": "Không gian trong cửa hàng với trần gỗ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdpbMlz2yFYrQtNnvuEV4R5buVuByQ4dtZeKKpK5IapPEKmCAz-7vOoD2xA7B0_mMD9YGyqLgUJiwHCL6gFsueYTIgZeexgTOy_zQKuORygs8ouG5K607nj4XPOn0h-2SEvBL4k=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 1068
+      },
+      {
+        "file": "photos/starbucks-aeon-ha-dong/02.jpg",
+        "caption": "Đồ uống mang đi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdj6j0SyNrZ1fDdIUWRRY7yMKkicC_fjXbARYDpHOSsd0wpktWiDG4k_InWcwMxC98Dr9auoruMO4MQK_9O43gcXe68EMxsl86jETiy3bnoUrzo9IFvCipqvR2QdT9s5LSsGZ5ELK_7FiIf=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/starbucks-aeon-ha-dong/03.jpg",
+        "caption": "Tủ bánh ngọt",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcpUHaW2rwgXjAWmHXZ4AWzNMeVPtzfy6_qoSGMfIVqRKSPanLxRUAo3SLwzE6EvvdFLOcIa96Bg2XQSv9blYr3lKQys-daYIrm5475q5TqgpptOba94HqtVZ_Ss6TsiDpRnS-zMA=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Chuỗi quốc tế, không phải điểm check-in; chỉ dùng làm dự phòng trong mall.",
+    "confidence": "high"
+  },
+  {
+    "id": "highlands-aeon-ha-dong",
+    "name": "Highlands Coffee AEON Mall Hà Đông",
+    "category": "cafe",
+    "subcategory": "trong AEON (dự phòng)",
+    "tagline": "Phương án nhanh trong mall",
+    "description": "Highlands tầng 1 AEON Mall Hà Đông, gần khu ẩm thực; không gian rộng nhưng rất đông và ồn. Chỉ nên dùng khi cần một chỗ ngồi nhanh trong mall.",
+    "address": "Tầng 1, AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Trong AEON Mall",
+    "coordinates": {
+      "lat": 20.9897037,
+      "lng": 105.7517169
+    },
+    "distance_to_aeon": "Trong AEON Mall Hà Đông (đi bộ 1–3 phút tới CGV)",
+    "hours": "07:00–23:00 hằng ngày (Thứ Bảy 17/10: 07:00–23:00)",
+    "price_range": "Google Maps: 1–100.000 ₫/người; đồ uống chuỗi khoảng 35.000–75.000 ₫",
+    "signature": [
+      "Phin sữa đá",
+      "Trà sen vàng",
+      "Freeze trà xanh"
+    ],
+    "rating": {
+      "score": 3.8,
+      "count": 239,
+      "source": "Google Maps (dữ liệu lấy 14/10/2026)",
+      "url": "https://maps.google.com/?cid=4366772091966899721"
+    },
+    "highlights": [
+      "\"Không gian quán rộng nhưng quá đông và ồn nên không hợp những ai thích chill\"",
+      "\"Có cả bàn trong nhà và bên ngoài. Đồ uống chất lượng như các cơ sở khác\""
+    ],
+    "open_evidence": "Google Maps 14/10/2026: giờ mở cửa cho tuần 13–18/10/2026; 2 đánh giá \"2 tháng trước\", 9 đánh giá \"3 tháng trước\".",
+    "links": {
+      "maps": "https://maps.google.com/?cid=4366772091966899721",
+      "maps_search": "https://www.google.com/maps/search/?api=1&query=Highlands%20Coffee%20AEON%20Mall%20H%C3%A0%20%C4%90%C3%B4ng%20T%E1%BA%A7ng%201%2C%20AEON%20Mall%20H%C3%A0%20%C4%90%C3%B4ng%2C%20D%C6%B0%C6%A1ng%20N%E1%BB%99i%2C%20H%C3%A0%20%C4%90%C3%B4ng%2C%20H%C3%A0%20N%E1%BB%99i",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://www.highlandscoffee.com.vn/",
+      "menu": "https://food.be.com.vn/resto?id=9715"
+    },
+    "photos": [
+      {
+        "file": "photos/highlands-aeon-ha-dong/01.jpg",
+        "caption": "Quầy và khu ngồi tầng 1 AEON",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfzh4ecUeJRFRbYqfOXzFs6XT_Oy3g1-xLzgwHwYdnZgH7ovMAE7olLhGaIsnK8OFQEBRhGVFsrVc_Wj1FQ1up3PEfCYWYmH1AnhTisCDVsqceRBOL3l7nSyiGcvsY6Gi-YxwOIuDkRetQV=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/highlands-aeon-ha-dong/02.jpg",
+        "caption": "Khu ngồi đông khách cuối tuần",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfriSewmeOfxwtbCHMbLukXQXeewLjF2Ujo00C0r2ts4B1OWYX11DGzHM0D3Yxnm_Mq_BdJl6hU7Bqn8H8_nhE9K9Ok2MT1m9v_Cg2CfbF3WzuoKj40KHGH4oNdDZnKhnwjmoEl=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 901
+      },
+      {
+        "file": "photos/highlands-aeon-ha-dong/03.jpg",
+        "caption": "Freeze trà xanh",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe1K3x4_49WxASO-rsn3BppsgbKupfoniw9dnYrlrv4fSCw_Fq9UHQIp_0DE-uWgSzXCC1DGWzbpr-n1n5bJaKMIsF9rWL3Wn91J6xaqIgsJRZ8e_dNkjUDeY3K5eZaMdKUd45qearjPOc=w1600",
+        "source": "Google Maps (ảnh khách đăng)",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Chuỗi phổ thông; dự phòng.",
+    "confidence": "high"
+  }
+]

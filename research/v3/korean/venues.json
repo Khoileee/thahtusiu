@@ -1,0 +1,245 @@
+[
+  {
+    "id": "pogeun-nguyen-van-loc",
+    "name": "Pogeun – Korean Home Pub (Nguyễn Văn Lộc)",
+    "category": "food",
+    "cuisine": "korean",
+    "subcategory": "Món Hàn gia đình gọi món, decor xinh",
+    "tagline": "Góc Hàn Quốc nhỏ xinh, ấm áp",
+    "description": "Quán đồ Hàn kiểu home pub với tông hồng – be nhẹ nhàng, gấu bông và nhiều góc chụp ảnh xinh xắn. Thực đơn gọi món: cơm lươn trứng ốp, gà chiên sốt, kimbap, japchae, tokbokki phô mai nướng, món nào cũng bày biện chỉn chu. Không có lẩu hay bàn nướng nên không gian sạch, không ám mùi.",
+    "address": "12 dãy 16A3, Làng Việt kiều Châu Âu (ngõ 23 P. Nguyễn Văn Lộc), Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Nguyễn Văn Lộc – Mộ Lao",
+    "in_aeon": false,
+    "distance_to_aeon": "~3,8 km đường chim bay; ~5 km đường xe, khoảng 13–15 phút xe máy",
+    "hours": "Thứ Bảy: 10:15–15:00 và 17:00–22:00 (nghỉ giữa ca chiều) – Google Maps. Tối T7 nên đặt bàn: 0868 219 226",
+    "price_range": "200.000–300.000đ/người (Google Maps); một review: 2 người ~400k",
+    "signature": [
+      "Cơm lươn trứng ốp",
+      "Gà chiên sốt tokbokki",
+      "Kimbap",
+      "Tokbokki phô mai nướng chảo gang",
+      "Japchae"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 1173,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJNboES8StNTERibZFT3_R6fY"
+    },
+    "highlights": [
+      "\"Đồ ăn khá oke, đa dạng, không gian đẹp, thích hợp tổ chức sinh nhật, sống ảo\" — Google Maps, ~5/2026",
+      "\"Ấn tượng đầu tiên khi món ra đó là 'chỉn chu'… Đồ ăn ngon, không bị ngấy dầu\" — Google Maps, ~2/2026",
+      "\"Quán đồ Hàn decor xinh xỉu… đồ ăn 8/10\" — Lemon8 @changchanthat, 4/2024"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): có giờ mở cửa cho T7 17/10, không có cờ đóng cửa, review 4–8 tháng gần đây và chủ quán vẫn phản hồi. Fanpage 'Pogeun - Hà Đông' truy cập được (1.152 người theo dõi). Lemon8 có bài 4/2024, 8/2025 và 1/2026 về quán.",
+    "links": {
+      "maps": "https://www.google.com/maps?cid=17791982147624875657",
+      "menu": "https://www.foody.vn/ha-noi/pogeun-do-han-12-day-16a3-lang-viet-kieu-chau-au",
+      "facebook": "https://www.facebook.com/p/Pogeun-H%C3%A0-%C4%90%C3%B4ng-61555239760913/",
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/pogeun-nguyen-van-loc/01.jpg",
+        "caption": "Cơm lươn trứng ốp kèm kim chi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf1ak_qsma4aRr2d5rZNcIiInat3TKPbJN7YmiGn8K0kbC3yHChqFLqxIqIMw86NOPAMTdktw4GrcM-sIneYIhwB93WphfwStJJwDRl0aXRslDpRM6rmUZp1Jq1VooRcSosAPe_l8HlaH45=w1600",
+        "width": 1440,
+        "height": 1440
+      },
+      {
+        "file": "photos/pogeun-nguyen-van-loc/02.jpg",
+        "caption": "Gà chiên sốt ngọt với bánh gạo tokbokki",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdYUWCa0FnkCma5vqzYQnIULqGcsKBnVgtOQBZVQi31bedPXgGsRA99bW_8oCdYpC319VGlhaNLfFvAyr1plnU2w6EgNbqa1KzIfTw2Uo9SrnXgmX_hpPoVstO89cFAziOtKhE_1G2-93w=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/pogeun-nguyen-van-loc/03.jpg",
+        "caption": "Tokbokki phô mai nướng chảo gang",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc8tQ671tRcKlH_ktPNDztV3URLyHDcBnwGPxExeAoLgKBofv80WEJy3P8STD7admBa28x08_rl_P7NkLtMTwgCyEGaB67RB-AS88HlY1SBi9QextOqc4RcK4zE8Qg9yp5MlFRhF--J7vw=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/pogeun-nguyen-van-loc/04.jpg",
+        "caption": "Bàn tiệc món Hàn trong góc khăn trải hồng của quán",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeRgIr9w1MJaIbvk25qxdwNE-q8glaaneBDXAmx4vzrEl_oR901Dn46AqY_aEIF7RExnu4Zz9meXyqibQ7j69o4Dd65NIfZTyOWRzLovrPMsmhcWKr-GGTVsBlIdXbI48ZhTJ8Ysw=w1600",
+        "width": 1600,
+        "height": 2189
+      },
+      {
+        "file": "photos/pogeun-nguyen-van-loc/05.jpg",
+        "caption": "Mặt tiền Pogeun buổi tối với gấu bông sau cửa kính",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfl6tf39mnvdCQiv5l4bWeo4lSOX3Ig1JT97-AgqYWTdekn0I5cb3w3RRhNrYyywt1vklxXkjGmgCT3kHC3fmLqgMckAr--6FJVHtm02IEf7J01uzL3chmtK8bAwiBbA0wghF4m=w1600",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "why_picked": "Món Hàn gọi món (không lẩu, không nướng) có không gian dễ thương và hợp hẹn hò nhất khu Hà Đông. 4.8/1.173 trên Google, món ăn bày biện đẹp. Giá vừa phải.",
+    "confidence": "high"
+  },
+  {
+    "id": "bbq-chicken-van-phu",
+    "name": "bb.q Chicken Hà Đông (The K-Park Văn Phú)",
+    "category": "food",
+    "cuisine": "korean",
+    "subcategory": "Gà rán Hàn Quốc (chuỗi bb.q chính hãng)",
+    "tagline": "Gà rán giòn rụm chuẩn Hàn",
+    "description": "Chi nhánh bb.q Chicken (thương hiệu gà rán lớn của Hàn Quốc) mở cuối 2025 ở tầng 2 tòa K1 The K-Park, nội thất mới, gọn gàng, nhìn ra đường thoáng. Gà rán dầu ô liu giòn rụm, gà sốt cay ngọt, ăn kèm mì tương đen, tokbokki rose hoặc salad gà.",
+    "address": "Tầng 2, Tòa K1 Chung cư The K-Park, P. Văn Phú, KĐT Văn Phú, Kiến Hưng, Hà Đông, Hà Nội",
+    "area": "Văn Phú – Kiến Hưng",
+    "in_aeon": false,
+    "distance_to_aeon": "~3,7 km đường chim bay; ~5 km đường xe, khoảng 12–15 phút xe máy",
+    "hours": "Thứ Bảy: 10:00–22:00 (Google Maps). Ngồi tầng 2, không có thang máy. ĐT: 0964 923 466",
+    "price_range": "200.000–300.000đ/người (Google Maps)",
+    "signature": [
+      "Gà rán Golden Olive",
+      "Gà sốt cay ngọt Hàn",
+      "Cơm chiên chảo gang",
+      "Mì tương đen / tokbokki rose",
+      "Salad gà"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 214,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJz4ACC4hTNDERQN4VdQ3biPI"
+    },
+    "highlights": [
+      "\"Đồ ăn ngon, lên món nhanh, quán sạch sẽ, chỉn chu, nhân viên dễ thương\" — Google Maps, ~1/2026",
+      "\"Quán view khá thoáng, đồ ăn ngon\" — Google Maps, ~11/2025",
+      "\"Món gà khá ngon, mềm mọng nước nhưng sẽ ngon hơn nếu bớt vị mặn và ngọt\" — Google Maps, ~4/2026"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): có giờ mở cửa cho T7, không có cờ đóng cửa, review từ 4 đến 11 tháng gần đây (mở khoảng 11/2025). Fanpage chuỗi 'Bb.q Chicken Viet Nam' truy cập được (104.321 người theo dõi, 1.388 người đang nói về trang).",
+    "links": {
+      "maps": "https://www.google.com/maps?cid=17476459204856634944",
+      "menu": null,
+      "facebook": "https://www.facebook.com/bbqchickenvietnam",
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/bbq-chicken-van-phu/01.jpg",
+        "caption": "Gà rán giòn vàng ruộm kèm sốt",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf7xkHM0ovOYaJ94dgpeB1wmVaZpdHaMQHJKDpoijMHrI_PH7hVAWiTW4wnIV2-MzMGYECVBydzPm1_t36Zv6jIU_BMv7yqYtjmT7uOkprAv3OfdSYVntCRxrgWqVS3PQA0WciultQb2GK8=w1600",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "file": "photos/bbq-chicken-van-phu/02.jpg",
+        "caption": "Gà rán nhiều vị bày trên thớt gỗ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdEBN7WjJcXzCmrX3FlUoMY2yEdrtovoXEZ_MDuanXDzwI_SfQ_fTtSHlGKcTP1CsOg0rH3JJrE1AlmEuFuDs7m6jE2ZwXVar3Sag2pGSKZi9z6aaZQjc4l8mmeNRc7YTkza-ZzvJ0fAuOs=w1600",
+        "width": 1242,
+        "height": 1242
+      },
+      {
+        "file": "photos/bbq-chicken-van-phu/03.jpg",
+        "caption": "Mì tương đen, tokbokki rose và gà",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfWe2xn4CfhUulcjS5HSS9g69VFpbZzFInY5cuRm4uX2r-YjeVl9cSUgOj_fdrjpCbrdKRFs683MCis5wC1j41yQBuhQRRA1iLq_aTMS2vubRGdFfAv1Pf4S5UOHqCLgW25NYH3cDMEuyY=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/bbq-chicken-van-phu/04.jpg",
+        "caption": "Gà rán, salad và kim chi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcH6v8k1WJWOUCFwc5w7dL6YD4UirMs3Bi0ZEJ3Cp92V3fcY1TlJaXKKYu4pKfVQhCblTNYf6BB7ExoNlOGQFzazXdcYrD4Cvp2aDAXgCT6D_w_g_-KN5VSpWUSEFrugpAIY-WNoXo6DBtO=w1600",
+        "width": 961,
+        "height": 1280
+      },
+      {
+        "file": "photos/bbq-chicken-van-phu/05.jpg",
+        "caption": "Không gian bb.q với ghế màu, đèn thả",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfujPtn_OP1J2xn2m5qSqrVB-CnqETQMaRZ34qCM6QCOTR5zy1MA5zMxl-q7QZoLURwS04uLlS-IFpwyMykThecEHuO62RIWGT_EyA0TUkXGudTsJAsrMo0r6PVhGdKpVXIddxYYCDIa7rP=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "why_picked": "Gà rán Hàn của chuỗi chính hãng, quán mới, sạch. Review gần đây ổn định, không có phản ánh vệ sinh. Không gian casual nhưng gọn đẹp, giá mềm.",
+    "confidence": "medium-high"
+  },
+  {
+    "id": "don-chicken-the-linc",
+    "name": "Don Chicken – The Linc Park City",
+    "category": "food",
+    "cuisine": "korean",
+    "subcategory": "Gà nướng lò & gà rán Hàn, tokbokki",
+    "tagline": "Gà Hàn sốt đậm, gần rạp",
+    "description": "Nhà hàng gà Hàn ở tầng 2 TTTM The Linc (Park City), nổi tiếng gà nướng lò ít dầu và gà sốt cay ngọt rắc hạnh nhân. Ăn kèm tokbokki phô mai, pizza Hàn, mì và bia tươi. Không gian rộng, sạch và sáng.",
+    "address": "Tầng 2, TTTM The Linc, Park City Hanoi, Lê Trọng Tấn, Dương Nội/La Khê, Hà Đông, Hà Nội",
+    "area": "Park City – Lê Trọng Tấn",
+    "in_aeon": false,
+    "distance_to_aeon": "~2,7 km đường chim bay; ~3,5 km đường xe, khoảng 8–10 phút xe máy",
+    "hours": "Thứ Bảy: 11:00–22:00 (Google Maps). Hotline 1800 6634",
+    "price_range": "150.000–300.000đ/người (Google: 100–400k)",
+    "signature": [
+      "Gà sốt cay hạnh nhân với bánh gạo",
+      "Gà nướng lò",
+      "Gà rán giòn",
+      "Tokbokki phô mai",
+      "Pizza Hàn"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 837,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJR2iUQABTNDERzGiohe2ydJ8"
+    },
+    "highlights": [
+      "\"Không gian quán rộng rãi, thoáng mát, sạch sẽ. Nhân viên phục vụ nhiệt tình, vui vẻ\" — Google Maps, ~7/2026",
+      "\"Gà rán nóng giòn… sốt Hàn Quốc đậm vị, bám gà tốt và ăn rất cuốn\" — Google Maps, ~11/2025",
+      "\"Tok mềm dẻo, sốt vừa… nhìn chung cũng khá okie\" — Google Maps, ~6/2026"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): có giờ mở cửa cho T7, không có cờ đóng cửa, review mới nhất khoảng 3 tuần trước, chủ quán phản hồi. Website donchickenhanoi.vn còn hoạt động và liệt kê chi nhánh Parkcity.",
+    "links": {
+      "maps": "https://www.google.com/maps?cid=11490005282548377804",
+      "menu": "https://donchickenhanoi.vn/",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://donchickenhanoi.vn/"
+    },
+    "photos": [
+      {
+        "file": "photos/don-chicken-the-linc/01.jpg",
+        "caption": "Gà sốt cay rắc hạnh nhân với bánh gạo",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLevy8IDNYbVjJp1RRV6UkrNMka7yzW60y0hGQ580gV37p5PWwv4-Bg5jBRHsumrR0e2Zc22Qe8vFLbnjPjL7-BoTCEyU91lnUmzUGKe2_RwcLRMHPkmk7_t4CxOebsUolO1VebS2VJyYLBf=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/don-chicken-the-linc/02.jpg",
+        "caption": "Gà sốt phủ bánh gạo, phô mai và hạnh nhân",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdC4MREOSPcpQ6_dx4p0fSlj9yBK97R4kHzqzM7OGFFQTRxFiwxAHeMYN5uW7bw12Ihs0KwvzBKUfBjHvU7qwyYeUbYpMZC8a4YtENDc5xf3-fgKYkRSIQaHjeAxVlJQDVsAEs9AAOUAKwK=w1600",
+        "width": 1432,
+        "height": 1432
+      },
+      {
+        "file": "photos/don-chicken-the-linc/03.jpg",
+        "caption": "Tokbokki phô mai trứng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc3ycGvQ3UekaIFltqmmvgYgRXG6SX1mbVIkYSL8oVLgmqNjE6KAynYNxG6vTUzz8aVJpXWy9PxpJKws_PjhWOi_5p6qVOFLfmaJm0Jy3IPi6bugKs4nPuQYgttdGZoi1isQpyqUj5v3XPI=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/don-chicken-the-linc/04.jpg",
+        "caption": "Tokbokki sốt kem trong nồi đồng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfuYD2imEgVMBjTzAfw_vWc_WA-lylUfrzf_4Mj8TNezz9uCi0xxjEduaweiHguF11WaDf9aP72rN4BsLZvpyB6e1Qjr7iA-RlOa3LrbURiaph_jWkR9PgnJPcfj3g4fFH9tAqK6j9tbj4=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/don-chicken-the-linc/05.jpg",
+        "caption": "Mặt tiền Don Chicken trong TTTM The Linc",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf-8NY-EMIrKmgmAntttTSRuEOKK8p_Ay8Dxx8oczoPEtafJQSk64-Tb4a0faZrxWICGimNR2LpSRh1JbAG9tvsIsw58OUqDy7Un_N6oJpJplyxcUnNm8HHeW2bLpQqVuHBK7I68H4hsnkF=w1600",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "why_picked": "Gần AEON nhất trong các quán Hàn không lẩu, không nướng (~8–10 phút). Rating cao, nhiều review gần đây, không gian sạch, rộng. Món gà sốt rất hợp chia đôi.",
+    "confidence": "medium"
+  }
+]

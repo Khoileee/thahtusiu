@@ -1,70 +1,257 @@
-import {cafes,restaurants,films,backups,CHECKED,mapLink} from './data.mjs';
-import {defaults,sanitize,selectedName,stepValid,complete,itinerary,dateLabel,responseText,validDate} from './plan.mjs';
-const $=selector=>document.querySelector(selector);
-const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const storageKey='hen-cau-thu-bay-v1';
-let state={...defaults};try{state=sanitize(JSON.parse(localStorage.getItem(storageKey)||'{}')||{});}catch{}
+import {venues, clusters} from './venues.mjs';
+import {films, cafeMoods, regions, cuisines} from './data.mjs';
+import {defaults, sanitize, byId, pickName, stepDone, complete, itinerary, routeLink, responseText, dateLabel} from './plan.mjs';
+
+const $ = s => document.querySelector(s);
+const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
+const KEY = 'dear-tu-v3';
+const STEPS = [
+  {key:'cafe', label:'Đồ uống', icon:'☕'},
+  {key:'food', label:'Bữa tối', icon:'🍜'},
+  {key:'film', label:'Phim', icon:'🎬'},
+  {key:'done', label:'Chốt kèo', icon:'♡'}
+];
+const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+let state = {...defaults};
+try { state = sanitize(JSON.parse(localStorage.getItem(KEY) || '{}') || {}); } catch {}
+const ui = {mood:null, region:null, cuisine:null};
+{
+  const c = byId(state.cafe); if (c) ui.mood = cafeMoods.find(m => m.ids.includes(c.id))?.id || null;
+  const f = byId(state.food); if (f) { ui.cuisine = f.cuisine; ui.region = regions.find(r => r.cuisines.includes(f.cuisine))?.id || null; }
+}
+
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
 let toastTimer;
-function save(){try{localStorage.setItem(storageKey,JSON.stringify(state));}catch{}}
-function toast(message){$('#toast').textContent=message;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),4000);}
-function external(url,text,cls=''){return `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${text} ↗</a>`;}
-function cards(items,key){return `<div class="card-grid">${items.map(item=>`<article class="place-card ${key==='film'?'film-card':''} ${state[key]===item.id?'selected':''}"><div class="photo-wrap"><img class="card-photo ${item.contain?'contain':''}" src="assets/${item.image}" alt="${esc(item.imageLabel+' — '+item.name)}" loading="lazy" width="750" height="468"><span class="photo-label">${esc(item.imageLabel)}</span>${state[key]===item.id?'<span class="selected-mark" aria-hidden="true">✓</span>':''}</div><div class="card-body"><div class="card-kicker">${esc(item.kicker)}</div><h4>${esc(item.name)}</h4><p>${esc(item.desc)}</p><div class="card-meta">${esc(item.meta)}</div><div class="card-actions"><button class="select-button" data-action="select" data-key="${key}" data-id="${item.id}" aria-pressed="${state[key]===item.id}">${state[key]===item.id?'Đã chọn ✓':'Chọn ở đây'}</button><button class="text-button" data-action="detail" data-id="${item.id}">Xem thêm ↗</button></div></div></article>`).join('')}</div>`;}
-function custom(key,title,description,placeholder){return `<button class="custom-choice ${state[key]==='custom'?'selected':''}" data-action="select" data-key="${key}" data-id="custom" aria-pressed="${state[key]==='custom'}"><span class="plus" aria-hidden="true">${state[key]==='custom'?'✓':'+'}</span><span><strong>${title}</strong><small>${description}</small></span></button>${state[key]==='custom'?`<div class="custom-field"><label class="field-label" for="${key}Custom">${placeholder}</label><input class="text-input" id="${key}Custom" name="${key}Custom" data-field="${key}Custom" maxlength="160" value="${esc(state[key+'Custom'])}" placeholder="Cậu viết vào đây nhé…" required></div>`:''}`;}
-function heading(title,desc){return `<div class="step-heading"><h3 tabindex="-1" id="step-title">${title}</h3><p>${desc}</p></div>`;}
-function renderCoffee(){return heading('Một góc có nắng, một ly đúng gu.','Một nơi nhiều kính và khoảng xanh, hay một tiệm matcha nhỏ? Ngồi lại khoảng 45 phút thôi nhé.')+cards(cafes,'cafe')+custom('cafe','Cậu có một góc quen?','Một quán ngoài trời, hoặc có cửa sổ nhìn ra khoảng xanh.','Tên quán hoặc khu vực cậu thích')+`<div class="preference-note"><span>✧</span><p>Matcha đắng, không thêm đường, oat milk.<br>Mình sẽ hỏi quán trước cả đồ uống lẫn góc ngồi thoáng nhé.</p></div>`;}
-function renderDinner(){return heading('Tối đó, mình ăn gì nhỉ?','Món Nhật hay món Việt? Mình chọn ăn trong AEON cho tiện qua rạp nhé.')+`<div class="cuisine-tabs" aria-label="Loại món ăn"><button data-action="cuisine" data-id="viet" aria-pressed="${state.cuisine==='viet'}">Món Việt · cuốn & món bò</button><button data-action="cuisine" data-id="nhat" aria-pressed="${state.cuisine==='nhat'}">Món Nhật · ramen & sushi</button></div>`+cards(restaurants.filter(x=>x.type===state.cuisine),'restaurant')+custom('restaurant','Hay mình ăn chỗ khác?','Cậu có thể ghi tên quán hoặc món đang muốn ăn.','Quán hoặc món cậu muốn thử')+`<div class="more-places"><button class="text-button" data-action="backups">Xem thêm vài quán quanh AEON ↗</button></div><div class="preference-note"><span>♡</span><p>Mình nhớ chuyện tôm và cua rồi. Trước khi gọi món, mình sẽ nhờ quán kiểm tra cả nhân, nước dùng, nước chấm và dụng cụ dùng chung.</p></div>`;}
-function renderFilms(){return heading('Một bộ phim, nếu cậu thích.','Khoảng một tiếng rưỡi thôi. Xem xong mình có thêm chuyện để kể nhau nghe.')+cards(films,'film')+`<button class="custom-choice ${state.film==='none'?'selected':''}" data-action="select" data-key="film" data-id="none" aria-pressed="${state.film==='none'}"><span class="plus">${state.film==='none'?'✓':'✧'}</span><span><strong>Hôm đó mình không xem phim nhé</strong><small>Ăn tối rồi đi dạo một chút, hoặc về sớm cũng được.</small></span></button>`+custom('film','Cậu muốn xem phim khác?','Cứ ghi tên phim, mình cùng xem có suất phù hợp không.','Tên phim cậu muốn xem')+(state.film!=='none'?`<h4 class="order-label">Còn thứ tự thì sao?</h4><div class="order-options"><button class="order-button" data-action="order" data-id="film-first" aria-pressed="${state.order==='film-first'}"><strong>Café → Phim → Ăn tối</strong><small>Để dành bữa tối trò chuyện sau phim.</small></button><button class="order-button" data-action="order" data-id="dinner-first" aria-pressed="${state.order==='dinner-first'}"><strong>Café → Ăn tối → Phim</strong><small>Ăn thong thả rồi cùng vào rạp.</small></button></div>`:'')+`<p class="small-note">Phim là gợi ý theo thông tin phát hành. Giờ trên vé hẹn chỉ là khung dự kiến; mình sẽ chốt theo suất thật của ${external('https://aeonmall-hadong.com.vn/cua-hang/cgv/','CGV AEON Hà Đông')}.</p>`;}
-function renderSummary(){return heading('Vậy là mình có một chiếc hẹn.','Cậu xem lại một lượt nhé. Giờ giấc hay địa điểm đều có thể đổi.')+`<div class="summary-card">${[['Café','cafe'],['Ăn tối','restaurant'],['Bộ phim','film']].map(([label,key])=>`<div class="summary-line"><span>${label}</span><strong>${esc(selectedName(state,key)||'Chưa chọn')}</strong></div>`).join('')}</div><div class="field-row"><div><label class="field-label" for="date">Ngày mình gặp nhau</label><input class="text-input" type="date" id="date" data-field="date" value="${state.date}" required></div><div><label class="field-label" for="time">Bắt đầu lúc</label><input class="text-input" type="time" id="time" data-field="time" value="${state.time}" required></div></div><label class="field-label" for="notes">Có điều gì cậu muốn nhắn thêm không?</label><textarea id="notes" data-field="notes" maxlength="1200" placeholder="Đón ở đâu, món cần tránh, muốn về sớm hơn… Hoặc nếu hôm khác tiện hơn, cứ nói mình nhé.">${esc(state.notes)}</textarea><div class="response-actions"><button class="button" data-action="share">Chia sẻ lịch hẹn <span>↗</span></button><button class="button secondary" data-action="copy">Sao chép lời nhắn</button></div><p class="share-note">Chọn ứng dụng để gửi cho mình, hoặc sao chép rồi dán vào cuộc trò chuyện của hai đứa. Thiệp chưa tự gửi câu trả lời.</p><div id="response-status" role="status"></div>`;}
-function renderTicket(){
- $('#ticket-date').textContent=dateLabel(state.date);
- $('#live-plan').innerHTML=itinerary(state).map(x=>`<div class="timeline-row ${x.pending?'pending':''}"><span class="timeline-icon" aria-hidden="true">${x.icon}</span><div><time>${esc(x.time)}</time><strong>${esc(x.title)}</strong><small>${esc(x.sub)}</small></div></div>`).join('');
+function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 2400); }
+const cover = v => v.photos[0]?.src.replace('.webp', '-s.webp');
+const nf = new Intl.NumberFormat('vi-VN');
+const ext = (url, label, cls = 'link') => url ? `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label}<span aria-hidden="true"> ↗</span></a>` : '';
+const rating = (v, cls = 'rating') => v.rating?.score ? `<span class="${cls}"><b>★ ${String(v.rating.score).replace('.', ',')}</b>${v.rating.count ? `<span>${nf.format(v.rating.count)}</span>` : ''}</span>` : '';
+const typeOf = v => (v.sub || '').split(/[(/+]/)[0].trim();
+
+/* ---------- Screens ---------- */
+function showScreen(name) {
+  $('#cover').hidden = name !== 'cover';
+  $('#planner').hidden = name !== 'planner';
+  document.body.dataset.screen = name;
+  if (name === 'planner') render(true);
+  window.scrollTo(0, 0);
 }
-function render(){
- $('#steps').innerHTML=['Café','Ăn tối','Xem phim','Hẹn nhé'].map((label,i)=>`<button class="step ${state.step===i?'active':i<3&&stepValid(state,i)?'done':''}" data-action="step" data-step="${i}" ${state.step===i?'aria-current="step"':''}><span class="step-num">${i<3&&stepValid(state,i)&&state.step!==i?'✓':String(i+1).padStart(2,'0')}</span>${label}</button>`).join('');
- $('#step-content').innerHTML=[renderCoffee,renderDinner,renderFilms,renderSummary][state.step]();
- $('#step-navigation').innerHTML=`<button class="back-button" data-action="${state.step?'back':'top'}">← ${state.step?'Quay lại':'Về lời mời'}</button>${state.step<3?`<button class="button" data-action="next">${['Tiếp theo: Ăn tối','Tiếp theo: Xem phim','Xem lại lịch hẹn'][state.step]} <span>→</span></button>`:'<span class="small-note" style="margin:0">Cứ thong thả, cậu nhé ♡</span>'}`;
- renderTicket();save();
+
+/* ---------- Chrome: tabs, pager, ticket ---------- */
+function renderTabs() {
+  $('#tabs').innerHTML = STEPS.map((s, i) => {
+    const done = s.key !== 'done' && stepDone(state, s.key);
+    return `<button data-go="${i}" class="tab ${state.step === i ? 'on' : ''} ${done ? 'done' : ''}" ${state.step === i ? 'aria-current="step"' : ''}><span class="tab-n" aria-hidden="true">${done ? '✓' : s.icon}</span><span>${s.label}</span></button>`;
+  }).join('');
 }
-function go(n){state.step=n;render();$('#step-title').focus({preventScroll:true});$('#planner').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}
-function openDialog(html){$('#dialog-content').innerHTML=html;$('#detail-dialog').showModal();}
-function detail(id){
- const item=[...cafes,...restaurants,...films].find(x=>x.id===id);if(!item)return;
- openDialog(`<img class="dialog-photo ${item.contain?'contain':''}" src="assets/${item.image}" alt="${esc(item.imageLabel+' — '+item.name)}">${item.gallery?.length?`<div class="venue-gallery">${item.gallery.map(photo=>`<figure><img src="assets/${esc(photo.image)}" alt="${esc(photo.caption)}" loading="lazy"><figcaption>${esc(photo.caption)}</figcaption></figure>`).join('')}</div>`:''}<div class="dialog-body"><div class="eyebrow">${esc(item.kicker)}</div><h2 id="dialog-title">${esc(item.name)}</h2><p>${esc(item.location)}</p><h3>${films.includes(item)?'Một chút về bộ phim':'Không gian & cảm giác'}</h3><p>${esc(item.vibe)}</p><h3>${films.includes(item)?'Giá vé':'Giá tham khảo'}</h3><p>${esc(item.price)}</p><h3>Trước khi chốt</h3><p>${esc(item.note)}</p>${item.review?`<h3>Về đánh giá</h3><p>${esc(item.review)}</p>`:''}<div class="dialog-links">${external(item.source,'Nguồn thông tin')}${item.menu?external(item.menu,cafes.includes(item)?'Trang quán · hỏi menu':'Xem menu'):''}${!films.includes(item)?external(mapLink(item.name+' '+item.location),'Mở Google Maps'):''}${item.phone?`<a href="tel:${item.phone}">Gọi quán · ${item.phone}</a>`:''}</div><p class="source-credit">Kiểm tra nguồn ngày ${CHECKED}. ${external(item.photoSource,'Nguồn ảnh')} · ${esc(item.imageLabel)}.</p></div>`);
+
+function renderPager() {
+  const s = state.step, prev = STEPS[s - 1], next = STEPS[s + 1];
+  const can = s < 3 && stepDone(state, STEPS[s].key);
+  $('#pager').innerHTML = `<div class="pager-in">
+    ${prev ? `<button class="pg prev" data-go="${s - 1}"><span aria-hidden="true">←</span> ${prev.label}</button>` : `<button class="pg prev" data-action="cover"><span aria-hidden="true">←</span> Thư mời</button>`}
+    <span class="pg-dots" aria-hidden="true">${STEPS.map((_, i) => `<i class="${i === s ? 'on' : ''}"></i>`).join('')}</span>
+    ${next ? `<button class="btn pg next" data-go="${s + 1}" ${can ? '' : 'disabled'}>${next.label} <span aria-hidden="true">→</span></button>` : `<button class="btn pg next" data-action="share" ${complete(state) ? '' : 'disabled'}>Gửi kèo ♡</button>`}
+  </div>`;
 }
-function showBackups(){openDialog(`<div class="dialog-body"><div class="eyebrow">THÊM MỘT VÀI Ý TƯỞNG</div><h2 id="dialog-title">Nếu cậu muốn đổi quán.</h2><p>Các quán đầu ở ngay trong AEON; hai quán cuối ở khu Mộ Lao, cần tính thêm quãng di chuyển. Cậu có thể ghi tên quán ở ô “ăn chỗ khác”.</p>${backups.map(x=>`<div class="directory-item"><div><strong>${esc(x.name)}</strong><small>${esc(x.place)}</small></div>${external(x.source,'Xem quán')}</div>`).join('')}<p class="small-note">Danh mục xác nhận địa điểm, chưa xác nhận giá mới, bàn trống hoặc khả năng đáp ứng dị ứng. ${external('https://aeonmall-hadong.com.vn/danh-muc-cua-hang/','Toàn bộ cửa hàng AEON')}</p></div>`);}
-function showSources(){openDialog(`<div class="dialog-body"><div class="eyebrow">GHI CHÚ CHO CHIẾC THIỆP</div><h2 id="dialog-title">Ảnh & thông tin.</h2><p>Ảnh mây, phong thư và vé là minh họa tạo bằng AI. Ảnh quán, món ăn và hình phim đến từ các nguồn thật được ghi ở từng thẻ.</p><p>Thông tin được đối chiếu ngày ${CHECKED}. Mô tả không gian chỉ dựa trên nguồn và ảnh công khai; không phải trải nghiệm trực tiếp. Chưa xác nhận điểm Google Maps, giá hiện hành ở tất cả quán hoặc suất phim thứ Bảy.</p><div class="source-list">${[...cafes,...restaurants,...films].map(x=>external(x.source,esc(x.name+(x.subtitle?' · '+x.subtitle:'')))).join('')}</div><h3>Lựa chọn của cậu</h3><p>Thiệp nhớ lựa chọn trên trình duyệt này để cậu quay lại sửa. Nội dung chỉ được gửi khi cậu dùng ứng dụng chia sẻ hoặc dán lời nhắn vào cuộc trò chuyện.</p><button class="text-button" data-action="reset">Xóa lựa chọn đã lưu trên máy này</button></div>`);}
-function fallbackCopy(text){openDialog(`<div class="dialog-body"><h2 id="dialog-title">Lời nhắn của cậu.</h2><p>Cậu có thể chọn toàn bộ, sao chép và gửi vào cuộc trò chuyện của hai đứa nhé.</p><label class="field-label" for="copy-text">Nội dung lịch hẹn</label><textarea class="copy-text" id="copy-text" readonly>${esc(text)}</textarea><p class="small-note">Chưa gửi tự động cho ai.</p></div>`);$('#copy-text').focus();$('#copy-text').select();}
-async function send(mode){
- if(!complete(state)){const first=[0,1,2].find(i=>!stepValid(state,i));if(first!==undefined){go(first);toast('Cậu chọn một phương án hoặc viết ý tưởng riêng nhé.');}else toast('Cậu kiểm tra lại ngày và giờ hẹn nhé.');return;}
- if(!$('#date')?.checkValidity()||!$('#time')?.checkValidity()){toast('Cậu điền ngày và giờ hợp lệ nhé.');return;}
- const text=responseText(state);
- if(mode==='share'&&navigator.share){try{await navigator.share({title:'Một chiếc hẹn của chúng mình',text});$('#response-status').textContent='Cậu kiểm tra lại cuộc trò chuyện để chắc lời nhắn đã gửi nhé.';return;}catch(err){if(err.name==='AbortError')return;}}
- try{await navigator.clipboard.writeText(text);toast('Đã sao chép. Cậu dán vào cuộc trò chuyện để gửi nhé.');$('#response-status').textContent='Đã sao chép lời nhắn; chưa gửi tự động.';}catch{fallbackCopy(text);}
+
+function renderTicket() {
+  $('#ticket').innerHTML = `<div class="ticket-card">
+    <p class="ticket-kicker">${esc(dateLabel())}</p>
+    <p class="ticket-title">Tú & tui</p>
+    <ol class="timeline">${itinerary(state).map(i => i.type === 'gap' ? `<li class="gap"><time></time><span class="dot" aria-hidden="true">┊</span><small>${esc(i.title)} · ${i.minutes}′</small></li>` : `<li class="${i.pending ? 'pending' : ''}"><time>${i.start}</time><span class="dot" aria-hidden="true">${i.icon}</span><b>${esc(i.title)}</b></li>`).join('')}</ol>
+  </div>`;
 }
-document.addEventListener('click',event=>{
- const b=event.target.closest('[data-action]');if(!b)return;
- switch(b.dataset.action){
-  case 'select':{const {key,id}=b.dataset;state[key]=id;render();document.querySelector(`[data-action="select"][data-key="${key}"][data-id="${id}"]`)?.focus({preventScroll:true});if(id==='custom')$(`[data-field="${key}Custom"]`)?.focus();break;}
-  case 'cuisine':state.cuisine=b.dataset.id;if(state.restaurant!=='custom'&&restaurants.find(x=>x.id===state.restaurant)?.type!==state.cuisine)state.restaurant='';render();document.querySelector(`[data-action="cuisine"][data-id="${state.cuisine}"]`)?.focus({preventScroll:true});break;
-  case 'order':state.order=b.dataset.id;render();document.querySelector(`[data-action="order"][data-id="${state.order}"]`)?.focus({preventScroll:true});break;
-  case 'step':go(Number(b.dataset.step));break;
-  case 'next':if(stepValid(state,state.step))go(state.step+1);else{toast('Cậu chọn một phương án, hoặc viết ý tưởng riêng nhé.');$('[data-field]')?.focus();}break;
-  case 'back':go(Math.max(0,state.step-1));break;
-  case 'top':$('#top').scrollIntoView();break;
-  case 'detail':detail(b.dataset.id);break;
-  case 'close':$('#detail-dialog').close();break;
-  case 'sources':showSources();break;
-  case 'backups':showBackups();break;
-  case 'copy':send('copy');break;
-  case 'share':send('share');break;
-  case 'reset':state={...defaults};save();$('#detail-dialog').close();render();toast('Đã xóa lựa chọn trên máy này.');break;
- }
+
+/* ---------- Building blocks ---------- */
+const crumbs = items => `<nav class="crumbs" aria-label="Đang xem">${items.map((c, i) => i < items.length - 1 ? `<button data-crumb="${c.to}">← ${esc(c.label)}</button>` : '').join('')}</nav>`;
+const heading = (title, lede) => `<header class="stage-head"><h2 tabindex="-1" id="stage-title">${title}</h2>${lede ? `<p>${lede}</p>` : ''}</header>`;
+
+function collage(list) {
+  const pics = list.slice(0, 3);
+  return `<span class="collage n${pics.length}">${pics.map(v => `<img src="${esc(cover(v))}" alt="" loading="lazy">`).join('')}</span>`;
+}
+
+function tile({action, id, title, label, list, icon}) {
+  return `<button class="tile" data-${action}="${id}">${collage(list)}
+    <span class="tile-body"><span class="tile-label">${icon ? `<i aria-hidden="true">${icon}</i>` : ''}${esc(label)}</span><b>${esc(title)}</b><span class="tile-count">${list.length} quán →</span></span></button>`;
+}
+
+function card(v, key) {
+  const picked = state[key] === v.id;
+  return `<article class="vcard ${picked ? 'picked' : ''}">
+    <button class="vcard-photo" data-open="${v.id}" aria-label="Xem ảnh và review ${esc(v.name)}">
+      <img src="${esc(cover(v))}" alt="${esc(v.photos[0]?.caption || v.name)}" loading="lazy" width="760" height="570">
+      ${rating(v, 'rating on-photo')}
+      <span class="count-pill">${v.photos.length} ảnh</span>
+      ${picked ? '<span class="picked-mark">♡ Đã chọn</span>' : ''}
+    </button>
+    <div class="vcard-body">
+      <p class="vcard-kicker">${esc(v.inAeon ? 'Trong AEON' : clusters[v.cluster])}${v.distance && !v.inAeon ? ' · ' + esc(v.distance) : ''}</p>
+      <h3>${esc(v.name)}</h3>
+      <p class="vcard-tag">${esc(v.tagline)}</p>
+      <div class="vcard-actions"><button class="btn ${picked ? 'ghost' : ''}" data-pick="${v.id}" data-key="${key}" aria-pressed="${picked}">${picked ? 'Đã chọn ✓' : 'Chọn'}</button><button class="link" data-open="${v.id}">Ảnh & review</button></div>
+    </div></article>`;
+}
+
+function grid(list, key) {
+  return `<div class="carousel"><div class="vgrid" id="vgrid">${list.map(v => card(v, key)).join('')}</div>
+    ${list.length > 1 ? `<div class="car-nav"><button data-car="-1" aria-label="Quán trước">‹</button><span id="car-count">1 / ${list.length}</span><button data-car="1" aria-label="Quán sau">›</button></div>` : ''}</div>`;
+}
+
+function customBox(key, title, hint) {
+  const on = state[key] === 'custom';
+  return `<div class="custom ${on ? 'on' : ''}"><button class="custom-btn" data-pick="custom" data-key="${key}" aria-pressed="${on}"><span aria-hidden="true">${on ? '✓' : '+'}</span><span><b>${title}</b><small>${hint}</small></span></button>
+    ${on ? `<label class="sr" for="${key}Custom">${title}</label><input id="${key}Custom" class="input" data-field="${key}Custom" maxlength="160" value="${esc(state[key + 'Custom'])}" placeholder="Ghi tên quán hoặc món nhé…">` : ''}</div>`;
+}
+
+/* ---------- Steps ---------- */
+function stepCafe() {
+  const cafes = venues.filter(v => v.kind === 'cafe');
+  const moods = cafeMoods.map(m => ({...m, list:m.ids.map(byId).filter(Boolean)})).filter(m => m.list.length);
+  if (!ui.mood) {
+    return heading('Chị thích ngồi ở đâu?', 'Bắt đầu buổi chiều bằng một ly nước ở chỗ thoáng mát, nhiều cây, view nhìn ra hồ nhé!')
+      + `<div class="tiles n${moods.length}">${moods.map(m => tile({action:'mood', id:m.id, title:m.title, label:m.label, icon:m.icon, list:m.list})).join('')}</div>`
+      + customBox('cafe', 'Có quán ruột rồi?', 'Ghi tên quán, tui sắp xếp.');
+  }
+  const mood = moods.find(m => m.id === ui.mood) || moods[0];
+  return crumbs([{to:'cafe', label:'Chọn kiểu khác'}, {}]) + heading(esc(mood.title)) + grid(mood.list, 'cafe');
+}
+
+function stepFood() {
+  const foods = venues.filter(v => v.kind === 'food');
+  const of = c => foods.filter(v => v.cuisine === c);
+  const regs = regions.map(r => ({...r, list:foods.filter(v => r.cuisines.includes(v.cuisine))})).filter(r => r.list.length);
+  if (!ui.region) {
+    return heading('Tối nay ăn gì nhỉ?')
+      + `<div class="tiles n${regs.length}">${regs.map(r => tile({action:'region', id:r.id, title:r.blurb, label:r.title, list:r.list})).join('')}</div>`
+      + customBox('food', 'Đang thèm món khác?', 'Ghi tên món hoặc quán nhé.');
+  }
+  const region = regs.find(r => r.id === ui.region);
+  const cs = region.cuisines.filter(c => of(c).length);
+  if (!ui.cuisine && cs.length > 1) {
+    return crumbs([{to:'food', label:'Á hay Âu'}, {}]) + heading(`${region.title}, vị nào đây?`)
+      + `<div class="tiles n${cs.length}">${cs.map(c => tile({action:'cuisine', id:c, title:cuisines[c].blurb, label:'Món ' + cuisines[c].title, icon:cuisines[c].icon, list:of(c)})).join('')}</div>`;
+  }
+  const c = ui.cuisine || cs[0];
+  return crumbs([cs.length > 1 ? {to:'region', label:'Đổi món'} : {to:'food', label:'Á hay Âu'}, {}])
+    + heading(`Món ${cuisines[c].title} ${cuisines[c].icon}`) + grid(of(c), 'food');
+}
+
+function stepFilm() {
+  return heading('Xem phim gì đây?', 'Suất chiếu thứ Bảy 17/10 ở CGV AEON Hà Đông.')
+    + `<div class="films">${films.map(f => { const on = state.film === f.id; return `<article class="film ${on ? 'picked' : ''}"><img src="${f.image}" alt="Hình phim ${esc(f.name)}" loading="lazy"><div><p class="vcard-kicker">${esc(f.kicker)} · ${f.minutes} phút</p><h3>${esc(f.name)}</h3><p>${esc(f.desc)}</p>${f.times ? `<p class="times" aria-label="Suất chiếu thứ Bảy">${f.times.filter(x => x >= '12:00' && x <= '22:00').map(x => `<span>${x}${f.tags[x] ? `<em>${esc(f.tags[x])}</em>` : ''}</span>`).join('')}</p>` : ''}<div class="vcard-actions"><button class="btn ${on ? 'ghost' : ''}" data-pick="${f.id}" data-key="film" aria-pressed="${on}">${on ? 'Đã chọn ✓' : 'Xem phim này'}</button>${ext(f.source, 'Trailer & info')}</div></div></article>`; }).join('')}</div>`
+    + `<div class="film-extra"><button class="chip-btn ${state.film === 'none' ? 'on' : ''}" data-pick="none" data-key="film" aria-pressed="${state.film === 'none'}">${state.film === 'none' ? '✓ ' : ''}Thôi khỏi phim, đi dạo</button>${customBox('film', 'Phim khác?', 'Ghi tên phim nhé.')}</div>`
+    + (state.film !== 'none' ? `<div class="orders">${[['dinner-first', 'Cafe → dạo → Ăn → Phim'], ['film-first', 'Cafe → Phim → Ăn']].map(([id, t]) => `<button class="order" data-order="${id}" aria-pressed="${state.order === id}">${t}</button>`).join('')}</div>` : '');
+}
+
+function stepDoneView() {
+  const plan = itinerary(state), route = routeLink(state), times = [];
+  for (let h = 13; h <= 17; h++) for (const m of ['00', '30']) times.push(`${String(h).padStart(2, '0')}:${m}`);
+  return heading('Kèo của tụi mình nè ♡')
+    + `<div class="review">
+      <ol class="review-list">${plan.map(i => { if (i.type === 'gap') return `<li class="gap"><span aria-hidden="true">┊</span><small>${i.start} · ${esc(i.title)} · ${i.minutes} phút</small></li>`; const v = i.place?.photos ? i.place : null; return `<li class="${i.pending ? 'pending' : ''}">${v ? `<img src="${esc(cover(v))}" alt="" loading="lazy">` : `<span class="ph" aria-hidden="true">${i.icon}</span>`}<div><time>${i.start} – ${i.end}</time><b>${esc(i.title)}</b><small class="${i.noShow ? 'warn' : ''}">${esc(i.sub)}</small></div>${v ? `<button class="link" data-open="${v.id}">Xem</button>` : ''}</li>`; }).join('')}</ol>
+      <div class="review-form">
+        <label class="field"><span>Gặp nhau lúc</span><select id="time" data-field="time">${times.map(t => `<option ${t === state.time ? 'selected' : ''}>${t}</option>`).join('')}</select></label>
+        <label class="field"><span>Nhắn tui gì không?</span><textarea id="notes" data-field="notes" rows="3" maxlength="1200" placeholder="Qua đón tui nhé, hay gặp ở quán…">${esc(state.notes)}</textarea></label>
+        ${route ? ext(route, 'Đường đi trên Google Maps', 'link') : ''}
+        <div id="share-fallback"></div>
+      </div></div>`;
+}
+
+/* ---------- Detail sheet ---------- */
+function openSheet(id) {
+  const v = byId(id); if (!v) return;
+  const key = v.kind === 'cafe' ? 'cafe' : 'food', picked = state[key] === v.id;
+  const quotes = v.highlights.filter(h => /^["“]/.test(h.trim())).map(h => {
+    const [q, src] = h.trim().split(/\s+[—–]\s+(?=[^"“”]*$)/);
+    return {q:q.replace(/["“”]/g, '').trim(), src};
+  });
+  const links = [['maps', 'Google Maps'], ['tiktok', 'TikTok'], ['instagram', 'Instagram'], ['facebook', 'Facebook'], ['menu', 'Menu'], ['website', 'Website']].filter(([k]) => v.links[k] && !(k === 'website' && v.links[k] === v.links.menu));
+  const facts = [['Địa chỉ', v.address], ['Giờ mở cửa', v.hours], ['Cách AEON', v.inAeon ? 'Ngay trong AEON' : v.distance]].filter(([, x]) => x);
+  $('#sheet-body').innerHTML = `
+    <button class="sheet-close" data-action="close" aria-label="Đóng">×</button>
+    <div class="gallery" id="gallery">${v.photos.map((p, i) => `<figure><img src="${esc(p.src)}" alt="${esc(p.caption)}" width="${p.w}" height="${p.h}" ${i ? 'loading="lazy"' : ''}></figure>`).join('')}</div>
+    ${v.photos.length > 1 ? `<div class="gallery-nav"><button data-gal="-1" aria-label="Ảnh trước">‹</button><span id="gal-count">1 / ${v.photos.length}</span><button data-gal="1" aria-label="Ảnh sau">›</button></div>` : ''}
+    <div class="sheet-content">
+      <p class="vcard-kicker">${esc(v.inAeon ? 'Trong AEON' : clusters[v.cluster])} · ${esc(typeOf(v))}</p>
+      <h2 id="sheet-title">${esc(v.name)}</h2>
+      <p class="sheet-tag">${esc(v.tagline)}</p>
+      ${v.rating.score ? `<p class="sheet-rating">${rating(v)} <span class="src">đánh giá Google</span></p>` : ''}
+      <p class="sheet-desc">${esc(v.desc)}</p>
+      ${quotes.length ? `<div class="quotes">${quotes.slice(0, 3).map(({q, src}) => `<blockquote>${esc(q)}${src ? `<cite>${esc(src)}</cite>` : ''}</blockquote>`).join('')}</div>` : ''}
+      ${v.signature.length ? `<ul class="tags">${v.signature.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
+      <dl class="facts">${facts.map(([k, x]) => `<div><dt>${k}</dt><dd>${esc(x)}</dd></div>`).join('')}</dl>
+      ${links.length ? `<p class="links">${links.map(([k, l]) => ext(v.links[k], l, 'pill')).join('')}</p>` : ''}
+    </div>
+    <div class="sheet-bar"><button class="btn big ${picked ? 'ghost' : ''}" data-pick="${v.id}" data-key="${key}" data-close="1">${picked ? 'Đã chọn ✓' : 'Chọn quán này ♡'}</button></div>`;
+  const d = $('#sheet'); if (!d.open) d.showModal();
+  const g = $('#gallery'); g.scrollLeft = 0;
+  g.addEventListener('scroll', () => { const c = $('#gal-count'); if (c) c.textContent = `${Math.round(g.scrollLeft / g.clientWidth) + 1} / ${v.photos.length}`; }, {passive:true});
+}
+
+/* ---------- Render ---------- */
+function render(top) {
+  renderTabs();
+  $('#stage').innerHTML = `<div class="stage-in" data-step="${state.step}">${[stepCafe, stepFood, stepFilm, stepDoneView][state.step]()}</div>`;
+  renderPager();
+  renderTicket();
+  const g = $('#vgrid');
+  if (g) g.addEventListener('scroll', () => { const c = $('#car-count'), w = g.firstElementChild?.getBoundingClientRect().width || 1; if (c) c.textContent = `${Math.min(g.children.length, Math.round(g.scrollLeft / (w + 16)) + 1)} / ${g.children.length}`; }, {passive:true});
+  if (top) { $('#scroller').scrollTo(0, 0); $('#stage-title')?.focus({preventScroll:true}); }
+}
+
+async function share() {
+  const text = responseText(state);
+  try { if (navigator.share) { await navigator.share({title:'Kèo cuối tuần ♡', text}); return; } } catch (e) { if (e.name === 'AbortError') return; }
+  try { await navigator.clipboard.writeText(text); toast('Đã copy kèo, gửi tui nhé ♡'); return; } catch {}
+  state.step = 3; render();
+  $('#share-fallback').innerHTML = `<label class="field"><span>Copy đoạn này gửi tui nhé</span><textarea id="share-text" rows="8" readonly>${esc(text)}</textarea></label>`;
+  $('#share-text').select();
+}
+
+document.addEventListener('click', e => {
+  const b = e.target.closest('button, [data-open]'); if (!b) return;
+  const d = b.dataset;
+  if (d.action === 'open') { showScreen('planner'); return; }
+  if (d.action === 'cover') { showScreen('cover'); return; }
+  if (d.go !== undefined) { state.step = +d.go; save(); render(true); return; }
+  if (d.mood) { ui.mood = d.mood; render(true); return; }
+  if (d.region) { ui.region = d.region; ui.cuisine = null; render(true); return; }
+  if (d.cuisine) { ui.cuisine = d.cuisine; render(true); return; }
+  if (d.crumb) { if (d.crumb === 'cafe') ui.mood = null; if (d.crumb === 'food') { ui.region = null; ui.cuisine = null; } if (d.crumb === 'region') ui.cuisine = null; render(true); return; }
+  if (d.car) { const g = $('#vgrid'), w = g.firstElementChild.getBoundingClientRect().width + 16; g.scrollBy({left:w * +d.car, behavior:reduced() ? 'auto' : 'smooth'}); return; }
+  if (d.order) { state.order = d.order; save(); render(); return; }
+  if (d.open) { openSheet(d.open); return; }
+  if (d.gal) { const g = $('#gallery'); g.scrollBy({left:g.clientWidth * +d.gal, behavior:reduced() ? 'auto' : 'smooth'}); return; }
+  if (d.pick) {
+    const k = d.key, again = state[k] === d.pick && d.pick !== 'custom';
+    state[k] = d.pick; save();
+    if (d.close) $('#sheet').close();
+    const left = $('#vgrid')?.scrollLeft;
+    render();
+    if (left) $('#vgrid').scrollLeft = left;
+    if (d.pick === 'custom') $(`#${k}Custom`)?.focus();
+    else if (!again) toast(`Đã chọn ${pickName(state, k)} ♡`);
+    return;
+  }
+  if (d.action === 'close') { $('#sheet').close(); return; }
+  if (d.action === 'share') share();
 });
-document.addEventListener('input',e=>{
- const key=e.target.dataset.field;if(!key)return;
- if(key==='date'&&!validDate(e.target.value))return;
- if(key==='time'&&!/^([01]\d|2[0-3]):[0-5]\d$/.test(e.target.value))return;
- state[key]=e.target.value;save();renderTicket();
+
+document.addEventListener('input', e => {
+  const f = e.target.dataset.field; if (!f) return;
+  state[f] = e.target.value; save();
+  if (f === 'time') render(); else { renderTabs(); renderPager(); renderTicket(); }
 });
-$('#detail-dialog').addEventListener('click',e=>{if(e.target===$('#detail-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
-render();
+
+document.addEventListener('keydown', e => {
+  if (document.body.dataset.screen !== 'planner' || $('#sheet').open || e.target.closest('input, textarea, select')) return;
+  if (e.key === 'ArrowRight' && state.step < 3 && stepDone(state, STEPS[state.step].key)) { state.step++; save(); render(true); }
+  if (e.key === 'ArrowLeft' && state.step > 0) { state.step--; save(); render(true); }
+});
+
+$('#sheet').addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); });
+document.body.dataset.screen = 'cover';

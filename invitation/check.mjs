@@ -1,22 +1,33 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {defaults,sanitize,validDate,itinerary,complete,responseText} from './dist/plan.mjs';
-import {cafes,restaurants,films} from './dist/data.mjs';
-assert.equal(validDate('2026-02-30'),false);
-assert.equal(validDate('2026-10-17'),true);
-assert.equal(complete(defaults),false);
-assert.equal(sanitize({step:100,cafe:'fake',date:'oops',time:'99:99'}).step,0);
-const state={...defaults,cafe:'an-garden',restaurant:'hang-cuon',film:'poppy'};
-assert.equal(complete(state),true);
-assert.deepEqual(itinerary(state).map(x=>x.key),['cafe','film','restaurant']);
-assert.match(itinerary(state)[2].time,/19:00/);
-assert.deepEqual(itinerary({...state,order:'dinner-first'}).map(x=>x.key),['cafe','restaurant','film']);
-assert.match(itinerary({...state,order:'dinner-first',restaurant:'isushi'})[2].time,/19:00/);
-assert.equal(itinerary({...state,film:'none'})[2].title,'Đi dạo nếu còn muốn');
-assert.equal(complete({...state,cafe:'custom',cafeCustom:'   '}),false);
-assert.match(responseText({...state,cafe:'custom',cafeCustom:'Một góc khác',notes:'Về trước 21h'}),/Một góc khác/);
-assert.match(responseText({...state,notes:'Về trước 21h'}),/Về trước 21h/);
-assert.match(itinerary({...state,time:'23:30'})[2].time,/\(\+1 ngày\)/);
-for(const x of [...cafes,...restaurants,...films])assert.ok(fs.existsSync(`dist/assets/${x.image}`),`Missing ${x.image}`);
-for(const f of ['index.html','style.css','app.mjs','assets/hero.webp','assets/tickets.webp'])assert.ok(fs.existsSync('dist/'+f));
-console.log('PASS: date validation, selection validation, both orders, buffet duration, no-film, custom response, midnight, all assets.');
+import {defaults, sanitize, itinerary, complete, responseText, routeLink} from './dist/plan.mjs';
+import {venues} from './dist/venues.mjs';
+import {films, cafeMoods, cuisines} from './dist/data.mjs';
+
+assert.equal(complete(defaults), false);
+assert.equal(sanitize({step:100, cafe:'fake', time:'99:99'}).step, 0);
+assert.equal(sanitize({cafe:'nama-sushi'}).cafe, '', 'quán ăn không được chọn ở bước đồ uống');
+const state = {...defaults, cafe:'ken-coffee-dai-mo', food:'nama-sushi', film:'street-fighter'};
+assert.equal(complete(state), true);
+const keys = st => itinerary(st).filter(x => x.type === 'stop').map(x => x.key);
+assert.deepEqual(keys(state), ['cafe', 'food', 'film']);
+assert.equal(itinerary({...state, time:'15:00'}).find(x => x.key === 'film').start, '19:30', 'khớp suất chiếu thật');
+assert.equal(itinerary({...state, film:'scotty', time:'17:00'}).find(x => x.key === 'film').noShow, true, 'báo khi lỡ suất cuối');
+assert.deepEqual(keys({...state, order:'film-first'}), ['cafe', 'film', 'food']);
+assert.deepEqual(keys({...state, film:'none'}), ['cafe', 'food', 'walk']);
+assert.equal(itinerary(state)[0].start, '15:30');
+assert.equal(complete({...state, cafe:'custom', cafeCustom:'   '}), false);
+assert.match(responseText({...state, cafe:'custom', cafeCustom:'Một góc khác', notes:'Về trước 21h'}), /Một góc khác[\s\S]*Về trước 21h/);
+assert.match(routeLink(state), /destination=AEON/);
+assert.doesNotMatch(responseText(state), /oat|matcha đắng|tôm|cua/i, 'không còn ghi chú cá nhân');
+
+for (const m of cafeMoods) for (const id of m.ids) assert.ok(venues.some(v => v.kind === 'cafe' && v.id === id), `thiếu café ${id}`);
+for (const c of Object.keys(cuisines)) assert.ok(venues.some(v => v.cuisine === c), `chưa có quán: ${c}`);
+for (const v of venues) {
+  assert.ok(v.photos.length >= 2, `${v.id} thiếu ảnh`);
+  for (const p of v.photos) assert.ok(fs.existsSync('dist/' + p.src), `thiếu ${p.src}`);
+  assert.ok(fs.existsSync('dist/' + v.photos[0].src.replace('.webp', '-s.webp')), `thiếu ảnh bìa ${v.id}`);
+}
+for (const f of films) assert.ok(fs.existsSync('dist/' + f.image));
+for (const f of ['index.html', 'style.css', 'app.mjs', 'assets/hero.webp']) assert.ok(fs.existsSync('dist/' + f));
+console.log(`PASS: ${venues.length} quán, lịch trình 3 kiểu, nội dung tự nhập, link chỉ đường, ảnh đầy đủ.`);

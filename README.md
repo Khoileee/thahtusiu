@@ -24,11 +24,9 @@ Mở **http://localhost:4173** để xem thiệp hẹn. Trên máy dùng lệnh 
 
 ## Trạng thái bàn giao
 
-Thiệp hẹn dự kiến thứ Bảy **17/10/2026**, theme navy, chọn café → món Việt/Nhật → phim và thứ tự hoạt động → xem lại/chia sẻ. Có quay lại, lựa chọn tự nhập và ghi chú. Lựa chọn lưu trong trình duyệt; chưa có hệ thống tự gửi phản hồi về cho chủ thiệp.
+Thiệp "Dear chị Tú iu ♡" cho thứ Bảy **17/10/2026**: chọn đồ uống (theo không gian) → bữa tối (Á/Âu → Nhật, Việt, Hàn, Thái, Âu) → phim và thứ tự → xem lại, gửi kèo, mở đường đi trên Google Maps.
 
-Café hiện tại: **AN’ Garden (Văn Quán)** và **Meicha (Mộ Lao)**. Cần xác nhận oat milk, khả năng pha không thêm đường, menu/giá mới và bàn phù hợp. Cần chốt suất chiếu thực tế tại CGV AEON Hà Đông và hỏi nhà hàng về dị ứng tôm/cua trước khi đặt. Chi tiết và nguồn nằm trong từng thẻ và các file nghiên cứu.
-
-Thiệp đã xuất bản riêng tư tại https://hen-cau-chieu-thu-bay.ngockhoile03.chatgpt.site. GitHub và Sites có quyền truy cập riêng; push repo không đổi quyền truy cập Site. Giữ `invitation/.openai/hosting.json` nếu tiếp tục sửa đúng Site này.
+Dữ liệu 28 quán đã chọn lọc nằm ở `research/v3/<nhóm>/venues.json` (điểm, giờ mở cửa và review đối chiếu Google Maps, fanpage, Lemon8 ngày 15/10/2026; vòng tìm rộng ở `research/v2`). Sau khi sửa dữ liệu, chạy `python -X utf8 invitation/build_venues.py` (cần Pillow) để sinh lại `invitation/dist/venues.mjs` và ảnh WebP. Lựa chọn chỉ lưu trong trình duyệt người xem; nút "Gửi kèo" dùng Web Share hoặc sao chép.
 
 ## Kiểm tra và triển khai
 

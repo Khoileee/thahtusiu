@@ -1,0 +1,330 @@
+[
+  {
+    "id": "nama-sushi",
+    "name": "Nama Sushi Nguyễn Văn Lộc",
+    "category": "food",
+    "cuisine": "japanese",
+    "subcategory": "sushi / sashimi / cơm lươn",
+    "tagline": "Sushi tươi, đèn vàng ấm áp",
+    "description": "Cơ sở lớn nhiều tầng của chuỗi Nama Sushi, bếp mở, đèn vàng dịu, bàn ghế thưa và khá yên tĩnh. Nổi bật với khay sashimi trên đá lạnh, sushi cá trích giòn, cơm cuộn lươn, cơm lươn và chè khúc bạch tráng miệng.",
+    "address": "B9 TSQ, P. Nguyễn Văn Lộc, Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (TSQ – Nguyễn Văn Lộc)",
+    "in_aeon": false,
+    "distance_to_aeon": "~4,2 km đường đi (3,1 km đường chim bay), khoảng 10–15 phút xe máy",
+    "hours": "Hằng ngày 10:00–13:30 và 17:00–21:30. Thứ Bảy 17/10 phục vụ tối 17:00–21:30 (Google Maps). Nên đặt bàn qua hotline 1900 2193.",
+    "price_range": "300.000–400.000đ/người (Google Maps; một số trả lời 400–500k)",
+    "signature": [
+      "Sashimi tổng hợp trên đá",
+      "Sushi cá trích giòn",
+      "Cơm cuộn lươn",
+      "Cơm lươn",
+      "Chè khúc bạch"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 427,
+      "source": "Google Maps (đọc 15/10/2026)",
+      "url": "https://www.google.com/maps?cid=10904507377463016684"
+    },
+    "highlights": [
+      "\"Cơ sở to rộng, bếp mở và đèn mờ… rất hợp ăn tối hẹn hò\" — Google Maps, review 2026",
+      "\"Đồ tươi, nhân viên thân thiện… không gian yên tĩnh\" — Google Maps, review 2026",
+      "\"Quán khá sạch sẽ, chỉn chu, có thang máy. Đèn vàng, cảm giác cozy\" — Google Maps, review 2026",
+      "Fanpage chuỗi có ~71.000 người theo dõi, 738 người đang tương tác — Facebook, 10/2026"
+    ],
+    "open_evidence": "Google Maps: hoạt động bình thường, có giờ cho Thứ Bảy 17/10/2026, ảnh review mới nhất ngày 13/10/2026 và nhiều review 2 tháng trước. Fanpage Facebook của chuỗi đang hoạt động (738 người đang nói về, 10/2026).",
+    "links": {
+      "maps": "https://www.google.com/maps?cid=10904507377463016684",
+      "menu": "https://namasushi.vn/menu/",
+      "facebook": "https://www.facebook.com/namasushivietnam",
+      "instagram": "https://www.instagram.com/nama.sushi/",
+      "tiktok": null,
+      "website": "https://namasushi.vn/"
+    },
+    "photos": [
+      {
+        "file": "photos/nama-sushi/01.jpg",
+        "caption": "Đĩa sashimi tổng hợp trên đá lạnh",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-GPacdhkLJD5RCcrV_bf2QhbC7tO-c9MkcXcOuygxq7tUR7dAgl02lxUdfIz0cgpVAV4-yvoHSqbNhfMk8rpOcDCSWhwCmrsJh3vZ2ML_5rmj3ZyAHbuy-ocDdFDqhbX0BBViwzfNpW8=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/nama-sushi/02.jpg",
+        "caption": "Khay sashimi lớn bày hoa: cá hồi, cá ngừ, sò",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeW41buxBeQ5WrQ6S2WfCYQpWmtQ4Djsh-GefaGPtmRKe9xvp_e0cjWJ6cY4xehPwJne0DxfiUds6EDyODQOd2IC3eLCsbzVQXTvD0nvzMUKbyYdZKGKjozt7ZHjMSUs1V8kM0N3p8iQa5Z=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/nama-sushi/03.jpg",
+        "caption": "Cơm cuộn lươn sốt teriyaki",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfCipUo-LXh9n62vKqMbVREK2JBC7fiuIOC-26v0cgt-qM85-tYPh_wtbOwDlcb4HJBsgcSB__vyD5H9StCFHB5wavm1Pb3QX42y03yuUGzpFwlZNkmLXq39f8sqNN8IIUjDZR1r0QkmEB3=w1600",
+        "width": 1600,
+        "height": 1600
+      },
+      {
+        "file": "photos/nama-sushi/04.jpg",
+        "caption": "Set nigiri và maki tổng hợp",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcxBbSUOJuPyoG1to9mOU6wc3BLYt5UVxpCx5Lih5OxHvRB2NlalY0asm6dxEPN5ka-UuVZSnmq1iIYCcTQCoVtmAOVB4pN_CC7tqXjDc1595XDhoFdkvk54yE_77pBisF5umZJiVpDcJc=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/nama-sushi/05.jpg",
+        "caption": "Toà nhà nhiều tầng của Nama Sushi Nguyễn Văn Lộc buổi tối",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVSytk0qbqpEM3yarFYj_JgPFvVG5ky9y8loeOYSdjaDJkgt1EoWi2bxtAuqOWbcGXpKHnu7u_Jp00eU-y0i6bvsF8DVW1kTdFQm2kXK97XGfut_tnSzPeeZ4O9HcEAebdDA8=w1600",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "why_picked": "Lựa chọn sushi cân bằng nhất: giá 300–400k vừa tầm, không gian rộng, sạch, đèn ấm, có review nói thẳng là hợp hẹn hò, và vẫn hoạt động đều (review có ảnh ngày 13/10/2026). Điểm trừ: đôi khi lên món chậm, đóng bếp lúc 21:30.",
+    "confidence": "high"
+  },
+  {
+    "id": "ippudo-aeon",
+    "name": "IPPUDO Ramen – AEON Mall Hà Đông",
+    "category": "food",
+    "cuisine": "japanese",
+    "subcategory": "ramen (Hakata tonkotsu)",
+    "tagline": "Ramen nóng hổi ngay cạnh rạp phim",
+    "description": "Thương hiệu ramen Fukuoka từ 1985, chi nhánh mở giữa năm 2026 ở tầng 1 AEON Hà Đông với không gian gỗ – đỏ hiện đại. Nước dùng tonkotsu trắng sữa béo thơm, có thể chọn giảm mặn; kèm bánh bao kẹp thịt, gyoza và tráng miệng.",
+    "address": "Lô T155, Tầng 1, AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Trong AEON Mall Hà Đông",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON, tầng 1 (đi bộ vài phút tới CGV)",
+    "hours": "Google Maps ghi Thứ Bảy 17/10/2026 mở 10:00–21:00; website AEON ghi cuối tuần 09:00–22:00. Nên ăn trước suất chiếu và gọi món trước khoảng 20:30.",
+    "price_range": "200.000–300.000đ/người (Google Maps)",
+    "signature": [
+      "Shiromaru Classic",
+      "Akamaru Modern",
+      "Karaka-men (cay)",
+      "Gyokai tonkotsu",
+      "Bánh bao kẹp thịt"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 202,
+      "source": "Google Maps (đọc 15/10/2026)",
+      "url": "https://www.google.com/maps?cid=731423576432970980"
+    },
+    "highlights": [
+      "\"Phần nước dùng được gia giảm độ mặn tùy ý, mỡ cũng vừa phải\" — Google Maps, 09/2026",
+      "\"Mình và bạn đi xem Harry Potter xong xuống tầng 1 ăn… sẽ quay lại!\" — Google Maps, 09/2026",
+      "\"Nhân viên cực kỳ niềm nở và thân thiện hơn hẳn cơ sở Lotte Tây Hồ\" — Google Maps, 08/2026",
+      "Có trang cửa hàng trong danh mục chính thức của AEON Mall Hà Đông (lô T155) — aeonmall-hadong.com.vn, 10/2026"
+    ],
+    "open_evidence": "Khai trương khoảng 08/2026. Google Maps có review 1–2 tháng gần đây, ảnh review mới nhất ngày 27/09/2026, chủ quán trả lời review đều. Có trang trong danh mục cửa hàng AEON Mall Hà Đông và trang đặt bàn TableCheck.",
+    "links": {
+      "maps": "https://www.google.com/maps?cid=731423576432970980",
+      "menu": "https://www.tablecheck.com/vi/ippudo-hanoi-aeon-mall-ha-dong/reserve/landing",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://aeonmall-hadong.com.vn/cua-hang/ippudo/"
+    },
+    "photos": [
+      {
+        "file": "photos/ippudo-aeon/01.jpg",
+        "caption": "Bàn ramen tonkotsu, bánh bao kẹp thịt và cơm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe0e93PIkMRIwqMeQqlwVWrJ4OfaDcdBnoeo3Iyze6DFeXhtT2dc7HVlAmYr6vocmsaEM572zT0vG0vMVwBjMZ9-wWcMzsVF1AY8mJPAPLjf1I88sM1tN79gG0AiDJeOq-M-EpiSIAQpRAB=w1600",
+        "width": 1600,
+        "height": 1600
+      },
+      {
+        "file": "photos/ippudo-aeon/02.jpg",
+        "caption": "Tô ramen tonkotsu cay",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfpp2NVLPgYttS5zNsfm_rW-oCkO0rhJz4VNB2d0JiKvbJ0yykN7b6d5kBYjf2g2WY4m8tQV6wENDX_l4R3jmeEEjlsG9-twWQ_2DTthD0Bi8lC_fQRkHk3FQDs68oZ4G3vgqJ1KOwmnY-B=w1600",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "file": "photos/ippudo-aeon/03.jpg",
+        "caption": "Hai tô ramen tonkotsu trứng lòng đào",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf02MclpC66Jxl60zKnPyVzedld9y2SM0VaNup1RRXjNb1_tcOC1BELW9OtIN70Fdgli3y3x9m_TFHzuyvXFQPGf1DY5IjARSmQBG6XB8SeXOj00oHfyeBkVDZnNE5k3apUjaZr-JCCIu5E=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/ippudo-aeon/04.jpg",
+        "caption": "Lối vào IPPUDO tầng 1 AEON Hà Đông",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfZcFxCk44mJ6MTK50vDCeaOH-p9hFjswSdqNBIisGMn8_OtOu6rFGAuei51H8CPneJA3f95cx-IyH45LUWb8UqMC6fZMyeqkB8OKOuiZFSeYLL9531snRd5UK5ors5iOrElN2G0ndgqz0=w1600",
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "file": "photos/ippudo-aeon/05.jpg",
+        "caption": "Không gian gỗ – đỏ bên trong quán",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLef_eKwd5Al3t-i8uLB6RKoG71KWMKeOWHhDnMyA4UaKuOtsY5sJ-h5dThPMBdLg-RqrzSJmptth3fR0ieTVNHHD0X3JQgjTy7AsocZwhAJuaUJbf6Y9c52MSfRYIiasXMIajAQmhOho4M=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "why_picked": "Ramen ngon nhất trong bán kính, không cần di chuyển vì cùng tòa nhà với CGV. Đây là quán ngồi riêng chứ không phải quầy food court, review mới rất tốt, giá 200–300k. Là lựa chọn duy nhất trong AEON của nhóm Nhật.",
+    "confidence": "high"
+  },
+  {
+    "id": "koichan",
+    "name": "Koichan Japanese Restaurant (Văn Phú)",
+    "category": "food",
+    "cuisine": "japanese",
+    "subcategory": "nhà hàng Nhật tổng hợp (sashimi, donburi, okonomiyaki)",
+    "tagline": "Góc Nhật nhỏ xinh, ấm cúng",
+    "description": "Nhà hàng Nhật ở khu đô thị Văn Phú với bếp mở, tông đỏ – gỗ và đèn ấm, kiểu quán ăn tối izakaya nhưng không có bếp nướng tại bàn. Thực đơn rộng: sashimi cắt dày, sushi cuộn khò, cơm cá hồi, okonomiyaki, cơm bát đá và kem matcha.",
+    "address": "TT27, 19 P. Văn Phú, KĐT Văn Phú, Kiến Hưng, Hà Đông, Hà Nội",
+    "area": "Văn Phú / Kiến Hưng",
+    "in_aeon": false,
+    "distance_to_aeon": "~5 km đường đi (3,9 km đường chim bay), khoảng 12–15 phút xe máy",
+    "hours": "Hằng ngày 11:00–14:00 và 17:00–22:00. Thứ Bảy 17/10 phục vụ tối 17:00–22:00 (Google Maps). Hotline 0982 158 464.",
+    "price_range": "Google chưa có khung giá; review ghi \"giá hợp lý, vừa nhiều túi tiền\", ước khoảng 200–350k/người",
+    "signature": [
+      "Sashimi cắt dày",
+      "Sushi cuộn lươn / cá hồi khò",
+      "Cơm cá hồi (sake don)",
+      "Okonomiyaki",
+      "Kem matcha"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 496,
+      "source": "Google Maps (đọc 15/10/2026)",
+      "url": "https://www.google.com/maps?cid=14805156462260867647"
+    },
+    "highlights": [
+      "\"Không gian quán decor ấm cúng, đậm chất Nhật Bản, rất thích hợp cho cả hẹn hò lẫn đi gia đình\" — Google Maps, review 2026",
+      "\"Đồ ăn cực kỳ tươi ngon, đặc biệt là sashimi… bài trí tinh tế và sạch sẽ\" — Google Maps, review 2026",
+      "\"Bánh xèo Nhật làm ít bột nên ko nhanh ngấy\" — Google Maps, review 2026",
+      "Fanpage có 838 người theo dõi, 45 người đang tương tác — Facebook, 10/2026"
+    ],
+    "open_evidence": "Google Maps: hoạt động bình thường, có giờ cho Thứ Bảy 17/10/2026, ảnh review mới nhất ngày 10/10/2026 (và 19/09/2026). Fanpage Facebook có tương tác trong tuần (45 người đang nói về). Một review khoảng 05/2026 chê vài món, chủ quán đã phản hồi.",
+    "links": {
+      "maps": "https://www.google.com/maps?cid=14805156462260867647",
+      "menu": null,
+      "facebook": "https://www.facebook.com/koichan.restaurant",
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/koichan/01.jpg",
+        "caption": "Khay sushi cuộn lươn và cá hồi khò",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfZtZezyaBdFbBKyqIb32HB306_VDAtOjw5rw2Oc3TxYQuLq_MEuuB_4OurqZnRDhx3f_Yz0U5WiZw_L-i-1XGKrtVktk4aWw-PyYR9MSS-XsRZiLWAf8ZSPfC_7Hs6JxGw4RpA_nGIPh8=w1600",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "file": "photos/koichan/02.jpg",
+        "caption": "Cơm cá hồi kèm súp miso",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdrGGQIoP_BVQsIYuyCaDPGEZo9R0QxseiDUISq5_KbURVjcDtIozqvRmmSAyeKm1SF5m9iERrO1eyqNfk1nW1ZMkMwzh7pCSLDGmgDVju8MC107AYexWKsTBjUnlC-OBPYylgy-pcGKFY=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/koichan/03.jpg",
+        "caption": "Okonomiyaki trên chảo gang",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe7MTryDZTHzYQGs8NFK52T9KjVZu92jbOapjOUCvrbMTESM7IT7EXvj57fNIMkalYLdufY_-VmZ6csrlVms1F7iwma4gzZRhPGO8Fix2FujNrcMINFEqXVlBdTxX4WbZiqtJmRlP3CnAs=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/koichan/04.jpg",
+        "caption": "Bếp mở và quầy sushi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcEuCTO9hG3T-xTLm3nOYxXOuUFCKELD98tkLkBgHNBvPqg5KbSFwz9011eFTtUQsqSzx6FSesi6AvuF-iQpFGTUEQSaFzfrlnzE5HXdWloMl90bPvRgUAY-OvEJppeaJX01iaSCLe2v7XH=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/koichan/05.jpg",
+        "caption": "Lối vào tông đỏ và trang trí Nhật",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLekQ4nVJhwwBmq1vOnO646GngsIdOrhrXRlzS_bxnM0Xgqat8Q4_8T9gVqPt7aMejnaRDU9SlOca7aNp1CHcD4IMI7BJjH2DJSKLE0k7epUkL7vW6zETsvJMpqX7GUcub1pMo9z9Ndo6p_u=w1600",
+        "width": 1080,
+        "height": 1440
+      }
+    ],
+    "why_picked": "Đại diện nhóm \"nhà hàng Nhật\" không nướng, không lẩu: 4.9 điểm trên gần 500 review, có review khen hợp hẹn hò. Khác Nama và Sushibar ở chỗ có nhiều món nóng (donburi, okonomiyaki) chứ không chỉ sushi. Ít nguồn xác nhận ngoài Google và Facebook.",
+    "confidence": "medium"
+  },
+  {
+    "id": "sushibar-hadong",
+    "name": "Sushibar Hà Đông",
+    "category": "food",
+    "cuisine": "japanese",
+    "subcategory": "sushi / sashimi / cơm lươn",
+    "tagline": "Sashimi bày đẹp như tranh",
+    "description": "Chi nhánh Hà Đông của chuỗi Sushibar (có từ 2007), không gian gỗ tối màu với đèn lồng giấy, quầy sushi và cây hoa anh đào trang trí. Nổi bật với thuyền sashimi trang trí hoa lá, nigiri trên khay gỗ, cơm lươn và sushi cuộn.",
+    "address": "26 P. Nguyễn Văn Lộc, KĐT Bắc Hà, Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (Nguyễn Văn Lộc)",
+    "in_aeon": false,
+    "distance_to_aeon": "~5,4 km đường đi (4 km đường chim bay), khoảng 13–18 phút xe máy",
+    "hours": "Hằng ngày 10:00–14:00 và 17:00–22:00. Thứ Bảy 17/10 phục vụ tối 17:00–22:00 (Google Maps). Nên đặt bàn trước 1–2 tiếng.",
+    "price_range": "400.000–500.000đ/người theo Google; một khách ghi 2 người ăn no khoảng 500k",
+    "signature": [
+      "Thuyền sashimi",
+      "Nigiri cá ngừ, cá hồi",
+      "Cơm lươn",
+      "Sushi cuộn",
+      "Okonomiyaki"
+    ],
+    "rating": {
+      "score": 5.0,
+      "count": 1587,
+      "source": "Google Maps (đọc 15/10/2026)",
+      "url": "https://www.google.com/maps?cid=4194474657662023874"
+    },
+    "highlights": [
+      "\"Không gian đẹp, sạch sẽ và khá chill… sushi tươi và trình bày đẹp mắt\" — Google Maps, review 2026",
+      "\"Highly recommend món Cơm Lươn\" — Google Maps, 05/2026",
+      "\"Bàn đồ ăn mình gọi hết khoảng 500k, 2 người ăn no, giá cả phù hợp\" — Google Maps, review 2026",
+      "Wanderlog giới thiệu Sushibar là chuỗi sushi Hà Nội có từ 2007, nhiều cơ sở — wanderlog.com"
+    ],
+    "open_evidence": "Google Maps: hoạt động bình thường, có giờ cho Thứ Bảy 17/10/2026, ảnh review mới nhất ngày 01/10/2026, có review 1 tháng trước. Fanpage chuỗi Sushibar Hà Nội đang hoạt động (95 người đang nói về, 10/2026).",
+    "links": {
+      "maps": "https://www.google.com/maps?cid=4194474657662023874",
+      "menu": "https://sushibarhanoi.com.vn/danh-muc/thuc-don-sushibar-sashimi.html",
+      "facebook": "https://www.facebook.com/nhahangsushibarhanoi",
+      "instagram": "https://www.instagram.com/sushibar.hanoi/",
+      "tiktok": "https://www.tiktok.com/@sushibarhn",
+      "website": "http://sushibarhanoi.com.vn/"
+    },
+    "photos": [
+      {
+        "file": "photos/sushibar-hadong/01.jpg",
+        "caption": "Nigiri cá ngừ, cá hồi trên khay gỗ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf0dzWrTF5apAB4xy2bJl35O2BK4llAWQO_sYZLTEcdjhlQbxfa4gKDpCnN746_1I4SJ6tFR5-kmKVXMu9YNmjMubDJmSwJo2neX1Xhq_r2JuWEA6F15EFd55rc1A-0YPWrZ-gSBpYAH8DW=w1600",
+        "width": 1600,
+        "height": 901
+      },
+      {
+        "file": "photos/sushibar-hadong/02.jpg",
+        "caption": "Thuyền sashimi trang trí hoa lá",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe2UiZdj_76a0nqnAdc_vIXtYhd93NrowqSAQ6-QDvm5hKWoutcgxGTzr-o0lpS7AkUCqhKVBxl16Jx__pD5lw5V9LOjnlyU5dfCg2bPuTxSgyNKRmpZfvYfdBVN4_0mhKx_eH7c1S-qeED=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/sushibar-hadong/03.jpg",
+        "caption": "Cơm lươn và sushi cuộn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcC1CWunKXc2ee1K078AcdRb2l1vHcj5xAZu3AUFh49THs6SRowVsjwE-vibwY1LMLhcuiQwpAb7BPqdXvq--Sp0ZXs2U-wZdDnmp8L7CYjeoxPoBEjE-VNJ7eyjIe2PzwWddDqaER_-SKk=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/sushibar-hadong/04.jpg",
+        "caption": "Cơm cá hồi trứng cá hồi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcEhML-cdYUiSGlENdc6gEi1VY3fHTWxNsO3leXY111UVXrvR9_-gbWVTOyHvB6veBFkd3NGIHqANqd_9NfQj4nqzgAA53ujbARY_TOdTq-MWJ58yWhQF_OfllgQbNFDemhD5QRl4y3XaeA=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/sushibar-hadong/05.jpg",
+        "caption": "Quầy sushi với đèn lồng giấy",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfV7RNKel6sbgcLZUyxw0VXRf7QYYOxAzMWUB2UjExU0zM_ZDUfqeSgjGeSUm2MNpNm3j8nXOJ2VIdZsqp5bLkf3Nyyc2EOVlOnRdawOKwBW1Fu3geCit5GV4wZth-lI5M4LlaViwZTaRLb=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "why_picked": "Lựa chọn sushi \"đẹp, lãng mạn\" hơn Nama: trình bày công phu, không gian đèn lồng ấm. Xếp cuối vì giá nhỉnh hơn (400–500k theo Google) và điểm 5.0 có dấu hiệu review được khuyến khích (có review nhắc chuyện được tặng món).",
+    "confidence": "medium"
+  }
+]

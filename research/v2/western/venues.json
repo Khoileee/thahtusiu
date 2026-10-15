@@ -1,0 +1,425 @@
+[
+  {
+    "id": "pizza-4ps-aeon-ha-dong",
+    "name": "Pizza 4P's Aeon Mall Hà Đông",
+    "category": "food",
+    "cuisine": "western",
+    "subcategory": "pizza",
+    "tagline": "Pizza phô mai tươi trong hang động",
+    "description": "Chi nhánh Pizza 4P's thiết kế như một hang động: vách đất nặn thủ công, rêu xanh, đèn hắt từ chân tường và lò nướng pizza mở. Thực đơn nổi bật với phô mai burrata tự làm, pizza nướng lò và mỳ Ý cua. Nằm ngay trong AEON nên ăn xong là tới thẳng CGV.",
+    "address": "Tầng 1 [T157–T159], AEON MALL Hà Đông, Dương Nội, Hà Nội",
+    "area": "Dương Nội (trong AEON Mall)",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON Mall, tầng 1 (đi bộ vài phút tới CGV)",
+    "hours": "T2–T6 10:00–22:00; T7–CN & lễ 09:00–22:00 (pizza4ps.com, trang AEON Hà Đông, Google Maps)",
+    "price_range": "Khoảng 250.000–450.000đ/người (ước tính; bài tổng hợp ghi giá món từ ~190.000đ). Tối thứ Bảy nên đặt bàn qua 1900 6043",
+    "signature": [
+      "Pizza Burrata Parma Ham",
+      "Pizza 4 loại phô mai",
+      "Mỳ Ý cua sốt kem cà chua",
+      "Khai vị với burrata tự làm"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 14291,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJjWEPzyxTNDERnVUIaGOikKc"
+    },
+    "highlights": [
+      "\"Tóm lại, với mình đây là một địa chỉ đáng lưu lại nếu bạn đang tìm pizza ở AEON Mall Hà Đông.\" (Lemon8 @ther_nguyen_boc_food, 25/8/2025)",
+      "\"đi vào khung giờ hơi sớm sẽ thoải mái hơn, nhất là cuối tuần hoặc giờ ăn tối.\" (Lemon8 @ther_nguyen_boc_food, 25/8/2025)",
+      "Các bài kiến trúc (Kiến Việt, Decox, WowWeekend) mô tả vách hang làm từ đất Bát Tràng, không khai thác đá thật, và khách qua lại thường dừng lại ngắm (diễn giải, không phải trích dẫn)"
+    ],
+    "open_evidence": "Có trong danh sách cửa hàng chính thức trên pizza4ps.com (trang location/1877 có tin cửa hàng ngày 2026.3.20, ảnh tải lên 12/2025 và 2–3/2026); có trong danh bạ cửa hàng aeonmall-hadong.com.vn; Google Maps hiển thị giờ mở cửa, không có cảnh báo đóng cửa, 14.291 đánh giá; review Lemon8 tháng 8/2025.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pizza%204P%27s%20Aeon%20Mall%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJjWEPzyxTNDERnVUIaGOikKc",
+      "menu": "https://aeonmall-hadong.com.vn/food/pizza-4ps/",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/pizza4ps/",
+      "tiktok": null,
+      "website": "https://pizza4ps.com/vn/location/1877/"
+    },
+    "trend_notes": "Thương hiệu pizza được nhắc tới nhiều nhất Hà Nội. Chi nhánh 'hang động' do Le House thiết kế (khai trương 8/2023), được nhiều báo kiến trúc đăng. Rating Google và số lượt đánh giá cao nhất khu vực. Instagram là tài khoản thương hiệu chung, chưa kiểm tra trực tiếp.",
+    "confidence": "high",
+    "photos": [
+      {
+        "file": "photos/pizza-4ps-aeon-ha-dong/01.jpg",
+        "caption": "Khu ngồi 'hang động' phủ rêu xanh, ánh đèn hắt từ chân vách đá",
+        "source_url": "https://static.kienviet.net/storage/uploads/2023/11/pizza-4ps-hang-dong-dac-biet-giua-long-ha-noi-le-house_3.jpg",
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "file": "photos/pizza-4ps-aeon-ha-dong/02.jpg",
+        "caption": "Dãy bàn trong lòng hang, vách đất nặn thủ công",
+        "source_url": "https://static.kienviet.net/storage/uploads/2023/11/pizza-4ps-hang-dong-dac-biet-giua-long-ha-noi-le-house_2.jpg",
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "file": "photos/pizza-4ps-aeon-ha-dong/03.jpg",
+        "caption": "Bàn dài nhìn thẳng ra lò nướng pizza",
+        "source_url": "https://pizza4ps.com/wp-content/uploads/2023/08/Store-1.jpg",
+        "width": 2048,
+        "height": 1366
+      },
+      {
+        "file": "photos/pizza-4ps-aeon-ha-dong/04.jpg",
+        "caption": "Pizza Burrata Parma Ham, món signature của 4P's (ảnh thương hiệu)",
+        "source_url": "https://pizza4ps.com/wp-content/uploads/2023/08/2-APPLY-2-Burrata-Parma-Ham-Margherita-2.jpg",
+        "width": 800,
+        "height": 800
+      }
+    ]
+  },
+  {
+    "id": "lamour-steak-van-quan",
+    "name": "L'amour Steak – Bít Tết Âu Việt (VanHoang Group)",
+    "category": "food",
+    "cuisine": "western",
+    "subcategory": "steak",
+    "tagline": "Steak, vang đỏ và ánh nến hầm rượu",
+    "description": "Nhà hàng steak kiểu Âu, thiết kế theo hầm rượu vang Ý: tường gỗ, kệ rượu kín một mặt, ghế da và nến. Thực đơn có bò bít tết, sườn cừu bỏ lò, cá hồi áp chảo, uống kèm vang Ý do chính VanHoang Group nhập khẩu. Hợp bữa tối cần không gian riêng tư, yên tĩnh.",
+    "address": "Tầng 1, tòa New Skyline, đường 19/5, KĐT Văn Quán – Yên Phúc, Hà Đông, Hà Nội",
+    "area": "Văn Quán",
+    "in_aeon": false,
+    "distance_to_aeon": "~4,2 km đường chim bay; ~5–6 km đường xe, khoảng 15 phút xe máy",
+    "hours": "Google Maps: 09:00–22:00 hằng ngày; PasGo: 10:00–14:00 và 17:00–22:30. Nên gọi đặt bàn trước (hotline trên ảnh ưu đãi của nhà hàng: 0835 333 555)",
+    "price_range": "100.000–500.000đ/người (PasGo); combo đôi 750.000đ và 1.000.000đ/2 người (giá niêm yết trên PasGo, chưa VAT)",
+    "signature": [
+      "Bò bít tết",
+      "Sườn cừu bỏ lò lá hương thảo",
+      "Cá hồi áp chảo sốt chanh leo",
+      "Vang Ý nhập khẩu"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 352,
+      "source": "Google Maps (truy xuất 15/10/2026); Tripadvisor 5.0 / 13 đánh giá",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJe7rr1b2tNTERUZR2rAfXF1k"
+    },
+    "highlights": [
+      "\"Romantic environment with Italian style.\" (Tripadvisor, 4/2019)",
+      "\"I was surprised that the food was quite delicious and suited my taste.\" (Tripadvisor, 2/2024)",
+      "\"Delicious foods and tasty Italian wines.\" (Tripadvisor, 4/2019)"
+    ],
+    "open_evidence": "Website vanhoanggroup.com đang hoạt động, có banner tạo đầu năm 2026 và ảnh 'Thông báo ưu đãi hiện hành' (tặng crème brûlée, miễn phí setup bàn sinh nhật/kỷ niệm, tặng vang hoặc đồ uống); fanpage ~11.300 người theo dõi; Google Maps có giờ mở cửa, không có cảnh báo đóng cửa.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=L%27amour%20Steak%20V%C4%83n%20Qu%C3%A1n%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJe7rr1b2tNTERUZR2rAfXF1k",
+      "menu": "https://pasgo.vn/nha-hang/vanhoanggroup-lamour--steak-van-quan-3736",
+      "facebook": "https://www.facebook.com/Lamoursteak/",
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://www.vanhoanggroup.com/"
+    },
+    "trend_notes": "Quán lâu năm (khai trương 6/2019), không phải quán hot trend trên mạng, nhưng là lựa chọn lãng mạn nhất ngoài AEON trong bán kính khoảng 15 phút. Ưu đãi hiện hành có miễn phí setup bàn kỷ niệm. Ảnh 01 là ảnh quảng bá có dàn dựng.",
+    "confidence": "high",
+    "photos": [
+      {
+        "file": "photos/lamour-steak-van-quan/01.jpg",
+        "caption": "Bữa tối steak và vang đỏ (ảnh quảng bá của nhà hàng)",
+        "source_url": "https://vanhoanggroup.com/user-files/news/1154/lamour_120kb_sharper-f81d1b31-fd30-4633-91f5-37f620e0da2a.jpg",
+        "width": 1228,
+        "height": 818
+      },
+      {
+        "file": "photos/lamour-steak-van-quan/02.jpg",
+        "caption": "Không gian hầm rượu ấm cúng với nến và hoa",
+        "source_url": "https://vanhoanggroup.com/user-files/news/1150/z7598996816915_3ff38ef8cd7c436b0f54c2ec28e2b92e-ea9b086e-f9cd-47e9-97d4-0fedb05cab05.jpg",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "file": "photos/lamour-steak-van-quan/03.jpg",
+        "caption": "Thăn bò phủ tôm hùm",
+        "source_url": "https://pasgo.vn/Upload/anh-chi-tiet/van-hoang-group-restaurant-and-wine-shop-van-quan-ha-dong-5-normal-1171701942176.webp",
+        "width": 750,
+        "height": 450
+      },
+      {
+        "file": "photos/lamour-steak-van-quan/04.jpg",
+        "caption": "Tường rượu vang trưng bày kín một mặt nhà hàng",
+        "source_url": "https://pasgo.vn/Upload/anh-chi-tiet/van-hoang-group-restaurant-and-wine-shop-van-quan-ha-dong-2-normal-1171698642173.webp",
+        "width": 750,
+        "height": 450
+      }
+    ]
+  },
+  {
+    "id": "la-pizza-steak-geleximco",
+    "name": "La Pizza & Steak – Geleximco Lê Trọng Tấn",
+    "category": "food",
+    "cuisine": "western",
+    "subcategory": "pizza & steak",
+    "tagline": "Pizza lò củi, steak, bistro ấm áp",
+    "description": "Chuỗi pizza & steak phong cách industrial bistro, tông gỗ và đèn vàng ấm. Thực đơn gồm pizza nướng lò củi, mỳ Ý, sườn BBQ, steak và đĩa phô mai, thịt nguội, giá dễ chịu hơn nhà hàng steak. Đây là quán Âu ngoài AEON gần nhất trong danh sách.",
+    "address": "A18 ô 09 KĐT Geleximco, Lê Trọng Tấn, Hà Đông, Hà Nội (Google Maps ghi: BTSL Geleximco, Geleximco A, Tây Mỗ)",
+    "area": "Lê Trọng Tấn / Geleximco",
+    "in_aeon": false,
+    "distance_to_aeon": "~3 km đường chim bay; ~4 km đường xe, khoảng 10–12 phút xe máy",
+    "hours": "09:30–22:00 hằng ngày (Google Maps); website ghi 10:00–22:00",
+    "price_range": "Khoảng 150.000–300.000đ/người (ước tính từ menu website: pizza size M 120.000–159.000đ, mỳ Ý 95.000–159.000đ, sườn BBQ 250g 238.000đ, mâm nướng 598.000đ)",
+    "signature": [
+      "Pizza nướng lò củi (4 Cheese, Chorizo Salami)",
+      "Mixed Grilled Platter",
+      "Sườn BBQ",
+      "Burrata Salad"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 462,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJn6WZXixTNDERqnkmcm94mHE"
+    },
+    "highlights": [],
+    "open_evidence": "Website lapizzasteak.com dựng/cập nhật 7/2026 (ảnh menu tải lên 2026/07), liệt kê chi nhánh Geleximco kèm SĐT 0931 69 6161; Công ty CP La Pizza Steak đăng ký hoạt động từ 7/5/2026 (masothue.com); fanpage ~3.076 người theo dõi, '612 người đang nói về điều này'; Google Maps có giờ mở cửa, 462 đánh giá.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=La%20Pizza%20%26%20Steak%20Geleximco&query_place_id=ChIJn6WZXixTNDERqnkmcm94mHE",
+      "menu": "https://lapizzasteak.com/thuc-don/",
+      "facebook": "https://www.facebook.com/lapizzasteak/",
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://lapizzasteak.com/"
+    },
+    "trend_notes": "Chuỗi trẻ đang mở rộng (Smart City, Splendora, Thăng Long Victory, Ocean Park 2), fanpage tương tác cao. Chưa tìm được review độc lập trích dẫn được cho chi nhánh này nên highlights để trống. Ảnh lấy từ website chuỗi, có thể không chụp tại Geleximco.",
+    "confidence": "medium",
+    "photos": [
+      {
+        "file": "photos/la-pizza-steak-geleximco/01.jpg",
+        "caption": "Không gian industrial bistro tông vàng ấm (ảnh website chuỗi)",
+        "source_url": "https://lapizzasteak.com/wp-content/uploads/2026/07/Anh-nha-hang.webp",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "file": "photos/la-pizza-steak-geleximco/02.jpg",
+        "caption": "Mặt tiền buổi tối (ảnh website chuỗi, có thể không phải chi nhánh Geleximco)",
+        "source_url": "https://lapizzasteak.com/wp-content/uploads/2026/07/Hero-Banner.webp",
+        "width": 1920,
+        "height": 900
+      },
+      {
+        "file": "photos/la-pizza-steak-geleximco/03.jpg",
+        "caption": "Pizza pepperoni, chorizo và salad",
+        "source_url": "https://lapizzasteak.com/wp-content/uploads/2026/07/Chorizo-Salami-Pizza-238k-1.webp",
+        "width": 1000,
+        "height": 666
+      },
+      {
+        "file": "photos/la-pizza-steak-geleximco/04.jpg",
+        "caption": "Mâm nướng tổng hợp: steak, sườn BBQ, xúc xích, cánh gà",
+        "source_url": "https://lapizzasteak.com/wp-content/uploads/2026/07/Mixed-Grilled-Platter-598k.webp",
+        "width": 1000,
+        "height": 748
+      }
+    ]
+  },
+  {
+    "id": "le-monde-steak-nguyen-van-loc",
+    "name": "Le Monde Steak Nguyễn Văn Lộc",
+    "category": "food",
+    "cuisine": "western",
+    "subcategory": "steak kiểu Pháp",
+    "tagline": "Bít tết kiểu Pháp, xinh xắn nhẹ nhàng",
+    "description": "Nhà hàng steak kiểu Pháp trên trục Nguyễn Văn Lộc, hai tầng khoảng 94 chỗ, có bàn đôi và phòng riêng. Món chính là bò Úc (Top Blade, Striploin), sườn cừu nướng, đùi cừu hầm, kèm mỳ Ý và tráng miệng crème brûlée. Giá mềm so với các steakhouse.",
+    "address": "161 Nguyễn Văn Lộc, Làng Việt kiều Châu Âu (Mộ Lao), Hà Đông, Hà Nội",
+    "area": "Mộ Lao / Nguyễn Văn Lộc",
+    "in_aeon": false,
+    "distance_to_aeon": "~3,6 km đường chim bay; ~5 km đường xe, khoảng 12–15 phút xe máy",
+    "hours": "10:30–14:30 và 17:00–22:00 hằng ngày (Google Maps); PasGo ghi 10:30–21:30",
+    "price_range": "150.000–250.000đ/người (PasGo). PasGo giảm 100.000đ cho hóa đơn từ 500.000đ, hiệu lực đến 31/12/2026",
+    "signature": [
+      "AUS Top Blade",
+      "AUS Striploin",
+      "Sườn cừu nướng kiểu Pháp",
+      "Crème brûlée"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 539,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJb7O9NFWrNTERGqa3qQIbyeU"
+    },
+    "highlights": [
+      "Chưa tìm được review trích dẫn riêng cho chi nhánh này. Ở cấp chuỗi, một video TikTok (@tuanbanhrv) có tiêu đề \"Nhà Hàng Le Monde Steak: Điểm Hẹn Hò Lãng Mạn Tại Hà Nội\"."
+    ],
+    "open_evidence": "Google Maps hiển thị giờ mở cửa, không có cảnh báo đóng cửa, 539 đánh giá; PasGo đang chạy ưu đãi có hạn đến 31/12/2026; có trong bài PasGo 'Top quán ăn ngon Nguyễn Văn Lộc 2026'. Cảnh báo: website chuỗi lemondesteak.vn đang báo 'Account Suspended', và chi nhánh Le Monde trong AEON Hà Đông không còn trong danh bạ AEON lẫn Google.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Le%20Monde%20Steak%20Nguy%E1%BB%85n%20V%C4%83n%20L%E1%BB%99c%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJb7O9NFWrNTERGqa3qQIbyeU",
+      "menu": "https://www.pasgo.vn/nha-hang/le-monde-steak-nguyen-van-loc-4973",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": "https://www.tiktok.com/@tuanbanhrv/video/7436722540480908562",
+      "website": null
+    },
+    "trend_notes": "Chuỗi steak bình dân đến trung cấp, quen với giới trẻ Hà Nội. Ảnh lấy từ bộ ảnh chuỗi trên PasGo (750px, watermark PasGo nhỏ); mặt tiền trong ảnh có thể là chi nhánh khác. Nên gọi xác nhận trước vì website chuỗi bị khóa.",
+    "confidence": "medium",
+    "photos": [
+      {
+        "file": "photos/le-monde-steak-nguyen-van-loc/01.jpg",
+        "caption": "Mặt tiền trắng–xanh kiểu Pháp của Le Monde Steak (ảnh chuỗi trên PasGo)",
+        "source_url": "https://pasgo.vn/Upload/anh-chi-tiet/slide-le-monde-steak-11-normal-2262796057653.webp",
+        "width": 750,
+        "height": 450
+      },
+      {
+        "file": "photos/le-monde-steak-nguyen-van-loc/02.jpg",
+        "caption": "Steak bò Úc kèm tỏi nướng và khoai",
+        "source_url": "https://pasgo.vn/Upload/anh-chi-tiet/slide-le-monde-steak-2-normal-2262795457647.webp",
+        "width": 750,
+        "height": 450
+      },
+      {
+        "file": "photos/le-monde-steak-nguyen-van-loc/03.jpg",
+        "caption": "Mỳ Ý sốt kem cá hồi",
+        "source_url": "https://pasgo.vn/Upload/anh-chi-tiet/slide-le-monde-steak-6-normal-2262795957652.webp",
+        "width": 750,
+        "height": 450
+      },
+      {
+        "file": "photos/le-monde-steak-nguyen-van-loc/04.jpg",
+        "caption": "Bàn ăn trong không gian tường gạch trắng",
+        "source_url": "https://pasgo.vn/Upload/anh-chi-tiet/slide-le-monde-steak-8-normal-2262796157654.webp",
+        "width": 750,
+        "height": 450
+      }
+    ]
+  },
+  {
+    "id": "al-frescos-aeon-ha-dong",
+    "name": "Al Fresco's Aeon Mall Hà Đông",
+    "category": "food",
+    "cuisine": "western",
+    "subcategory": "pizza / sườn / steak",
+    "tagline": "Sườn nướng, pizza đúng chất Âu–Mỹ",
+    "description": "Thương hiệu Âu–Mỹ lâu đời (từ 1996) với pizza, mỳ Ý, steak và sườn nướng BBQ phần lớn. Không gian sáng, ghế sofa, đèn mây tre, nằm ngay trong AEON nên tiện ghé trước hoặc sau phim. Không khí giống nhà hàng gia đình hơn là lãng mạn.",
+    "address": "Tầng 2 [T269–T270], AEON MALL Hà Đông, Dương Nội, Hà Nội",
+    "area": "Dương Nội (trong AEON Mall)",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON Mall, tầng 2",
+    "hours": "Trang AEON: T2–T6 10:00–22:00, T7–CN & lễ 09:00–22:00; Google Maps ghi 09:00–21:00. Nên gọi 024 3202 0899 để chắc chắn",
+    "price_range": "Khoảng 95.000–395.000đ/người (khoảng giá của chuỗi trên PasGo, chi nhánh Long Biên)",
+    "signature": [
+      "Sườn nướng BBQ",
+      "Pizza",
+      "Steak bò",
+      "Mỳ Ý"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 309,
+      "source": "Google Maps (truy xuất 15/10/2026); Tripadvisor 5.0 / 1 đánh giá",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJM6_FGu9TNDERCFqb_EUsPb4"
+    },
+    "highlights": [
+      "\"If you want to get away from the noise in the shopping centre, it is recommended to try to get a table in the back, closest to the kitchen.\" (Tripadvisor, 10/2023)",
+      "Cùng review Tripadvisor (10/2023) khen pizza và thực đơn đa dạng nhưng chê giá hơi cao (diễn giải)"
+    ],
+    "open_evidence": "Có trong danh bạ cửa hàng chính thức aeonmall-hadong.com.vn (trang /cua-hang/al-frescos/, tầng 2 T269–T270); Google Maps có giờ mở cửa, không có cảnh báo đóng cửa.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Al%20Fresco%27s%20Aeon%20Mall%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJM6_FGu9TNDERCFqb_EUsPb4",
+      "menu": "https://aeonmall-hadong.com.vn/food/al-frescos/",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://alfrescos.com.vn/"
+    },
+    "trend_notes": "Phương án dự phòng trong AEON nếu 4P's hết chỗ. Không phải quán trend. Ảnh không gian lấy từ trang AEON (chụp khoảng 2019, có thể đã thay đổi chút ít).",
+    "confidence": "medium",
+    "photos": [
+      {
+        "file": "photos/al-frescos-aeon-ha-dong/01.jpg",
+        "caption": "Quầy Pizza – Pasta – Steak – Ribs tại tầng 2 AEON Hà Đông",
+        "source_url": "https://aeonmall-hadong.com.vn/wp-content/uploads/2019/08/dsc00919.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      {
+        "file": "photos/al-frescos-aeon-ha-dong/02.jpg",
+        "caption": "Dãy ghế sofa và đèn mây tre",
+        "source_url": "https://aeonmall-hadong.com.vn/wp-content/uploads/2019/08/dsc00917.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      {
+        "file": "photos/al-frescos-aeon-ha-dong/03.jpg",
+        "caption": "Không gian sáng, tường trắng, khá thoáng",
+        "source_url": "https://aeonmall-hadong.com.vn/wp-content/uploads/2019/08/dsc00918.jpg",
+        "width": 2400,
+        "height": 1600
+      }
+    ]
+  },
+  {
+    "id": "pepperonis-tran-phu",
+    "name": "Pepperonis Trần Phú",
+    "category": "food",
+    "cuisine": "western",
+    "subcategory": "pizza / pasta",
+    "tagline": "Pizza kéo sợi, giá sinh viên",
+    "description": "Nhà hàng pizza–pasta thuộc hệ Al Fresco's, hai tầng tường gạch, ghế sofa, khoảng 100 chỗ. Thực đơn có pizza, mỳ Ý, sườn nướng, burger, steak và buffet trưa. Giá mềm, không khí trẻ trung nhưng hơi ồn vào giờ cao điểm.",
+    "address": "14 Trần Phú, KĐT Bắc Hà (Mộ Lao), Hà Đông, Hà Nội",
+    "area": "Trần Phú / Mộ Lao",
+    "in_aeon": false,
+    "distance_to_aeon": "~4,1 km đường chim bay; ~5–6 km đường xe, khoảng 15 phút xe máy",
+    "hours": "10:00–22:00 hằng ngày (Google Maps); PasGo: T2–T4 10:00–21:00, T5–CN 10:00–22:00",
+    "price_range": "130.000–150.000đ/người (PasGo)",
+    "signature": [
+      "Pizza hải sản",
+      "Sườn nướng BBQ",
+      "Mỳ Ý",
+      "Buffet trưa Á–Âu"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 1634,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJr-ST386sNTER004tEDtOg-4"
+    },
+    "highlights": [
+      "\"Cảm thấy đồ ăn ở đây ổn nhất các chi nhánh.\" (Foody, 14/7/2020, review cũ)",
+      "\"Pizza Pepperonis thì ngon đỉnh rồi nhá, chất lượng khỏi bàn\" (Foody, 20/10/2020, review cũ)"
+    ],
+    "open_evidence": "Google Maps hiển thị giờ mở cửa, không có cảnh báo đóng cửa, 1.634 đánh giá; có trong danh sách cửa hàng Pepperonis trên Urbox và bài PasGo 'Top 20+ nhà hàng ngon Hà Đông 2026'. Lưu ý: Foody ghi 'Tạm nghỉ' nhưng dữ liệu Foody đã cũ (review mới nhất 2021).",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pepperonis%20Tr%E1%BA%A7n%20Ph%C3%BA%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJr-ST386sNTER004tEDtOg-4",
+      "menu": "https://pasgo.vn/nha-hang/pizza-pepperonis-tran-phu-ha-dong-1171",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://pepperonis.com.vn/"
+    },
+    "trend_notes": "Quán quen của người Hà Đông, hợp túi tiền nhưng mang không khí nhà hàng gia đình/nhóm bạn hơn là hẹn hò. Ảnh từ PasGo (750px, có watermark), có thể là ảnh cũ.",
+    "confidence": "medium",
+    "photos": [
+      {
+        "file": "photos/pepperonis-tran-phu/01.jpg",
+        "caption": "Không gian hai tầng tường gạch, ghế sofa da",
+        "source_url": "https://pasgo.vn/Upload/anh-chi-tiet/nha-hang-pepperonis-tran-phu-slide-11-normal-123960011415.webp",
+        "width": 750,
+        "height": 450
+      },
+      {
+        "file": "photos/pepperonis-tran-phu/02.jpg",
+        "caption": "Pizza phô mai kéo sợi",
+        "source_url": "https://pasgo.vn/Upload/anh-chi-tiet/nha-hang-pepperonis-tran-phu-slide-1-normal-12395897199.webp",
+        "width": 750,
+        "height": 450
+      },
+      {
+        "file": "photos/pepperonis-tran-phu/03.jpg",
+        "caption": "Sườn nướng BBQ",
+        "source_url": "https://pasgo.vn/Upload/anh-chi-tiet/nha-hang-pepperonis-tran-phu-slide-3-normal-12395917201.webp",
+        "width": 750,
+        "height": 450
+      },
+      {
+        "file": "photos/pepperonis-tran-phu/04.jpg",
+        "caption": "Góc bàn sofa riêng tư",
+        "source_url": "https://pasgo.vn/Upload/anh-chi-tiet/nha-hang-pepperonis-tran-phu-slide-9-normal-123959811413.webp",
+        "width": 750,
+        "height": 450
+      }
+    ]
+  }
+]

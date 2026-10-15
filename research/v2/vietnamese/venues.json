@@ -1,0 +1,994 @@
+[
+  {
+    "id": "truonghoang",
+    "name": "Bánh Tráng Trường Hoàng",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "cuốn (bánh tráng cuốn thịt heo)",
+    "tagline": "Cuốn xinh, cuốn giòn, cuốn cả tim",
+    "description": "Quán bánh tráng cuốn thịt heo với không gian mới, tông gỗ ấm, ghế bọc nệm và đèn thả, khá sang so với mặt bằng quán cuốn. Thịt heo luộc và heo quay giòn bì bày khay gốm đẹp mắt, ăn kèm rau sống, bánh tráng, mắm nêm; có thêm gỏi cuốn tôm, má heo nướng, nem lụi.",
+    "address": "Số 6 ngõ 25 Nguyễn Khuyến, KĐT Văn Quán, Hà Đông, Hà Nội",
+    "area": "Văn Quán",
+    "in_aeon": false,
+    "distance_to_aeon": "~4,0 km đường chim bay (~5–6 km đường đi, ~13–15 phút xe máy)",
+    "hours": "Hằng ngày 10:30–14:30, 17:30–22:30 (Google Maps)",
+    "price_range": "~200–300k/người (theo mục 'mỗi người hết bao nhiêu' trên Google)",
+    "signature": [
+      "Bánh tráng cuốn thịt heo (heo luộc / heo quay giòn bì)",
+      "Má heo nướng",
+      "Gỏi cuốn tôm",
+      "Nem lụi"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 1377,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJX_WdcPqtNTERoWUIaV82cKc"
+    },
+    "highlights": [
+      "\"Trình bày bắt mắt chỉn chu, nhìn sạch sẽ, ko gian rộng mát\" — Google review",
+      "\"Thịt lợn cuốn giòn bì, nhiều nạc mà không bị khô\" — Google review",
+      "\"Quán setup sinh nhật free, đẹp… quán đông nên phục vụ hơi lâu\" — Google review"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): đang hoạt động, có giờ mở cửa cho tuần 15–21/10/2026; ảnh khách đăng gần nhất 25/09/2026, nhiều ảnh 2025–2026.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh%20Tr%C3%A1ng%20Tr%C6%B0%E1%BB%9Dng%20Ho%C3%A0ng%206%20ng%C3%B5%2025%20Nguy%E1%BB%85n%20Khuy%E1%BA%BFn%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJX_WdcPqtNTERoWUIaV82cKc",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/truonghoang/01.jpg",
+        "caption": "Không gian tông gỗ ấm, ghế nệm, đèn thả",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcYgSegNw-n1TFUWOQgxvVfigOJkdBof6N4xJzFe9ZuwqN6jVNU_y0dAZFb4Knpymp0NPVsoJjJpvh6SrIFi9D6wL_mNFwgItdDl5Ky18VYXBHxGEgbGyfmYj5TacfT9K74Qo8rMlihoIum=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/truonghoang/02.jpg",
+        "caption": "Bàn cuốn đầy đủ: thịt heo, nem, gỏi, rau sống",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcYSjf5_MD5IAqfG9jhrDIfAQCrTAh4qgxzLRT-ITuT333tsPL59U0yl90WyiDt6-z0uoh-Cc0VmK-GuIYC0t0Obtdb1soaEUGOH3i9qxe1ndleTLR5x4qau4ruJgmGSnSdneIElh5vBg=w1600",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "file": "photos/truonghoang/03.jpg",
+        "caption": "Gỏi cuốn tôm bày khay gốm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfp8bTXM2IQtiCkLHROo9iyI3DXL4rwfYfX4ca1UgvcvGq3NyseY73OaAS45KsLu1nZG_iKGFPaOgrJc5N9aEE1v89Ort3dArsCSvxPq7cYp5FbuCCMPD1mbFPnhF8rjhYJDtWjD9MT1v7B=w1600",
+        "width": 1440,
+        "height": 1440
+      },
+      {
+        "file": "photos/truonghoang/04.jpg",
+        "caption": "Thịt heo quay giòn bì cuốn bánh tráng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfy72jY01a1Xjhywlu1-VK5DU-KL-CJ5b084AB_cV6_y_3tTSaRYYeQV29M0a0A7pWlExwU6WDtLIcP3bokLKWTovJ18aVpndkmbnDNpk2iRfqryeksa8AsmQp0PpGfPMXULZLeD4JTe00=w1600",
+        "width": 1440,
+        "height": 1440
+      }
+    ],
+    "trend_notes": "4.9★ với ~1.400 đánh giá, rất cao cho một quán cuốn; có review so sánh ngon hơn các chuỗi Giang Mỹ / Phú Cường. Hotline Google: 0973 977 668. Cùng ngõ 25 Nguyễn Khuyến với Sành Lẩu.",
+    "confidence": "high"
+  },
+  {
+    "id": "phucuong",
+    "name": "Bánh Tráng Phú Cường – Cơ sở 3 (Hồ Gươm Plaza)",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "cuốn / món Việt đồng quê",
+    "tagline": "Cuốn thịt heo kinh điển Hà Thành",
+    "description": "Chuỗi bánh tráng cuốn thịt heo lâu năm và nổi tiếng ở Hà Nội; cơ sở Hà Đông nằm ở tầng 1 Hồ Gươm Plaza, sảnh rộng, bàn đá sạch sẽ. Ngoài cuốn heo luộc, heo quay còn có nộm, xôi chim, bê, lẩu, hợp gọi nhiều món chia nhau.",
+    "address": "Tầng 1, Tòa Hồ Gươm Plaza, 102 Trần Phú, Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao / Trần Phú",
+    "in_aeon": false,
+    "distance_to_aeon": "~3,7 km đường chim bay (~5 km đường đi, ~12–15 phút xe máy)",
+    "hours": "Hằng ngày 10:30–13:30, 17:30–21:30 (Google Maps)",
+    "price_range": "~200–400k/người (menu website: đa số món 89k–260k/đĩa; 1 phản hồi Google ghi 400–500k/người)",
+    "signature": [
+      "Bánh tráng cuốn thịt heo",
+      "Cuốn heo quay",
+      "Xôi chim",
+      "Nộm / gỏi",
+      "Bê sữa xông hơi"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 4337,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJwUBGj82sNTERTpL1pI4LqXc"
+    },
+    "highlights": [
+      "\"Cuốn heo quay is the best luôn\" — Google review",
+      "\"Đồ ăn ngon, ko gian đẹp, nhân viên chu đáo.\" — Google review",
+      "\"Đồ ăn cũng ổn, không quá xuất sắc… không gian rộng rãi\" — Google review (trái chiều)"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): hoạt động bình thường, có giờ mở cửa tuần 15–21/10/2026, ảnh khách mới nhất 26/09/2026; website banhtrangphucuong.vn liệt kê Cơ sở 3 – 102 Trần Phú.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh%20Tr%C3%A1ng%20Ph%C3%BA%20C%C6%B0%E1%BB%9Dng%20C%C6%A1%20S%E1%BB%9F%203%20102%20Tr%E1%BA%A7n%20Ph%C3%BA%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJwUBGj82sNTERTpL1pI4LqXc",
+      "menu": "https://banhtrangphucuong.vn/thuc-don/",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://banhtrangphucuong.vn/"
+    },
+    "photos": [
+      {
+        "file": "photos/phucuong/01.jpg",
+        "caption": "Mặt tiền cơ sở 102 Trần Phú (Hồ Gươm Plaza)",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcxrYXCOjVfuDt6Krca5FT5NTISX-M2MH2dSX3XaBc5UGMxMhr1PcZwqbbS6Zm8OOWi020r109VvUz7cp5FkzB3HYY1_D1M4OXhBOCPJ25La5nR2n1z3DUcq1YMac015t7cwa6oSg=w1600",
+        "width": 1600,
+        "height": 908
+      },
+      {
+        "file": "photos/phucuong/02.jpg",
+        "caption": "Mâm cuốn và các món đồng quê nhìn từ trên xuống",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdqLN3fFGEeEWBFHox0TisrZkB5iPqSvPuYkJbbul8yw47TTfcxw8m1JuJ8j476I8IHUguGQVVrvJgAmm-EDoIGzPIhZEHXbogjStzuFnVPgZabFmcDeAMwTbLCVWFh5GJIma7z634EtLQ=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/phucuong/03.jpg",
+        "caption": "Bàn bánh tráng cuốn thịt heo với rau và đồ chua",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6B45J4QNJEgZHgJQhXw0z52cmG6-MJKF2Bu8d9mATNdNYptR72TCyyKl6kDEwjLmBAFNgj9h1BWopdjDmuQU9Bs62-if-R3HIfQHXwhr6ZLEuyDkm-9mYKga-iNcEKTE_NeW8yi231Z8T=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/phucuong/04.jpg",
+        "caption": "Nem rán giòn ăn kèm rau thơm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdIZTkKX97OIvlf54S9aOjl7PQ5puCK7EGh16EB1TAuwtCLh0z46iD90CNskefoGEme8Qck4nMV1PTN6e4VqI3jxTGlNondIFS1tVdychnXWU9ZtszHPVf1peu_rA5Yn1dGi42gKpJCyufO=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Nhiều đánh giá nhất trong nhóm quán cuốn ở Hà Đông (~4.300). Có khu vui chơi trẻ em nên cuối tuần có thể ồn hơn. Hotline cơ sở: 024 2244 6060.",
+    "confidence": "high"
+  },
+  {
+    "id": "vuachaca",
+    "name": "Vua Chả Cá – AEON Mall Hà Đông",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "chả cá",
+    "tagline": "Chảo chả cá xèo xèo ấm lòng",
+    "description": "Nhà hàng chuyên chả cá lăng kiểu Hà Nội: chảo cá vàng ruộm đặt trên bếp tại bàn, đảo cùng thì là và hành, ăn với bún, lạc rang, mắm tôm. Không gian trong trung tâm thương mại, ghế bọc nệm, mát mẻ; có thêm lẩu cá và lòng cá.",
+    "address": "Tầng 1, TTTM AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Dương Nội (trong AEON)",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON Mall (tầng 1 theo Foody)",
+    "hours": "Hằng ngày 10:00–22:00 (Google Maps)",
+    "price_range": "~150–400k/người (biển hiệu ghi suất chả cá khoảng 159k; Google ghi 300–400k/người; thứ Hai có ưu đãi 89k/suất)",
+    "signature": [
+      "Chả cá lăng chảo nóng (thì là, hành)",
+      "Lòng cá xào",
+      "Lẩu cá",
+      "Combo chả cá"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 4708,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJ50JauAxTNDERPnKJZDKfufc"
+    },
+    "highlights": [
+      "\"Đồ ăn rất ngon, gia đình mình đã đến nhiều lần, nên thử ạ\" — Google review",
+      "\"Đồ ăn ngon, phục vụ ổn, chỗ ngồi rộng rãi, thoải mái\" — Google review",
+      "Có review phàn nàn phải gọi nhân viên nhiều lần mới được thêm đồ (Google, tiêu cực)"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): đang hoạt động; chủ quán đăng bài mùa thu 2026; ảnh khách ngày 14/10/2026 và 17/09/2026.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Vua%20Ch%E1%BA%A3%20C%C3%A1%20Aeon%20Mall%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJ50JauAxTNDERPnKJZDKfufc",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/vuachaca/01.jpg",
+        "caption": "Mặt tiền Vua Chả Cá trong AEON Mall Hà Đông",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfHYT_Vkcqi_dn8daseHFQsqvRS-NaEfeZaASClMXzxXFh4zBL2rIlRymBG_v1EXzUbOG78te_pGd81v1bm6iAnzSTc3vxU7m2vj39vJyyYm7co3wMpByI5v2asMmTImuQzzGRAXYeAYU7F=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/vuachaca/02.jpg",
+        "caption": "Chảo chả cá đảo cùng hành và thì là",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcS64esFYI0tOFJiRwqcFAMmWIsy5dcKBdNxPYmxodcuemugCaXRCvh9HWPiVyLp08eL7h38c3pad17H5sdKdJ2RV3fhPN56su5f4PWfAowk-IAl5QP4nC9wMBPO3SJISIRuvc=w1600",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "file": "photos/vuachaca/03.jpg",
+        "caption": "Nồi lẩu cá nóng hổi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLezhUN9-c7H26yeEEtWMW8DVDqQ6UWxWc_iizX8WqSRn6NS4i7tzew7ewQVyNd1BGI69k6sFvBvi3nDF8pSbiZmPJLq2GkJuFgC3kUhuAXVLH5O14AV6btuxE9FCYwi9_dfOnziKa5MCvB9=w1600",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "trend_notes": "4.9★ với ~4.700 đánh giá, cao nhất trong nhóm món Việt quanh AEON (chuỗi có chạy chương trình khuyến khích đánh giá). Tiện nếu xem phim CGV xong. Hotline Google: 0981 581 215. Không có trong danh mục 'Thực đơn' của aeonmall-hadong.com.vn (danh mục có thể chưa đầy đủ).",
+    "confidence": "high"
+  },
+  {
+    "id": "botomoc_tohuu",
+    "name": "Bò Tơ Quán Mộc – Tố Hữu (Cơ sở 5)",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "nhà hàng món Việt (bò tơ)",
+    "tagline": "Bò tơ mộc mạc, vị Việt ấm áp",
+    "description": "Nhà hàng bò tơ với không gian gỗ, cửa kính, gợi phong cách thập niên 80, rộng và sáng. Thực đơn nhiều món bò tơ như bò tơ cuốn bánh tráng, bê chao, bò cháy tiêu xanh, lẩu; trình bày đẹp, có thể gọi phần nhỏ cho 2 người.",
+    "address": "88 Tố Hữu (ngã tư Vạn Phúc), Hà Đông, Hà Nội",
+    "area": "Vạn Phúc / Tố Hữu",
+    "in_aeon": false,
+    "distance_to_aeon": "~2,1 km đường chim bay (~3 km, ~7–10 phút xe máy). Có chi nhánh trong AEON Hà Đông (4.8★, 675 đánh giá)",
+    "hours": "Hằng ngày 10:00–23:00 (Google Maps); chi nhánh AEON 10:00–22:00",
+    "price_range": "~200–300k/người (Google)",
+    "signature": [
+      "Bò tơ cuốn bánh tráng",
+      "Bê chao Mộc Châu",
+      "Bò cháy tiêu xanh",
+      "Bò tơ nướng / lẩu bò"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 1857,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJ_3PowmNTNDERwYa6x4GQLWY"
+    },
+    "highlights": [
+      "\"Quán có đồ ăn ngon, trình bày đẹp, menu phong phú, giá cả hợp lý\" — Google review (Tố Hữu)",
+      "\"Món bê chao + bò cháy tiêu xanh thật sự cuốn hút\" — Google review (chi nhánh AEON)",
+      "\"Nếu bạn cần không gian riêng tư để… chuyện trò thì nên hỏi trước vì có thể không gian mở\" — Google review"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): cơ sở Tố Hữu hoạt động, ảnh khách 13/10/2026; chi nhánh AEON ảnh 05/10/2026. Website botoquanmoc.com đang hoạt động.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%B2%20T%C6%A1%20Qu%C3%A1n%20M%E1%BB%99c%2088%20T%E1%BB%91%20H%E1%BB%AFu%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJ_3PowmNTNDERwYa6x4GQLWY",
+      "menu": "https://botoquanmoc.com/thuc-don/",
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://botoquanmoc.com/"
+    },
+    "photos": [
+      {
+        "file": "photos/botomoc_tohuu/01.jpg",
+        "caption": "Không gian gỗ, cửa kính sáng tại cơ sở Tố Hữu",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTtVFgfKLktqJl5onIuhHpvOns40X1Z-HU193NVnPB7kCKNQzV9DYdU5zhCJVxgICYRPaepS7e9CWtNRx2jVifUBI1lw0s1ahYmpQmgmXDE99VRsaBSREdFGTGUivKFmjVv0J5ikz92Ny9=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/botomoc_tohuu/02.jpg",
+        "caption": "Sảnh ăn rộng, trần gỗ phong cách xưa",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdiNH_QQLWdKbDJwTP37gH16wzRJ_LBVn5EXxpKd57ccH7tNVDnFyoeZ77U44k2k8z86bAx929i9-J5WNzQtY0JG0XN_sZuEonle6rjDpTMeJvrUSGfkTu26e4NUADyPl0Ttf1sqU4S4Gxz=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/botomoc_tohuu/03.jpg",
+        "caption": "Bò tơ nướng chấm sốt kèm đồ chua",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeSHhvLkNAU06SCh68zD5cQxDzN3yY7AWZpiwqezBd8j-yzXE-LGnU7P4xqPfcjZv_yYP0rvfSP6D6l4lM9L6WYI8wO7wg5oZg9S_tMt7CaBIlJvJleJGwsPcdJ12l-_CpStRYLDuFV3aFe=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/botomoc_tohuu/04.jpg",
+        "caption": "Món bò sốt đậm đà kèm bí đỏ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLca8aA82kFdWWHeSYxwq2Cv9wR144t9ynbnIharMzoR9pKfL7jUMw3PRlA1oglzVQ9nVJSyeOmCGLU7q1MGKv8MNYupBTrCBnEyaZ1fUK7aipp0PJc2dIRx31vlMgws_WLPCVjITenq6BmN=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Chuỗi bò tơ lớn; cơ sở Tố Hữu hay có tiệc công ty, sinh nhật nên giờ cao điểm có thể ồn. Phương án trong mall: Bò Tơ Quán Mộc AEON Hà Đông (4.8★/675; https://www.google.com/maps/search/?api=1&query=B%C3%B2%20T%C6%A1%20Qu%C3%A1n%20M%E1%BB%99c%20Aeon%20Mall%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJ56KQ0-JTNDERh9tqPcCWkRw), có review phàn nàn chờ món lâu khi đông.",
+    "confidence": "high"
+  },
+  {
+    "id": "netcuon",
+    "name": "Nét Cuốn – 7 ngày rau tươi",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "cuốn / món miền Trung–Nam",
+    "tagline": "Rau tươi, cuốn xinh, hẹn nhau",
+    "description": "Quán cuốn ấm cúng với tường gạch, đèn mây, bàn gỗ, hợp ngồi hai người. Thực đơn nhiều kiểu cuốn: heo quay, nem lụi, gỏi cuốn tôm, bánh xèo, bánh khọt, bún mắm nêm; rau sống được khen tươi và nhiều.",
+    "address": "30 Nguyễn Văn Lộc, KĐT Bắc Hà / Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (Nguyễn Văn Lộc)",
+    "in_aeon": false,
+    "distance_to_aeon": "~4,0 km đường chim bay (~5 km, ~12–15 phút xe máy)",
+    "hours": "Hằng ngày 10:00–14:00, 17:00–22:00 (Google Maps)",
+    "price_range": "~150–250k/người (Google ghi 200–300k; 1 review: gần 400k cho 2 người cả nước uống)",
+    "signature": [
+      "Cuốn heo quay",
+      "Nem lụi",
+      "Bánh khọt / bánh xèo",
+      "Gỏi cuốn tôm",
+      "Bún mắm nêm heo quay"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 1100,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJlUZ0PxqtNTERhBeQcSQQEh0"
+    },
+    "highlights": [
+      "\"Rau siêu tươi và nhiều… Mọi người nên thử heo quay\" — Google review",
+      "\"Nhiều loại cuốn, ăn khá ok cả, đặc biệt nem lụi thơm và ngon\" — Google review",
+      "\"Nước chấm mắm nêm cũng ăn được, k quá ngon\" — Google review (điểm trừ)"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): hoạt động, ảnh khách đăng 14/10/2026; fanpage facebook.com/netcuon.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=N%C3%A9t%20Cu%E1%BB%91n%2030%20Nguy%E1%BB%85n%20V%C4%83n%20L%E1%BB%99c%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJlUZ0PxqtNTERhBeQcSQQEh0",
+      "menu": null,
+      "facebook": "https://www.facebook.com/netcuon",
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/netcuon/01.jpg",
+        "caption": "Góc quán tường gạch, đèn mây ấm cúng",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfWFPpC5jObwvWoLHsonpv8M713QqQ8imDUQ-4_IhUgKOTpYqVnk4547Qhj26uvKmz1CBiYGIi6b3OsSYOwzkLfiXeyPPSOB8uU9E9pyN5WNYamucl4F10WpmOwfA39sIf7_drzwsM1LwpY=w1600",
+        "width": 1366,
+        "height": 2048
+      },
+      {
+        "file": "photos/netcuon/02.jpg",
+        "caption": "Mâm cuốn heo quay, bánh xèo, rau tươi",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeeCKUUmJeqTA5YyTihx5LIMVfZCDnpex-JkdIGfMjdEPpxT4Ho6YYqMv62Hx9WZWD8amtrP_6ZS_0_4wzFMI-grptehf-Pr9sM4LGx8j_055lUmIHmZMUfqhQkNIzqx240Za25MmGnyMY=w1600",
+        "width": 1536,
+        "height": 2048
+      },
+      {
+        "file": "photos/netcuon/03.jpg",
+        "caption": "Bánh khọt tôm và bánh xèo vàng giòn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc3zS50Dr1LyA5_7K783F2xns48opD7kaVjAuERS8L8p5rqImR_4LoCr2RS25vCWXKtDVBHAq3A8guOtg8kZaT1gU62b6T-YczXw-JaZ0f_nVFKUzJg-H0jCJ71tlP9VzrigmpHiNCTfuL3=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/netcuon/04.jpg",
+        "caption": "Gỏi cuốn tôm thanh mát",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLekF_jo6pUE6NGcfdQH4zbsSFHUvnAZqmvunNiflWtr8rPBMt-w4lw5PhuvC7BgtGLoYbiZcImdowA9zTZr__ASby7EEf75VvDeunf7vMyem9YuYoajAK0p0KEXAIbSGn4yDKHh6c6LGsU=w1600",
+        "width": 1600,
+        "height": 2844
+      }
+    ],
+    "trend_notes": "Quán cuốn nhỏ, trang trí đẹp, hợp đi hai người. Nguyễn Văn Lộc là phố ẩm thực sầm uất nhất Hà Đông, ăn xong dễ tìm quán cà phê, tráng miệng.",
+    "confidence": "high"
+  },
+  {
+    "id": "tutam",
+    "name": "Bếp Tự Tâm – 82 Nguyễn Văn Lộc",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "cơm nhà / món Việt hoài cổ",
+    "tagline": "Bữa cơm nhà, chuyện trò thật lâu",
+    "description": "Quán cơm món Việt trong không gian hoài cổ: tranh tường cây bưởi vàng, đồ gỗ, ti vi cũ, đèn ấm. Món nhà làm như thịt quay giòn bì, cá kho, gà sốt, đậu hũ mỡ hành, canh rau, kèm vài loại lẩu; mâm cơm vừa phải cho 2 người.",
+    "address": "82 Nguyễn Văn Lộc, Làng Việt kiều Châu Âu, Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (Nguyễn Văn Lộc)",
+    "in_aeon": false,
+    "distance_to_aeon": "~3,8 km đường chim bay (~5 km, ~12–15 phút xe máy)",
+    "hours": "Hằng ngày 09:00–21:00 (Google Maps)",
+    "price_range": "~150–250k/người (món chính trên menu chủ yếu 45k–150k; Google ghi 200–300k)",
+    "signature": [
+      "Thịt quay giòn bì",
+      "Cá kho",
+      "Đậu hũ mỡ hành",
+      "Canh rau / canh chua",
+      "Mâm cơm 2–4 người"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 463,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJ1SDi2W6tNTERcsfKekCPwYw"
+    },
+    "highlights": [
+      "\"Thịt quay da giòn, thịt mềm, gà sốt thấm vị, cá kho thơm đậm đà\" — Google review",
+      "\"Không gian thoáng, phục vụ nhanh dù quán đông. Món ăn ngon và đầy đủ\" — Google review",
+      "\"Không gian quán với tranh tường\" — Google review"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): hoạt động, ảnh khách đăng 29/09/2026, menu dạng ảnh do khách đăng.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%BFp%20T%E1%BB%B1%20T%C3%A2m%2082%20Nguy%E1%BB%85n%20V%C4%83n%20L%E1%BB%99c%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJ1SDi2W6tNTERcsfKekCPwYw",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/tutam/01.jpg",
+        "caption": "Tranh tường cây bưởi vàng, bàn ghế gỗ hoài cổ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe9G4k4LFzMAcA7F8pB8HGg1hv2m7CQ-MuibmLqwpbR-vF0zi9fVgwnqJZL7i5URliRn7lP8qMlbK7VMGUH9EKcpdyrfgF0RDItDsKHJ-zB9s4D7Q0dOH03v9RS64N1DBCCxHUXPcfPTAlz=w1600",
+        "width": 1152,
+        "height": 1495
+      },
+      {
+        "file": "photos/tutam/02.jpg",
+        "caption": "Mâm cơm nhà với canh, thịt, rau",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf92q3nX4TlYh6tvdcE9zJeYr3FFKhqFDoPdOMLNp0W0rWPu7SZZxhsM-08uqxOBLRVjMQdXzIUr7-k0tTcUTGAP1LP8OR5bOI1sFSho6Pc2UWmLhctZMTswFu6YLtX2ntGRWU6wg=w1600",
+        "width": 1536,
+        "height": 2048
+      },
+      {
+        "file": "photos/tutam/03.jpg",
+        "caption": "Thịt quay giòn bì, canh chua, đậu rồng xào",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeaf7ygQE-PGp5t-CcPm4rpUcm5rjwccENrPUG8z-gCIIsffdEsfN-Xc96bMi6jDXZWcTXkeCBbi9GXS_2mHZRYBSiA92gNFrojzJA2l1r6NEiK-35Vm-ok2yLExkmEoVivKlyG5cPRkQI=w1600",
+        "width": 1210,
+        "height": 1300
+      },
+      {
+        "file": "photos/tutam/04.jpg",
+        "caption": "Mặt tiền Bếp Tự Tâm – Cơm nhà tròn vị",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf00UFmFjcWOv5JRFl-argTzghZc-RLe3Tk13J5yx7XJfOzqXCk2xOU3HI7OeC8hQi-otNrgzwdoZnIVQYFIDf8jkxtmbZZkjwZml2ry-83tEjsmcffxqjxcDiG8O98c2r9moG30tVzzdvO=w1600",
+        "width": 1536,
+        "height": 2048
+      }
+    ],
+    "trend_notes": "Kiểu quán cơm nhà trang trí hoài cổ đang được giới trẻ chuộng, giá dễ chịu. Ít thông tin trên báo hay web, chủ yếu dựa vào Google Maps.",
+    "confidence": "medium"
+  },
+  {
+    "id": "boankhang",
+    "name": "Bò An Khang – Dương Nội",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "lẩu bò tươi / món bò",
+    "tagline": "Lẩu bò nóng hổi, tim ấm áp",
+    "description": "Nhà hàng chuyên bò tươi trong ngày, nổi bật với lẩu bò và tháp bò nhúng nhiều phần thịt, cùng các món bò xào, bò sốt. Mặt tiền lớn, hai tầng, trang trí đèn lồng và gạch bông, có phòng riêng; gần AEON nhất trong danh sách.",
+    "address": "BT02-12 Phan Kế Toại, KĐT An Hưng, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Dương Nội / An Hưng",
+    "in_aeon": false,
+    "distance_to_aeon": "~1,5 km đường chim bay (~2 km, ~5 phút xe máy)",
+    "hours": "Hằng ngày 05:00–14:00, 17:00–22:30 (Google Maps)",
+    "price_range": "~300–400k/người (Google)",
+    "signature": [
+      "Lẩu bò tươi",
+      "Tháp bò nhúng (gân, nạm, bắp, lõi)",
+      "Bò xào / bò sốt",
+      "Phở / bún bò buổi sáng"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 3340,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJa_N8Ev5TNDERA0hNbLpzmXI"
+    },
+    "highlights": [
+      "\"Không gian quán rộng rãi, sạch sẽ, bố trí bàn ghế thoải mái\" — Google review",
+      "\"Chỗ rộng rãi, có chỗ đỗ xe ô tô, xe máy… Tầng 2 là phòng riêng\" — Google review",
+      "\"Đồ ăn ngon, quản lý chất lượng, nhân viên nhiệt tình\" — Google review"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): hoạt động, ảnh khách đăng 05/10/2026, hơn 3.300 đánh giá.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%B2%20An%20Khang%20D%C6%B0%C6%A1ng%20N%E1%BB%99i&query_place_id=ChIJa_N8Ev5TNDERA0hNbLpzmXI",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/boankhang/01.jpg",
+        "caption": "Sảnh ăn với đèn lồng, gạch bông",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLesVJkG1l_7t4rVeXyjwhzaxijtqqakGKAZcxnZitvM17EoW7eTnDh2Cj3IAKqNwuxca7luq4ix9dr7U1ZuIbgpSC0-o9RyeP69Tfy89KPX0VKdTdGt3iZw2kH3x6WxlHExgR1VZlkvEdCP=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/boankhang/02.jpg",
+        "caption": "Tháp bò tươi nhiều tầng để nhúng lẩu",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcez24ScuLT50qrI3n-Y56xgExSexRd13IWhuOH88TZKnVykOBQD0GGdTsxzuEzWeRuUCKHWw662x9Gq4cF0n88WKOfNVEtQEbf2s-SepboGxFI8HtqYnJlwFwbJSdR4e7ThBueZC11E3X9=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/boankhang/03.jpg",
+        "caption": "Nồi lẩu bò và đĩa bò tươi xếp dài",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfcfJE8e1IffA-UUzJpuHCqjjYHtVUGaoSeIPISN9QNX-PhyirbKz231MUMPy1UhrS8JrC-Jxd6rzDN9WRximADFTr0wgXdb8mOexgYoB_b7mFlEXpFQUpYlL9ae2qjoIpVXynR2XN8cQSc=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/boankhang/04.jpg",
+        "caption": "Mặt tiền rực đèn của Bò An Khang",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf5No2aaV2x_fv0LdLeXZs6Aim9wdVtwc-yMaABCwvEv425j8n7Vh63NZcFzSY2We9odSxTCc3y5htYNIz1UjG8yTkBiJNfiOAF_LYWRpf-hZxTtIYwxM7KN2qmnKbRIwRwV_zPvZXnwS2i=w1600",
+        "width": 1600,
+        "height": 2844
+      }
+    ],
+    "trend_notes": "Rất đông, nhiều tiệc gia đình, sinh nhật; nên đặt bàn tối thứ Bảy. Google ghi website boankhang.vn nhưng trang này tự nhận là bản demo không chính thức nên không dùng. Hotline Google: 0902 120 212.",
+    "confidence": "high"
+  },
+  {
+    "id": "sanhlau",
+    "name": "Sành Lẩu – Nguyễn Khuyến",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "lẩu",
+    "tagline": "Nồi lẩu nhỏ, chuyện trò to",
+    "description": "Quán lẩu phong cách công nghiệp với tường bê tông, cây xanh và biển neon, hợp gu người trẻ. Nổi bật lẩu sườn bò kim chi và lẩu chanh leo, nồi đầy đặn, nước chấm được khen; có ngô chiên và mẹt đồ nhúng bày đẹp.",
+    "address": "Số 4 ngõ 25 Nguyễn Khuyến, KĐT Văn Quán, Hà Đông, Hà Nội",
+    "area": "Văn Quán",
+    "in_aeon": false,
+    "distance_to_aeon": "~4,0 km đường chim bay (~5–6 km, ~13–15 phút xe máy)",
+    "hours": "Hằng ngày 10:30–14:00, 17:30–22:30 (Google Maps)",
+    "price_range": null,
+    "signature": [
+      "Lẩu sườn bò kim chi",
+      "Lẩu chanh leo",
+      "Ngô chiên",
+      "Mẹt đồ nhúng bò / hải sản"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 1237,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJ0xqtXACtNTERykJnE-H7pXc"
+    },
+    "highlights": [
+      "\"Nước chấm ở đây siêu ngon, lẩu nhìn đầy đặn\" — Google review",
+      "\"Lẩu ngon vị thanh thanh… Không gian thì okii lắm\" — Google review",
+      "\"Bát đĩa và cốc toàn bộ là NHỰA chứ không phải SÀNH SỨ\" — Google review (điểm trừ)"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): hoạt động, ảnh khách 06/10/2026; fanpage @sanhlauhadong còn cập nhật; có video TikTok review năm 2026 (@bachuareview).",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=S%C3%A0nh%20L%E1%BA%A9u%20Nguy%E1%BB%85n%20Khuy%E1%BA%BFn%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJ0xqtXACtNTERykJnE-H7pXc",
+      "menu": null,
+      "facebook": "https://www.facebook.com/sanhlauhadong",
+      "instagram": null,
+      "tiktok": "https://www.tiktok.com/@bachuareview/video/7612974669188074770",
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/sanhlau/01.jpg",
+        "caption": "Không gian bê tông, cây xanh kiểu công nghiệp",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcc690YhmYnbqjyoDwcfaIncpGIVyfvLEYbL529QqVwBCK2ua7H-_zWV5bV45eIBl4zFLtt4xSOtY3fWy1y5S8J55zlK52uhpjLmw_hIJcY22fmz9QMNjGkbQuojvxaW3syP0Ascm7mtUXx=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/sanhlau/02.jpg",
+        "caption": "Lẩu sườn bò kim chi và đĩa bò mỹ",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdb0OrvY7ZSoDHmmGKNZomt1Ah07uKPaSEBp18vCk6iJARCVtL0X9n5RjTCQ1yeRNimd6xBYCd6aK7OtmgOA9pBNR3GD_b6LlubL4_OyGzSCjGUXMf404LKLORd7l6gkSfGt8O2W42ILCg=w1600",
+        "width": 1020,
+        "height": 1020
+      },
+      {
+        "file": "photos/sanhlau/03.jpg",
+        "caption": "Mẹt đồ nhúng: bò, viên, nấm kim châm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe0vV3SMhmHtQC09fDX1P3z89wPOydGa-_MzEe8gJ2v4Jkxk0r54CfUPqr9aiGNauu05aixesPX5KirN11p47tUPW78GUxM7_s780yUYKoWmxGnfiL9VTri0RTkeIGpPVFFlQnLeeJ0ZrRl=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/sanhlau/04.jpg",
+        "caption": "Quán buổi tối với đèn neon",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLedZE6Dxw-rPfUjGr_zAD77mo9Ro3Knf1Gyfzh2c64iuhc9oPdHUA9O6_eH9-LzYxZpRjWYifFZ-vcVl8V_8ESnsI4XMVG36JPUv1hTeN8By58bG9toWpYjCAD04RUnuLhnJCRbLrQiqO5o=w1600",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "trend_notes": "Đang được review trên TikTok; theo fanpage đã mở cơ sở 2 ở 15-17 Hoàng Cầu (Đống Đa). Lẩu kim chi mang hơi hướng Hàn–Việt. Chưa tìm được bảng giá công khai. Hotline 0366 769 603.",
+    "confidence": "medium"
+  },
+  {
+    "id": "banhxeo",
+    "name": "Bếp Xì Khói – Bánh Xèo Tôm Nhảy",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "bánh xèo / món Quy Nhơn",
+    "tagline": "Bánh xèo giòn rụm, vui xèo xèo",
+    "description": "Quán chuyên bánh xèo tôm nhảy kiểu Quy Nhơn: bánh nhỏ đổ khuôn, giòn, cuốn bánh tráng với rau sống và chấm nước mắm. Ngoài ra có nem lụi, tré trộn, bánh hỏi heo quay, mực; quán sáng, sạch, kiểu quán ăn trẻ trung bình dân.",
+    "address": "TTTM TSQ, Khu A/50 Nguyễn Văn Lộc, Mộ Lao, Hà Đông, Hà Nội",
+    "area": "Mộ Lao (TSQ)",
+    "in_aeon": false,
+    "distance_to_aeon": "~3,2 km đường chim bay (~4,5 km, ~10–12 phút xe máy)",
+    "hours": "10:30–22:00 (thứ Hai đóng 21:00) (Google Maps)",
+    "price_range": "~100–200k/người (Google)",
+    "signature": [
+      "Bánh xèo tôm nhảy",
+      "Nem lụi",
+      "Tré trộn",
+      "Bánh hỏi heo quay",
+      "Mực nướng"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 394,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJL1lMQeJTNDERNOQPdnYKWSE"
+    },
+    "highlights": [
+      "\"Bánh giòn, tôm chắc ngọt thịt\" — Google review",
+      "\"Đồ ăn khá oke, rau tươi và nhiều loại, hợp gu mình\" — Google review",
+      "\"Bánh xèo ăn hơi ngấy vì có dầu ăn\" — Google review (điểm trừ)"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): hoạt động, ảnh khách 11/10/2026 và 17/07/2026.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh%20X%C3%A8o%20T%C3%B4m%20Nh%E1%BA%A3y%20B%E1%BA%BFp%20X%C3%AC%20Kh%C3%B3i%20Nguy%E1%BB%85n%20V%C4%83n%20L%E1%BB%99c&query_place_id=ChIJL1lMQeJTNDERNOQPdnYKWSE",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/banhxeo/01.jpg",
+        "caption": "Mặt tiền Bếp Xì Khói – Bánh xèo tôm nhảy",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfiVBf1GbZC561CCmHAO-AtMVc63PO6r6F4idfAKvTkuoGyF4rk51JaScCpCD5b4c3T46JHaWWgmipJT9y8E6FhBeonss4fesNWFjNr9VP6Aaljc8C6ZDen294s_2R-f1sLB_CLBHMdknhW=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/banhxeo/02.jpg",
+        "caption": "Bánh xèo tôm, bò trên mẹt tre",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVm6eu_0JRvh9uLVufbhaHq6D-u33LA5MuzbByEEgAAR5SkQlkNY6fqjoMbgtU5Yt-z-UEM-lxzma0fhD2SWMjxSpWxkvqyfenqec76_xD2fpgRxaadpt5BHMcc7hmNEitsAAp7lfg_l0S=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/banhxeo/03.jpg",
+        "caption": "Nem lụi sả kèm bún và nước chấm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfAA_VDeElCGhp_nOElPDelKXmCVryC_SGSxkSh1NV6ryUoPJ31f-IUygaCynOjjcvzHqpkxPxW3hZzzJ_afEYOkQHlbMVp1mlnwK-wNdrSxHap_ygi6h0-TWq-bhYvZkzjOKkYVCzoL_Q=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/banhxeo/04.jpg",
+        "caption": "Chả giò, nem và rau cuốn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdYMc_W8ccvN0Cdsm10MG8wp-qxCcw2LHm8V4Lu0eRWRgOjxXwLJC0AlmjHYUYeKGlP0GmHKb78rVLpi6sJ2s-O9nWEb5InyygGCV7i_FtCQmRMvds22GGbJVh87zXN7N4aQIHt=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Quán bánh xèo có nhiều đánh giá nhất gần AEON (các quán bánh xèo khác ít review). Không gian bình dân hơn các nhà hàng xếp trên.",
+    "confidence": "medium"
+  },
+  {
+    "id": "hangcuon",
+    "name": "Hàng Cuốn – AEON Mall Hà Đông",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "cuốn (chuỗi Golden Gate)",
+    "tagline": "Cuốn nhẹ nhàng sau buổi phim",
+    "description": "Nhà hàng món cuốn của tập đoàn Golden Gate, quầy mở trong khu ẩm thực AEON với ghế bọc nệm xanh, tông gỗ sáng. Có khay cuốn thập cẩm (heo, bò, cá), bánh hỏi lá lốt, cơm rang và đồ uống; trình bày đẹp nhưng giá nhỉnh hơn quán bên ngoài.",
+    "address": "TTTM AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Dương Nội (trong AEON)",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON Mall",
+    "hours": "Hằng ngày 10:30–22:00 (Google Maps)",
+    "price_range": "~300–400k/người (Google)",
+    "signature": [
+      "Khay cuốn thập cẩm",
+      "Bánh hỏi cuốn lá lốt",
+      "Cuốn thịt heo / bò",
+      "Cơm rang"
+    ],
+    "rating": {
+      "score": 4.0,
+      "count": 306,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJd9dQB5BTNDERZrrZxHP8poE"
+    },
+    "highlights": [
+      "\"Khá ấn tượng với các món cuốn cũng như chất lượng đồ uống\" — Google review",
+      "\"Món ăn đầy đặn tròn vị.\" — Google review",
+      "\"Giá có vẻ cao hơn 1 chút so với các nhà hàng đồ cuốn khác\" — Google review"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): hoạt động; có trong danh mục 'Thực đơn' của aeonmall-hadong.com.vn; ảnh khách 09/08/2026.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=H%C3%A0ng%20Cu%E1%BB%91n%20AEON%20Mall%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJd9dQB5BTNDERZrrZxHP8poE",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://aeonmall-hadong.com.vn/food/hang-cuon/"
+    },
+    "photos": [
+      {
+        "file": "photos/hangcuon/01.jpg",
+        "caption": "Quầy Hàng Cuốn trong AEON Mall Hà Đông",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfmAgV6UFHM1J5pK-kqxTJa4M1lGr-EVIZzP-V4lRMzDVVnA24Ah656T5BViEJ2SVlG68SeJKwHokWL2pnxrwFKkwnA5rpdHjVBEwLwU5EBYnwl5XGnLWVHL0MdAWo1vbeQIGv0vRjJWOs=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/hangcuon/02.jpg",
+        "caption": "Khay cuốn thập cẩm nhiều loại thịt",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcTq0cTjJKTa-NlQ9d4yUXop9zROUaEuNJRFUZzY85gv8ALTg3Za7H3pc9SWrOHUw8Yy9NupyCb2R4hp9cxPo2sSIUrHztLipFpuMI5k_Qe5-RSAAOg3uoyskAFnAYwOW6sLwpG3PuLY7I=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/hangcuon/03.jpg",
+        "caption": "Bánh hỏi, lá lốt và thịt quay",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeL8O4GvG87qrrEAfIp4veALX47kHwsZ426F8skkrKXxucJzYB6BXCGcTCpfvOWXWhSfkOlN28cHmgh9dF58YZivDJNSy2k-uNQX7KLkI7WMIKWoszB_qrA6VvkXCqiLAXkpGS2Jr-xBkfW=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Phương án tiện nhất nếu muốn ăn cuốn ngay trong mall; điểm 4.0 thấp hơn hẳn các quán cuốn bên ngoài, review tiêu cực chủ yếu về chờ món và phục vụ.",
+    "confidence": "medium"
+  },
+  {
+    "id": "phuongnam",
+    "name": "Nhà hàng Phương Nam – AEON Mall Hà Đông",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "món miền Tây / lẩu",
+    "tagline": "Hương vị miền Tây giữa lòng phố",
+    "description": "Nhà hàng món Nam Bộ trong AEON, trang trí kiểu chợ quê với đèn tre, quầy hàng gỗ. Nổi tiếng với lẩu cá kèo, lẩu bò lá giang, nem nướng bánh hỏi, bò tơ cuốn, bánh xèo miền Tây; một số review nhắc có hoa quả miễn phí.",
+    "address": "TTTM AEON Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+    "area": "Dương Nội (trong AEON)",
+    "in_aeon": true,
+    "distance_to_aeon": "Trong AEON Mall",
+    "hours": "Hằng ngày 09:00–22:00 (Google Maps)",
+    "price_range": "~300–400k/người (Google)",
+    "signature": [
+      "Lẩu cá kèo",
+      "Lẩu bò lá giang",
+      "Nem nướng bánh hỏi",
+      "Bánh xèo miền Tây",
+      "Bò tơ cuốn"
+    ],
+    "rating": {
+      "score": 4.0,
+      "count": 239,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJO3o779ZTNDERoteoLOflbaw"
+    },
+    "highlights": [
+      "\"Không gian quán đẹp đồ ăn rất ngon và trình bày đồ ăn rất đẹp luôn\" — Google review",
+      "\"Lẩu nước vị giống canh chua, ngọt thanh, vừa miệng, các loại rau đúng chuẩn miền tây\" — Google review",
+      "\"Bò nướng lá lốt cũng ngon nhưng phải chờ lâu\" — Google review"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): trạng thái hoạt động, có giờ mở cửa tuần 15–21/10/2026; có trong danh mục 'Thực đơn' của aeonmall-hadong.com.vn. Ảnh khách mới nhất thấy được là 01/2026 nên độ chắc chắn thấp hơn.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=Nh%C3%A0%20h%C3%A0ng%20Ph%C6%B0%C6%A1ng%20Nam%20AEON%20Mall%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJO3o779ZTNDERoteoLOflbaw",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": "https://aeonmall-hadong.com.vn/food/nha-hang-phuong-na/"
+    },
+    "photos": [
+      {
+        "file": "photos/phuongnam/01.jpg",
+        "caption": "Lối vào nhà hàng Phương Nam phong cách chợ quê",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfRMcwKgsvKMFYFGmvu66Q7N0kBImJrYcMajGqWlLpTc7SZdXmmOvQ_rFFt1LyTvrB91tC77Vtr2Me9YeqwsAi-dptmCsUKn2bw7tjVXH24nlrhA19uHguHuymf6UWfqMHAkt_j=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/phuongnam/02.jpg",
+        "caption": "Nem nướng bánh hỏi miền Tây",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe9XWj8FULJbT3yZkbV34UURIQq5tBCG1qCsdcD4HtQRVj8kc70lsBp1tA75wJni5lz58Z1KJdFpfytvAXJUl5x4c6s-1UbeNA3CY1gbH9OoV9k3wvJOMMGi6npILHPzj8GXCiioCeoo4wt=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/phuongnam/03.jpg",
+        "caption": "Bánh xèo miền Tây và rau sống",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeQm_SuqXb5cSGjL8q29nzM0Vf8ShL00gFPfwqPs2HQ6aiHA6VogV8QfymaD8i8qHBS5t2RRbJlcBngcqvS2w-aQf8kFYWVBfiA-ddCJa8JyX3udccKSv2JllJUt1tCv-guaTmwc3xvN1tS=w1600",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "file": "photos/phuongnam/04.jpg",
+        "caption": "Bún nước miền Nam nhiều topping",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6_jsKmnz1UHwee91HhRfyACXATPXOODkWzMeaMA7_byso_VlSvgtpIwweggcJFFxfxcZOF_KVaIDi1ARMaODD2u-x7GBYuKwPiR9Xn2RLcF2TxSkyp5IbbWfOyIXcjd8fkm3qQYThd1pr=w1600",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "trend_notes": "Nên gọi xác nhận trước (Google: 0969 916 156). Google liệt kê website nhahangphuongnam.vn nhưng chưa xác minh được nội dung.",
+    "confidence": "medium"
+  },
+  {
+    "id": "buncha27",
+    "name": "Bún Chả 27 – Văn Phú",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "bún chả",
+    "tagline": "Bún chả nóng hổi, hẹn trưa vui",
+    "description": "Quán bún chả Hà Nội nhỏ, sạch, bát sứ in tên quán; chả miếng và chả băm nướng thơm, nước chấm có đu đủ xanh, rau sống tươi. Hợp cho một bữa trưa nhẹ nhàng trước khi đi xem phim.",
+    "address": "Số 8 ngõ 20 phố Văn Phú, KĐT Văn Phú, Kiến Hưng, Hà Đông, Hà Nội",
+    "area": "Văn Phú",
+    "in_aeon": false,
+    "distance_to_aeon": "~3,5 km đường chim bay (~4,5 km, ~10–12 phút xe máy)",
+    "hours": "Hằng ngày 06:00–19:30 (Google Maps), chỉ hợp bữa trưa hoặc chiều sớm",
+    "price_range": "<100k/người (Google)",
+    "signature": [
+      "Bún chả (chả miếng + chả băm)",
+      "Nem rán",
+      "Bánh cuốn (theo biển hiệu)"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 243,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJo3DjLwBTNDERLG5GgF9WhQ0"
+    },
+    "highlights": [
+      "\"Đồ ăn ngon giá hợp lí quán sạch đẹp nhé\" — Google review",
+      "\"Quán ăn ngon, sạch sẽ, đồ lên cũng rất nhanh, chủ quán dễ thương\" — Google review",
+      "\"Đồ ăn ngon, giá tốt, nhân viên phục vụ tốt !!\" — Google review"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): hoạt động, ảnh khách 03/10/2026 và 23/08/2026.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%BAn%20ch%E1%BA%A3%2027%20ng%C3%B5%2020%20V%C4%83n%20Ph%C3%BA%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJo3DjLwBTNDERLG5GgF9WhQ0",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/buncha27/01.jpg",
+        "caption": "Bát bún chả 27 với chả miếng, chả băm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe2105aXVl6Mlsj4Tp2WjtBqiAWCDcQCUIYbbsl-8RiZ1pwF_bcPo_kFkBUODQhD7u-YU3uSaEXBTgeShaufrpZcDJiqHIvQQXPTkb58mO4m1ZoWOuGDRBKYcCHFoKKufa2Pvf0=w1600",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "file": "photos/buncha27/02.jpg",
+        "caption": "Bún chả kèm bún rối và rau sống",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLemaCAD5pHT7I4H_eknVu_02wCFAGYMSSffwX0MNbW74kY312FyVFiR8_S5K_2dwdRzAV1k58GGDEh7tTa3xhuxVoTEuzd6yQ3zM3Bp3rgpVgpZ2mC_bvCxY4wutlEMk8EjL-6jbd3ALrhn=w1600",
+        "width": 1440,
+        "height": 1440
+      },
+      {
+        "file": "photos/buncha27/03.jpg",
+        "caption": "Mặt tiền quán Bún Chả 27",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfuM5h5txk5_ICHBj02BMZriaGXpJ0_TETwT_kL_Y-fjVn7eFYBgng920qXGq4dGeq5TYDfZE7LhpEYJT-d2HSLpU_9F1vNePMrup8nHKTALDw22Y7wQMqGFsuBRXADHvIer2FF3vHObNrt=w1600",
+        "width": 1600,
+        "height": 2158
+      }
+    ],
+    "trend_notes": "Quán bún chả có đánh giá tốt nhất khu Văn Phú–Dương Nội; các quán bún chả quen thuộc khác ở Hà Đông có điểm thấp hơn (Khánh Vân 3.3★, Cầu Đen 4.1★, Sinh Từ 3.5★).",
+    "confidence": "medium"
+  },
+  {
+    "id": "nguuyen",
+    "name": "Bún Bò Huế Ngự Uyển – Vạn Phúc",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "bún bò Huế / món Huế",
+    "tagline": "Bát bún Huế đậm đà thương nhớ",
+    "description": "Quán bún bò Huế thuộc chuỗi Ngự Uyển, bát bún nhiều topping (bắp bò, giò heo, chả), nước dùng thơm sả ruốc; có thêm cuốn thịt nướng, tôm cuốn cố đô, nem lụi, bánh bột lọc. Quán sáng sủa, sạch, kiểu quán ăn nhanh hơn là nhà hàng.",
+    "address": "19 đường Vạn Phúc, Hà Đông, Hà Nội",
+    "area": "Vạn Phúc",
+    "in_aeon": false,
+    "distance_to_aeon": "~2,9 km đường chim bay (~4 km, ~10 phút xe máy)",
+    "hours": "Hằng ngày 06:00–22:30 (Google Maps)",
+    "price_range": "~50–100k/người (bát bún khoảng 45–65k theo ảnh menu khách đăng)",
+    "signature": [
+      "Bún bò Huế đặc biệt",
+      "Cuốn thịt nướng Ngự Uyển",
+      "Tôm cuốn cố đô",
+      "Nem lụi",
+      "Bánh bột lọc"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 1660,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJQbDNtm1TNDERvjbDN0Y4WZw"
+    },
+    "highlights": [
+      "\"Thoáng, đẹp, nhân viên hay cười, món ra rất nhanh… đầy đặn\" — Google review",
+      "\"Quán ăn ngon, sạch sẽ, các b nhân viên nhiệt tình\" — Google review",
+      "\"Đồ ăn khá ít so vs giá thành\" — Google review (điểm trừ)"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): hoạt động, ảnh khách 15/09/2026; chuỗi có thêm cơ sở 26 Ngô Thì Nhậm (4.9★/1.539) và 123 Nguyễn Văn Lộc (4.7★/1.603).",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%BAn%20B%C3%B2%20Hu%E1%BA%BF%20Ng%E1%BB%B1%20Uy%E1%BB%83n%2019%20V%E1%BA%A1n%20Ph%C3%BAc%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJQbDNtm1TNDERvjbDN0Y4WZw",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/nguuyen/01.jpg",
+        "caption": "Bát bún bò Huế với giò heo, rau thơm",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdEhVzZUertqOVdVngB4Zc2cn0m9OpHod-futympTYeU8dEM_dzngvxoblF-oFTEz6CpSPvDFWaHji-ACQjLhg1c9AJNYl5ABhQOpGropx4arPuqh2sS2Q890xx6S4JQeNLLW7rZj5nc1RS=w1600",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "file": "photos/nguuyen/02.jpg",
+        "caption": "Các bát bún bò Huế đầy topping",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdP_RG2Q2D2HHLM9Jwjj691AJI8MCtx3KDaMhRrT5xiO-UyXvsrIf2G_Ffyfzyyr-zS7gy5PJjLEQ2zazzFGAKP2AOcM__VhZMgWrSVCbboou-ioum3Ih6o8WS49U7lPUFeoHim4A=w1600",
+        "width": 1600,
+        "height": 2842
+      },
+      {
+        "file": "photos/nguuyen/03.jpg",
+        "caption": "Mặt tiền Ngự Uyển, 19 Vạn Phúc",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfS1IErGyNlTXYQJAEd3Db9Y3RgSYt-Vt9NUKaKliGQo8pTSyCaYXuBtHuvhTfGzyds6eoAktyPKp1U_jCfglaPHzhdFxZlvDETfB1sn-e6fqKdwyFHoOvrvg2x2yeM-bwXIDQ2qw=w1600",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "trend_notes": "Điểm Google rất cao nhưng là quán bình dân, hợp bữa nhẹ hoặc ăn khuya hơn là bữa hẹn chính. Điểm cao có thể một phần do chuỗi tích cực xin đánh giá.",
+    "confidence": "medium"
+  },
+  {
+    "id": "achoen",
+    "name": "Bò Nướng Than Hoa A Choén – Văn Quán (CS7)",
+    "category": "food",
+    "cuisine": "vietnamese",
+    "subcategory": "đồ nướng Việt",
+    "tagline": "Than hồng rực, bò thơm lừng",
+    "description": "Quán bò nướng than hoa kiểu vỉa hè sầm uất: bò ướp đậm, nướng trên vỉ lưới tại bàn, ăn kèm bánh mì nướng, rau, kim chi và các loại sốt. Không khí náo nhiệt, ghế nhựa ngoài trời, chỉ mở buổi tối.",
+    "address": "26 Nguyễn Khuyến, KĐT Văn Quán, Hà Đông, Hà Nội",
+    "area": "Văn Quán",
+    "in_aeon": false,
+    "distance_to_aeon": "~4,5 km đường chim bay (~6 km, ~15 phút xe máy)",
+    "hours": "Hằng ngày 17:00–23:00 (Google Maps)",
+    "price_range": "~200–300k/người (Google)",
+    "signature": [
+      "Bò nướng than hoa",
+      "Bánh mì nướng",
+      "Tôm / mực nướng",
+      "Ba chỉ nướng"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 1944,
+      "source": "Google Maps (truy xuất 15/10/2026)",
+      "url": "https://search.google.com/local/reviews?placeid=ChIJJXpmXACtNTER4cYPFFf7_Ag"
+    },
+    "highlights": [
+      "\"Quán đông khách nên đặt bàn trước không là phải đợi lâu… đồ ăn ngon tươi\" — Google review",
+      "\"Không gian thoáng. Các bàn sắp xếp khoảng cách hợp lý, không bị sát quá.\" — Google review",
+      "\"Chờ mãi k thấy nv tới nướng bò cho\" — Google review (điểm trừ)"
+    ],
+    "open_evidence": "Google Maps (15/10/2026): hoạt động, ảnh khách 30/09/2026.",
+    "links": {
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%B2%20N%C6%B0%E1%BB%9Bng%20Than%20Hoa%20A%20Cho%C3%A9n%20V%C4%83n%20Qu%C3%A1n%20H%C3%A0%20%C4%90%C3%B4ng&query_place_id=ChIJJXpmXACtNTER4cYPFFf7_Ag",
+      "menu": null,
+      "facebook": null,
+      "instagram": null,
+      "tiktok": null,
+      "website": null
+    },
+    "photos": [
+      {
+        "file": "photos/achoen/01.jpg",
+        "caption": "Mặt tiền A Choén Văn Quán buổi tối",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLew1GK_2Bg6Ve87Qv6Rh1y5Kh_Grh54Z9lh37lblYN9FxyzjsGu2E7vgcv327xJRvluOUZw2yD3fTB6NWECyo2_Uu6evXimtpFr_omHGRFGRkvtkveby63foQsL9xSYiBW1qF3EDgV0a56S=w1600",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "file": "photos/achoen/02.jpg",
+        "caption": "Bò ướp nướng trên vỉ than hoa",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfRBu4gRPmhuRxDYGlWAqollZXaw2psyrI5_XXuIb-PTieDgi_BjqpK3OQNX3HqbqBRBSaXBruaAUtARpVDKpCEuEoLipKUBZDDs5KwMOl_6XTqbanx_N6u6BxXBrgRyibNfAVBSyENkAM8=w1600",
+        "width": 1600,
+        "height": 828
+      },
+      {
+        "file": "photos/achoen/03.jpg",
+        "caption": "Bò và rau củ nướng tại bàn",
+        "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfEniHU8QbHpww4QURS8FXuNOYo2vIF5Pnf6f7GCdiDombt2wlFgmUZZI2D2Z_ZzAPFedo0-_SOqmWv6siKhuUk4WoNZR5t6DWIm3BjiBREt45LweLqiJDnt7fTexdypvVXrdebSmnme4hl=w1600",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "trend_notes": "Chuỗi bò nướng được giới trẻ Hà Nội ưa chuộng; không khí vỉa hè ồn ào, quần áo dễ ám mùi khói, hợp buổi hẹn thứ hai, thứ ba hơn là buổi đầu. Hotline 096 886 5181.",
+    "confidence": "medium"
+  }
+]

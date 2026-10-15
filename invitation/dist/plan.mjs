@@ -1,31 +1,92 @@
-import {cafes, restaurants, films} from './data.mjs';
-export const defaults = {version:1,step:0,cafe:'',cafeCustom:'',cuisine:'viet',restaurant:'',restaurantCustom:'',film:'',filmCustom:'',order:'film-first',date:'2026-10-17',time:'15:30',notes:''};
-export function sanitize(raw={}) {
- const s={...defaults};
- for(const key of ['cafeCustom','restaurantCustom','filmCustom','notes']) if(typeof raw[key]==='string')s[key]=raw[key].slice(0,key==='notes'?1200:160);
- for(const [key,list,extra] of [['cafe',cafes,['custom']],['restaurant',restaurants,['custom']],['film',films,['custom','none']]]) if([...list.map(x=>x.id),...extra].includes(raw[key]))s[key]=raw[key];
- if(['nhat','viet'].includes(raw.cuisine))s.cuisine=raw.cuisine;
- const r=restaurants.find(x=>x.id===s.restaurant);if(r)s.cuisine=r.type;
- if(['film-first','dinner-first'].includes(raw.order))s.order=raw.order;
- if(validDate(raw.date))s.date=raw.date;
- if(typeof raw.time==='string'&&/^([01]\d|2[0-3]):[0-5]\d$/.test(raw.time))s.time=raw.time;
- if(Number.isInteger(raw.step)&&raw.step>=0&&raw.step<=3)s.step=raw.step;
- return s;
+import {venues} from './venues.mjs';
+import {films, DATE, AEON, cuisines} from './data.mjs';
+
+export const defaults = {v:2, step:0, cafe:'', cafeCustom:'', food:'', foodCustom:'', film:'', filmCustom:'', order:'dinner-first', time:'15:30', notes:''};
+const TIME = /^([01]\d|2[0-3]):[0-5]\d$/;
+
+export const byId = id => venues.find(v => v.id === id);
+
+export function sanitize(raw = {}) {
+  const s = {...defaults};
+  for (const k of ['cafeCustom', 'foodCustom', 'filmCustom', 'notes']) if (typeof raw[k] === 'string') s[k] = raw[k].slice(0, k === 'notes' ? 1200 : 160);
+  const ok = (id, kind) => id === 'custom' || venues.some(v => v.id === id && v.kind === kind);
+  if (ok(raw.cafe, 'cafe')) s.cafe = raw.cafe;
+  if (ok(raw.food, 'food')) s.food = raw.food;
+  if ([...films.map(f => f.id), 'custom', 'none'].includes(raw.film)) s.film = raw.film;
+  if (['film-first', 'dinner-first'].includes(raw.order)) s.order = raw.order;
+  if (typeof raw.time === 'string' && TIME.test(raw.time)) s.time = raw.time;
+  if (Number.isInteger(raw.step) && raw.step >= 0 && raw.step <= 3) s.step = raw.step;
+  return s;
 }
-export function validDate(date){if(typeof date!=='string'||!/^20\d{2}-\d{2}-\d{2}$/.test(date))return false;const d=new Date(date+'T12:00:00Z');return !Number.isNaN(+d)&&d.toISOString().slice(0,10)===date;}
-export function selectedName(s,key){if(s[key]==='custom')return s[key+'Custom'].trim()||'Cậu chọn một nơi khác';if(key==='film'&&s.film==='none')return 'Bỏ qua phim, đi dạo một chút';return ({cafe:cafes,restaurant:restaurants,film:films}[key].find(x=>x.id===s[key])?.name)||'';}
-export function stepValid(s,n){const key=['cafe','restaurant','film'][n];return !key||!!s[key]&&(s[key]!=='custom'||!!s[key+'Custom'].trim());}
-export function complete(s){return [0,1,2].every(i=>stepValid(s,i))&&validDate(s.date)&&/^([01]\d|2[0-3]):[0-5]\d$/.test(s.time);}
-export function dateLabel(date){return new Intl.DateTimeFormat('vi-VN',{weekday:'long',day:'2-digit',month:'2-digit',year:'numeric',timeZone:'Asia/Ho_Chi_Minh'}).format(new Date(date+'T12:00:00+07:00'));}
-export function itinerary(s){
- const start=s.time.split(':').reduce((a,v,i)=>a+Number(v)*(i===0?60:1),0);
- const t=n=>`${String(Math.floor((start+n)/60)%24).padStart(2,'0')}:${String((start+n)%60).padStart(2,'0')}${start+n>=1440?' (+1 ngày)':''}`;
- const range=(a,b)=>t(a)+'–'+t(b);
- const coffee={key:'cafe',icon:'☕',time:range(0,45),title:selectedName(s,'cafe')||'Một góc café',sub:'45 phút · mở đầu nhẹ nhàng',pending:!s.cafe};
- const meal=s.restaurant==='isushi'?90:75;
- const dinner=(offset)=>({key:'restaurant',icon:'♧',time:range(offset,offset+meal),title:selectedName(s,'restaurant')||'Một bữa tối ngon',sub:s.restaurant==='isushi'?'90 phút · thong thả ăn buffet':'Gọi món · cùng nhau trò chuyện',pending:!s.restaurant});
- const movie=offset=>({key:'film',icon:'▷',time:'Khoảng '+t(offset),title:selectedName(s,'film')||'Một bộ phim nhỏ',sub:'Chờ suất chiếu · dự trù 105 phút',pending:!s.film});
- if(s.film==='none')return [coffee,dinner(90),{key:'film',icon:'✧',time:'Sau bữa tối',title:'Đi dạo nếu còn muốn',sub:'Cũng có thể về sớm, tùy cậu',pending:false}];
- return s.order==='film-first'?[coffee,movie(90),dinner(210)]:[coffee,dinner(90),movie(90+meal+30)];
+
+export function pickName(s, key) {
+  if (s[key] === 'custom') return s[key + 'Custom'].trim() || 'Một nơi bạn chọn';
+  if (key === 'film') return s.film === 'none' ? 'Không xem phim, đi dạo' : films.find(f => f.id === s.film)?.name || '';
+  return byId(s[key])?.name || '';
 }
-export function responseText(s){return `Một chiếc hẹn của chúng mình ✦\n${dateLabel(s.date)}\nKhu vực: Hà Đông, Hà Nội\n\n${itinerary(s).map(x=>`${x.time} — ${x.title}`).join('\n')}\n\n${s.film==='none'?'Mình chọn không xem phim.':'Giờ phim là dự kiến, cùng chốt lại theo suất chiếu thật nhé.'}\n${!!s.cafe?'Đồ uống: matcha đắng, không thêm đường, oat milk (cần hỏi quán).\n':''}${s.notes.trim()?'\nLời nhắn: '+s.notes.trim()+'\n':''}\nHẹn cậu nhé!`;}
+
+export const stepDone = (s, key) => !!s[key] && (s[key] !== 'custom' || !!s[key + 'Custom'].trim());
+export const complete = s => ['cafe', 'food', 'film'].every(k => stepDone(s, k)) && TIME.test(s.time);
+
+export function dateLabel() {
+  return new Intl.DateTimeFormat('vi-VN', {weekday:'long', day:'numeric', month:'numeric', timeZone:'Asia/Ho_Chi_Minh'}).format(new Date(DATE + 'T12:00:00+07:00'));
+}
+
+// Thời gian di chuyển ước lượng giữa hai điểm theo cụm khu vực.
+function travel(a, b) {
+  const ca = a?.cluster || 'custom', cb = b?.cluster || 'custom';
+  return ca === cb && ca !== 'custom' ? 5 : 15;
+}
+const toMin = hm => { const [h, m] = hm.split(':').map(Number); return h * 60 + m; };
+const fmt = n => `${String(Math.floor(n / 60) % 24).padStart(2, '0')}:${String(n % 60).padStart(2, '0')}`;
+const ADS = 17; // quảng cáo trước phim ở CGV
+
+// Lịch trình gồm các điểm dừng (stop) và khoảng nghỉ giữa chúng (gap: di chuyển, đi dạo, lượn lờ).
+export function itinerary(s) {
+  let t = toMin(s.time);
+  const cafe = byId(s.cafe), food = byId(s.food), cinema = {cluster:'aeon'};
+  const film = films.find(f => f.id === s.film);
+  const items = [];
+  const stop = (key, icon, title, sub, minutes, place, extra = {}) => { items.push({type:'stop', key, icon, title, sub, start:fmt(t), end:fmt(t + minutes), place, pending:!stepDone(s, key === 'walk' ? 'film' : key), ...extra}); t += minutes; };
+  const gap = (title, minutes) => { if (minutes <= 0) return; items.push({type:'gap', title, start:fmt(t), end:fmt(t + minutes), minutes}); t += minutes; };
+  const foodSub = food ? `${cuisines[food.cuisine] ? 'Món ' + cuisines[food.cuisine].title + ' · ' : ''}${food.inAeon ? 'trong AEON' : food.area}` : 'Ăn tối cùng nhau';
+  const dinner = () => stop('food', '🍜', pickName(s, 'food') || 'Bữa tối', foodSub, 90, food);
+  const movie = () => {
+    const ready = t;
+    const show = film?.times?.map(toMin).find(m => m >= ready);
+    const start = show ?? ready;
+    if (start - ready >= 10) gap(show ? 'Lượn AEON, mua bắp nước' : 'Nghỉ chân một chút', start - ready);
+    t = start;
+    stop('film', '🎬', pickName(s, 'film') || 'Một bộ phim', film ? (show ? 'Suất ' + fmt(show) + (film.tags?.[fmt(show)] ? ' · phòng ' + film.tags[fmt(show)] : '') + ' · CGV AEON Hà Đông' : 'Chưa có suất phù hợp, chọn giờ khác nhé') : 'CGV AEON Hà Đông', (film?.minutes || 105) + ADS, cinema, {noShow:!!film && show === undefined});
+  };
+  stop('cafe', '☕', pickName(s, 'cafe') || 'Một góc cafe', cafe ? (cafe.inAeon ? 'trong AEON' : cafe.area) : 'Ngồi nói chuyện', 90, cafe);
+  if (s.film === 'none') {
+    gap('Đi dạo, lượn lờ rồi qua quán', 45 + travel(cafe, food));
+    dinner();
+    stop('walk', '✦', 'Đi dạo buổi tối', 'Công viên Thiên Văn Học, gần AEON', 45, null);
+  } else if (s.order === 'film-first') {
+    gap('Di chuyển sang AEON', travel(cafe, cinema));
+    movie();
+    gap('Di chuyển, đi dạo nhẹ', 20 + travel(cinema, food));
+    dinner();
+  } else {
+    gap('Đi dạo, lượn lờ rồi qua quán', 45 + travel(cafe, food));
+    dinner();
+    gap('Di chuyển sang AEON', travel(food, cinema));
+    movie();
+  }
+  return items;
+}
+
+export function routeLink(s) {
+  const stops = itinerary(s).filter(i => i.type === 'stop').map(i => i.key === 'film' ? AEON.address : i.place?.address && `${i.place.name}, ${i.place.address}`).filter(Boolean);
+  if (stops.length < 2) return null;
+  const q = new URLSearchParams({api:'1', origin:stops[0], destination:stops[stops.length - 1], travelmode:'driving'});
+  if (stops.length > 2) q.set('waypoints', stops.slice(1, -1).join('|'));
+  return 'https://www.google.com/maps/dir/?' + q.toString().replace(/\+/g, '%20');
+}
+
+export function responseText(s) {
+  const lines = itinerary(s).filter(i => i.type === 'stop').map(i => `${i.start}  ${i.icon} ${i.title}`);
+  return `Kèo cuối tuần của tụi mình ♡\n${dateLabel()} · Hà Đông\n\n${lines.join('\n')}\n${s.notes.trim() ? '\nLời nhắn: ' + s.notes.trim() + '\n' : ''}\nHẹn gặp nhé!`;
+}

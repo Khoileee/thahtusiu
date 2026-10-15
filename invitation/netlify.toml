@@ -12,3 +12,4 @@
   for = "/*.mjs"
   [headers.values]
     Content-Type = "text/javascript; charset=utf-8"
+    Cache-Control = "no-cache"
