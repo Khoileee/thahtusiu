@@ -45,6 +45,15 @@ h2,h3{text-wrap:balance}
 .cta{display:inline-flex;align-items:center;gap:10px;margin-top:22px;background:var(--ink);color:var(--paper);font-weight:600;font-size:15px;padding:14px 26px;border-radius:999px;transition:transform .2s,background .2s}
 @keyframes float-in{from{opacity:0;transform:translateY(24px) rotate(-3deg)}to{opacity:1;transform:rotate(-1.2deg)}}
 
+/* Nút nhạc */
+.music-btn{flex:none;display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 14px 0 12px;border-radius:999px;border:1px solid var(--line);background:rgba(15,33,66,.55);backdrop-filter:blur(8px);color:var(--text);font-size:13px;font-weight:600}
+.music-btn.on-cover{position:absolute;z-index:2;top:calc(16px + env(safe-area-inset-top,0px));right:max(16px,env(safe-area-inset-right,0px))}
+.eq{display:inline-flex;align-items:flex-end;gap:2px;height:14px}
+.eq i{width:3px;height:4px;border-radius:2px;background:var(--mist)}
+.music-btn.playing .eq i{background:var(--blush);animation:eq 1s ease-in-out infinite}
+.music-btn.playing .eq i:nth-child(2){animation-delay:-.4s}.music-btn.playing .eq i:nth-child(3){animation-delay:-.7s}
+@keyframes eq{0%,100%{height:4px}50%{height:14px}}
+
 /* ---------- Trang 2: khung app ---------- */
 .planner{height:100dvh;display:grid;grid-template-rows:auto minmax(0,1fr) auto;background:radial-gradient(ellipse 80% 50% at 85% 0%,rgba(95,136,182,.22),transparent 70%),var(--night)}
 .topbar{display:flex;align-items:center;gap:12px;padding:calc(12px + env(safe-area-inset-top,0px)) var(--gr) 12px var(--gl);border-bottom:1px solid var(--line)}
@@ -249,6 +258,9 @@ cite{font-style:normal;font-size:11.5px;color:var(--mist)}
   .letter p{font-size:15px;line-height:1.95}
   .letter .dear{font-size:38px}
   .home{width:38px;height:38px;font-size:16px}
+  .topbar .music-btn{width:38px;height:38px;padding:0;justify-content:center}
+  .topbar .music-label{display:none}
+  .topbar{gap:8px}
   .tab{gap:0;padding:0 4px;font-size:12.5px;flex-direction:column;min-height:46px;line-height:1.2}
   .tab-n{font-size:13px}
   .tabs{border-radius:16px}

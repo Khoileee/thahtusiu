@@ -1,5 +1,6 @@
 import {venues, clusters} from './venues.mjs';
 import {films, cafeMoods, regions, cuisines} from './data.mjs';
+import {createMusic} from './music.mjs';
 import {defaults, sanitize, byId, pickName, stepDone, complete, itinerary, routeLink, responseText, dateLabel} from './plan.mjs';
 
 const $ = s => document.querySelector(s);
@@ -20,6 +21,24 @@ const ui = {mood:null, region:null, cuisine:null};
   const c = byId(state.cafe); if (c) ui.mood = cafeMoods.find(m => m.ids.includes(c.id))?.id || null;
   const f = byId(state.food); if (f) { ui.cuisine = f.cuisine; ui.region = regions.find(r => r.cuisines.includes(f.cuisine))?.id || null; }
 }
+
+const music = createMusic();
+const MUSIC_KEY = 'dear-tu-music';
+const musicPref = () => { try { return localStorage.getItem(MUSIC_KEY); } catch { return null; } };
+function syncMusic() {
+  document.querySelectorAll('.music-btn').forEach(b => { b.setAttribute('aria-pressed', music.playing); b.setAttribute('aria-label', music.playing ? 'Tắt nhạc nền' : 'Bật nhạc nền'); b.classList.toggle('playing', music.playing); });
+}
+function toggleMusic() {
+  if (music.playing) music.stop(); else music.start();
+  try { localStorage.setItem(MUSIC_KEY, music.playing ? 'on' : 'off'); } catch {}
+  syncMusic();
+}
+let pausedByHide = false;
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden && music.playing) { music.stop(); pausedByHide = true; }
+  else if (!document.hidden && pausedByHide) { music.start(); pausedByHide = false; }
+  syncMusic();
+});
 
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
 let toastTimer;
@@ -216,7 +235,8 @@ async function share() {
 document.addEventListener('click', e => {
   const b = e.target.closest('button, [data-open]'); if (!b) return;
   const d = b.dataset;
-  if (d.action === 'open') { showScreen('planner'); return; }
+  if (d.action === 'open') { if (musicPref() !== 'off') { music.start(); syncMusic(); } showScreen('planner'); return; }
+  if (d.action === 'music') { toggleMusic(); return; }
   if (d.action === 'cover') { showScreen('cover'); return; }
   if (d.go !== undefined) { state.step = +d.go; save(); render(true); return; }
   if (d.mood) { ui.mood = d.mood; render(true); return; }
